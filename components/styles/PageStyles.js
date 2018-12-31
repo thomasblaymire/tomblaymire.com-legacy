@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const PageStyles = styled.div`
-	height: 100vh;
+	height: auto;
+	min-height: 100vh;
 
 	.heading {
 		font-family: Poppins;
@@ -10,6 +11,7 @@ const PageStyles = styled.div`
 		font-style: normal;
 		color: #2a363b;
 		font-size: 4.5rem;
+		margin: 0;
 	}
 
 	.sub-heading {
@@ -20,7 +22,7 @@ const PageStyles = styled.div`
 	}
 
 	.container {
-		width: 1170px;
+		max-width: 1170px;
 		margin-right: auto;
 		margin-left: auto;
 		padding-left: 15px;

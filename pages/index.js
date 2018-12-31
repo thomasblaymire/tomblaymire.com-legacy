@@ -7,13 +7,21 @@ import ExpertiseCard from '../components/ExpertiseCard';
 import SocialLinks from '../components/SocialLinks';
 import FullWidthCta from '../components/FullWidthCta';
 import locationImage from '../static/man-phone.jpg';
+import rocket from '../static/rocket.svg';
+import keyboard from '../static/keyboard.svg';
+import laptop from '../static/laptop.svg';
 
 const Expertise = styled.div`
-	height: 80vh;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 `;
 
 const ExpertiseRow = styled.div`
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	grid-gap: 6rem;
+	align-items: start;
+	margin-top: 6rem;
 `;
 
 const Location = styled.div`
@@ -62,20 +70,20 @@ const Home = () => {
 						<ExpertiseRow>
 							<ExpertiseCard
 								title="Web Development"
-								description="I work with various different front end technologies including HTML5, CSS3, React and Angular JS to to ensure the end product is fast and easy to use."
-								icon={'pen'}
+								description="I work with various different front end technologies including HTML5, CSS3, React and Redux to to ensure the end product is fast and easy to use."
+								icon={keyboard}
 							/>
 
 							<ExpertiseCard
 								title="Web Design"
-								description="I believe that any design should be researched thoroughly. I use the latest tools to create a design that not only looks the best, but also sets you apart from your competition."
-								icon={'pen'}
+								description="I believe that any design should be researched thoroughly. I use the latest tools to create a design that sets you apart from the competition."
+								icon={rocket}
 							/>
 
 							<ExpertiseCard
 								title="User Experience"
-								description="I follow the BASIC UX principles with every project. Providing a user with a memorable experience is what I strive to do every day."
-								icon={'pen'}
+								description="I follow the BASIC UX principles with every project. Providing users with a memorable experience is what I strive to do in each project."
+								icon={laptop}
 							/>
 						</ExpertiseRow>
 					</div>

@@ -5,7 +5,7 @@ import Button from './Button';
 const HeroImage = styled.div`
 	background-image: url(${hero});
 	background-size: cover;
-	height: 100vh;
+	min-height: 100vh;
 `;
 
 const HeroContainer = styled.div`
@@ -18,8 +18,7 @@ const HeroContainer = styled.div`
 
 const HeroBlock = styled.div`
 	color: #fff;
-	position: absolute;
-	top: 29%;
+	margin-top: 11rem;
 	width: 54%;
 
 	.intro {

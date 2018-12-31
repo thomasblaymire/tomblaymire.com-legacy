@@ -57,13 +57,16 @@ const About = () => {
 								</p>
 
 								<p>
-									Currently I’m working on one of the UK’s biggest e-commerce websites myHermes.co.uk developing their
-									primary website along with various different in house projects.
+									Currently I’m working for the UK's leading online bookmaker{' ' + ' '}
+									<a href="https://m.skybet.com/" target="_blank">
+										Sky Betting & Gaming
+									</a>{' '}
+									developing their primary website along with various in house enhancements.
 								</p>
 
 								<p>
-									In the past I worked with EMIS Health to design and develop a new era of patient care online with GP
-									Web Solutions.
+									In the past I have worked for Hermes to implement various different digital transformation projects
+									including e-commerce, dashboards and recruitment apps.
 								</p>
 
 								<p>

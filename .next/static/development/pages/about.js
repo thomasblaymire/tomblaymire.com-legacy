@@ -422,7 +422,7 @@ __webpack_require__.r(__webpack_exports__);
 var PageStyles = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "PageStyles",
   componentId: "sc-1dspmwg-0"
-})(["height:100vh;.heading{font-family:Poppins;letter-spacing:-0.02em;font-weight:700;font-style:normal;color:#2a363b;font-size:4.5rem;}.sub-heading{font-family:Poppins;font-size:2rem;color:#2a363b;margin:0;}.container{width:1170px;margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}"]);
+})(["height:auto;min-height:100vh;.heading{font-family:Poppins;letter-spacing:-0.02em;font-weight:700;font-style:normal;color:#2a363b;font-size:4.5rem;margin:0;}.sub-heading{font-family:Poppins;font-size:2rem;color:#2a363b;margin:0;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (PageStyles);
 
 /***/ }),
@@ -15051,22 +15051,30 @@ var About = function About() {
       lineNumber: 59
     },
     __self: this
-  }, "Currently I\u2019m working on one of the UK\u2019s biggest e-commerce websites myHermes.co.uk developing their primary website along with various different in house projects."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Currently I\u2019m working for the UK's leading online bookmaker", ' ' + ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://m.skybet.com/",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 61
     },
     __self: this
-  }, "In the past I worked with EMIS Health to design and develop a new era of patient care online with GP Web Solutions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Sky Betting & Gaming"), ' ', "developing their primary website along with various in house enhancements."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 67
+    },
+    __self: this
+  }, "In the past I have worked for Hermes to implement various different digital transformation projects including e-commerce, dashboards and recruitment apps."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
     },
     __self: this
   }, "What makes me stand out from the rest is that I have a real passion for helping businesses grow. By using the latest front end tools and technologies I ensure that my clients websites are not only faster than their competitors but are also memorable and easy to use.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutImage, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 78
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -15074,20 +15082,20 @@ var About = function About() {
     alt: "Laptop With Portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 79
     },
     __self: this
   }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FullWidthCta__WEBPACK_IMPORTED_MODULE_4__["default"], {
     text: "Work with me on your next exiting project.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 84
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 85
     },
     __self: this
   })));

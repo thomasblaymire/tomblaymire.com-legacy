@@ -1,9 +1,6 @@
-import styled from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 
 const Block = styled.div`
-	box-sizing: border-box;
-	padding-left: 15px;
-	padding-right: 15px;
 	width: 100%;
 
 	.title {
@@ -14,7 +11,7 @@ const Block = styled.div`
 		line-height: 30px;
 		color: #494949;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 	}
 
 	.seperator {
@@ -29,6 +26,11 @@ const Block = styled.div`
 		display: block;
 		content: '';
 	}
+
+	.icon {
+		width: 5rem;
+		fill: #3eaca8;
+	}
 `;
 
 const ExpertiseCard = props => {
@@ -36,7 +38,7 @@ const ExpertiseCard = props => {
 
 	return (
 		<Block>
-			<img src={icon} alt={title} />
+			<img className="icon" src={icon} alt={title} />
 			<h2 className="title">{title}</h2>
 			<div className="seperator">
 				<span className="divide" />
