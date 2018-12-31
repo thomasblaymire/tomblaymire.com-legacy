@@ -15,23 +15,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/blog": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/services": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/portfolio": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/contact": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

@@ -4,20 +4,13 @@ import Logo from './Logo';
 
 const StyledHeader = styled.header`
 	.bar {
-		width: 970px;
-		margin-right: auto;
-		margin-left: auto;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
+		width: 1170px;
 
-	display: grid;
-	grid-template-columns: auto 1ft;
-	justify-content: space-between;
-	align-items: stretch;
-	@media (max-width: 1300px) {
-		grid-template-columns: 1fr;
-		justify-content: center;
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: center;
+		align-items: center;
 	}
 `;
 

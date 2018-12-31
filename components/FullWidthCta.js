@@ -19,7 +19,7 @@ const BackgroundText = styled.h2`
 	font-weight: 700;
 	font-style: normal;
 	margin: 0;
-	font-size: 5.5rem;
+	font-size: 4.5rem;
 `;
 
 const FullWidthCta = props => {

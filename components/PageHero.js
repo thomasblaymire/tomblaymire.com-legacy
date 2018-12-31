@@ -31,7 +31,8 @@ const Hero = props => {
 	const style = {
 		backgroundImage: 'url(' + image + ')',
 		backgroundSize: 'cover',
-		height: '80vh',
+		height: '70vh',
+		backgroundAttachment: 'fixed',
 	};
 
 	return (
