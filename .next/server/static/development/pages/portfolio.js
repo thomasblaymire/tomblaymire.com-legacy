@@ -449,11 +449,11 @@ var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/com
 var PortfolioBox = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PortfolioItem__PortfolioBox",
   componentId: "sc-25rbs8-0"
-})([".portfolio-image{width:380px;height:300px;margin-right:30px;position:relative;&:hover{cursor:pointer;}}"]);
+})([".portfolio-image{width:380px;height:300px;margin-right:30px;position:relative;&:hover{cursor:pointer;}}a{text-decoration:none;font-weight:normal;}"]);
 var PortfolioMeta = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PortfolioItem__PortfolioMeta",
   componentId: "sc-25rbs8-1"
-})([".portfolio-title{font-family:Poppins;letter-spacing:-0.02em;font-weight:700;font-style:normal;font-size:2rem;margin:0;color:#2a363b;cursor:pointer;}ul{list-style-type:none;padding:0;display:flex;}li{color:#474747;margin-right:1rem;background:#dadada;border-radius:5px;padding:0 10px;}"]);
+})([".portfolio-title{font-family:Poppins;letter-spacing:-0.02em;font-weight:700;font-style:normal;font-size:2rem;margin:0;color:#2a363b;cursor:pointer;}ul{list-style-type:none;padding:0;display:flex;}li{color:#474747;margin-right:1rem;background:#dadada;border-radius:5px;padding:0 10px;cursor:initial;}"]);
 
 var PortfolioItem = function PortfolioItem(props) {
   var image = props.image,
@@ -464,7 +464,7 @@ var PortfolioItem = function PortfolioItem(props) {
       key: tag,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 52
       },
       __self: this
     }, tag);
@@ -472,7 +472,7 @@ var PortfolioItem = function PortfolioItem(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -484,13 +484,13 @@ var PortfolioItem = function PortfolioItem(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -499,26 +499,26 @@ var PortfolioItem = function PortfolioItem(props) {
     alt: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 63
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioMeta, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "portfolio-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 65
     },
     __self: this
   }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 66
     },
     __self: this
   }, tagList)))));
@@ -699,7 +699,7 @@ __webpack_require__.r(__webpack_exports__);
 var PageStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "PageStyles",
   componentId: "sc-1dspmwg-0"
-})(["height:auto;min-height:100vh;.heading{font-family:Poppins;letter-spacing:-0.02em;font-weight:700;font-style:normal;color:#2a363b;font-size:4.5rem;margin:0;}.sub-heading{font-family:Poppins;font-size:2rem;color:#2a363b;margin:0;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}"]);
+})(["height:auto;min-height:100vh;.heading{font-family:Poppins;letter-spacing:-0.02em;font-weight:700;font-style:normal;color:#2a363b;font-size:4.2rem;margin:0;}.sub-heading{font-family:'Source Sans Pro';font-size:2rem;color:#474747;margin:0;line-height:3rem;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}"]);
 /* harmony default export */ __webpack_exports__["default"] = (PageStyles);
 
 /***/ }),

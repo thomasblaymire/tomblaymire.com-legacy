@@ -12,6 +12,10 @@ const PortfolioBox = styled.div`
 			cursor: pointer;
 		}
 	}
+	a {
+		text-decoration: none;
+		font-weight: normal;
+	}
 `;
 
 const PortfolioMeta = styled.div`
@@ -38,6 +42,7 @@ const PortfolioMeta = styled.div`
 		background: #dadada;
 		border-radius: 5px;
 		padding: 0 10px;
+		cursor: initial;
 	}
 `;
 

@@ -10,15 +10,16 @@ const PageStyles = styled.div`
 		font-weight: 700;
 		font-style: normal;
 		color: #2a363b;
-		font-size: 4.5rem;
+		font-size: 4.2rem;
 		margin: 0;
 	}
 
 	.sub-heading {
-		font-family: Poppins;
+		font-family: 'Source Sans Pro';
 		font-size: 2rem;
-		color: #2a363b;
+		color: #474747;
 		margin: 0;
+		line-height: 3rem;
 	}
 
 	.container {

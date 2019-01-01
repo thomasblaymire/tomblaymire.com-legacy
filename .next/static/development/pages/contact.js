@@ -93,7 +93,7 @@ var Contact = function Contact() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!********************************!*\
   !*** multi ./pages/contact.js ***!
   \********************************/
@@ -118,5 +118,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[6,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=contact.js.map

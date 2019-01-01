@@ -41,17 +41,18 @@ const LocationContent = styled.div`
 		margin: 0 0 20px;
 	}
 `;
-const LocationImage = styled.img`
+const LocationImage = styled.div`
 	width: 50%;
 	background-image: url(${locationImage});
-	background-position: 0px 13.0102px;
 	background-attachment: fixed;
 	background-size: cover;
 	height: 100%;
 `;
 
 const RecentProjects = styled.div`
-	height: 100vh;
+	min-height: 100vh;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 	p {
 		width: 70%;
 	}
