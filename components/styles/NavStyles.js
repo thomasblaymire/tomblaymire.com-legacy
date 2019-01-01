@@ -21,6 +21,9 @@ const NavStyles = styled.ul`
 		cursor: pointer;
 		color: #ffffff;
 		padding: 25px 15px;
+		&:hover {
+			color: #3eaca8;
+		}
 	}
 `;
 

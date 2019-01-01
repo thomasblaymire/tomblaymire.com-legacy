@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const PortfolioBox = styled.div`
 	.portfolio-image {
@@ -43,21 +44,24 @@ const PortfolioMeta = styled.div`
 const PortfolioItem = props => {
 	const { image, name, tags } = props;
 
-	const portfolioClickHandler = () => {
-		console.log('Clicked');
-	};
-
-	const tagList = tags.map(tag => <li>{tag}</li>);
+	const tagList = tags.map(tag => <li key={tag}>{tag}</li>);
 
 	return (
 		<PortfolioBox>
-			<img onClick={portfolioClickHandler} className="portfolio-image" src={image} alt={name} />
-			<PortfolioMeta>
-				<h5 onClick={portfolioClickHandler} className="portfolio-title">
-					{name}
-				</h5>
-				<ul>{tagList}</ul>
-			</PortfolioMeta>
+			<Link
+				href={{
+					pathname: '/portfolio',
+					query: { id: name },
+				}}
+			>
+				<a>
+					<img className="portfolio-image" src={image} alt={name} />
+					<PortfolioMeta>
+						<h5 className="portfolio-title">{name}</h5>
+						<ul>{tagList}</ul>
+					</PortfolioMeta>
+				</a>
+			</Link>
 		</PortfolioBox>
 	);
 };

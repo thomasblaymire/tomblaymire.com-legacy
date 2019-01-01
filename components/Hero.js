@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Link from 'next/link';
 import hero from '../static/me.jpg';
 import Button from './Button';
 
@@ -19,7 +20,7 @@ const HeroContainer = styled.div`
 const HeroBlock = styled.div`
 	color: #fff;
 	margin-top: 11rem;
-	width: 54%;
+	width: 60%;
 
 	.intro {
 		font-size: 5.5rem;
@@ -29,15 +30,23 @@ const HeroBlock = styled.div`
 	.description {
 		font-size: 2.5rem;
 		line-height: 38px;
+		font-weight: 300;
 	}
 `;
 
 const HeroButtons = styled.div`
 	margin-top: 8rem;
+	display: flex;
 
-	& > button {
-		margin-right: 2rem;
-		width: 200px;
+	& > * {
+		padding-right: 2rem;
+	}
+
+	a {
+		color: #ffffff;
+		text-decoration: none;
+
+		font-weight: normal;
 	}
 `;
 
@@ -49,12 +58,18 @@ const Hero = props => {
 				<HeroBlock>
 					<h2 className="intro">Hello, I'm Tom</h2>
 					<div className="description">
-						I’m a Freelance (UI/UX) Designer & Developer based in Leeds. I help companies deliver innovative, end-to-end
+						I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end
 						products that meet both user and business needs.
 					</div>
 					<HeroButtons>
-						<Button>My Work</Button>
-						<Button>Let's Talk</Button>
+						<Button type="primary">
+							<Link href="/portfolio">
+								<a>My Work</a>
+							</Link>
+						</Button>
+						<Button type="secondary">
+							<Link href="/contact">Let's Talk</Link>
+						</Button>
 					</HeroButtons>
 				</HeroBlock>
 			</HeroContainer>

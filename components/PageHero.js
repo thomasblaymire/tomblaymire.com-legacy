@@ -33,6 +33,7 @@ const Hero = props => {
 		backgroundSize: 'cover',
 		height: '70vh',
 		backgroundAttachment: 'fixed',
+		backgroundPositionY: '-20rem',
 	};
 
 	return (

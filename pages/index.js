@@ -57,6 +57,15 @@ const RecentProjects = styled.div`
 	}
 `;
 
+const PortfolioWrapper = styled.div`
+	& > * {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 5rem;
+	}
+`;
+
 const Home = () => {
 	return (
 		<div>
@@ -108,7 +117,9 @@ const Home = () => {
 							I have worked across various exiting projects each with different requirements and deadlines. Some of my
 							highlights are listed below.
 						</p>
-						<PortfolioList />
+						<PortfolioWrapper>
+							<PortfolioList amount={3} />
+						</PortfolioWrapper>
 					</div>
 				</RecentProjects>
 				<SocialLinks />

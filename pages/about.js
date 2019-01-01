@@ -9,11 +9,17 @@ import styled from 'styled-components';
 
 const AboutIntro = styled.div`
 	background-color: #fbfbfb;
+	padding-top: 5%;
+	padding-bottom: 5%;
 `;
 
 const AboutWrapper = styled.div`
 	display: flex;
-	padding-bottom: 5rem;
+	padding: 5rem 0rem;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	align-items: center;
 `;
 
 const AboutInfo = styled.div`
