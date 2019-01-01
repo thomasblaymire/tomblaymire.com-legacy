@@ -11,7 +11,7 @@
 
 ## Screenshot
 
-![](https://github.com/thomasblaymire/tomblaymire.com/blob/master/screenshot.png)
+![](https://github.com/thomasblaymire/tomblaymire.com/blob/master/blob/master/screenshot.png)
 
 ## Key Features
 
