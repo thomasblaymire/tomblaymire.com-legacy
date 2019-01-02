@@ -12,48 +12,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/Button.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Button.js";
 
 
-var PrimaryButton = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button.withConfig({
-  displayName: "Button__PrimaryButton",
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+var StyledButton = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button.withConfig({
+  displayName: "Button__StyledButton",
   componentId: "sc-1mbgncw-0"
-})(["background-color:#05af43;font-size:1.6rem;padding:10px 30px;color:", ";border:solid 2px #05af43;border-radius:5px;font-family:", ";cursor:pointer;width:200px;&:hover{background-color:#05da53;border:solid 2px #05da53;}"], function (props) {
-  return props.theme.white;
+})(["color:", ";background-color:", ";border:2px solid ", ";border-radius:5px;font-family:", ";font-size:", ";padding:10px 30px;cursor:pointer;width:200px;&:hover{background-color:", ";color:", ";border:2px solid ", ";}"], function (props) {
+  return props.primaryColor;
 }, function (props) {
-  return props.theme.fontPrimary;
-});
-var SecondaryButton = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button.withConfig({
-  displayName: "Button__SecondaryButton",
-  componentId: "sc-1mbgncw-1"
-})(["background-color:transparent;font-size:1.6rem;padding:10px 30px;color:", ";border:solid 2px white;border-radius:5px;font-family:", ";cursor:pointer;width:200px;&:hover{color:red;background-color:", ";}"], function (props) {
-  return props.theme.white;
+  return props.bgColor || '#eee';
+}, function (props) {
+  return props.borderColor;
 }, function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
-  return props.theme.white;
+  return props.btnFontSize || 50;
+}, function (props) {
+  return props.hoverBg;
+}, function (props) {
+  return props.hoverColor;
+}, function (props) {
+  return props.hoverBg;
 });
 
 var Button = function Button(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledButton, _extends({}, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 22
     },
     __self: this
-  }, props.type === 'primary' ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PrimaryButton, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, props.children) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SecondaryButton, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, props.children));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Button);
@@ -73,7 +66,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-inlinesvg */ "./node_modules/react-inlinesvg/es/index.js");
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/ExpertiseCard.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/ExpertiseCard.js";
 
 
 
@@ -160,7 +153,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _static_ctaImage1_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../static/ctaImage1.jpg */ "./static/ctaImage1.jpg");
 /* harmony import */ var _static_ctaImage1_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_ctaImage1_jpg__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/FullWidthCta.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/FullWidthCta.js";
 
 
 
@@ -211,7 +204,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Nav */ "./components/Nav.js");
 /* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Logo */ "./components/Logo.js");
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/Header.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Header.js";
 
 
 
@@ -271,7 +264,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_me_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/me.jpg */ "./static/me.jpg");
 /* harmony import */ var _static_me_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_me_jpg__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/Hero.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Hero.js";
 
 
 
@@ -294,7 +287,7 @@ var HeroBlock = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.wi
 var HeroButtons = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Hero__HeroButtons",
   componentId: "sc-1oj9b8p-3"
-})(["margin-top:8rem;display:flex;& > *{padding-right:2rem;}a{color:", ";text-decoration:none;font-weight:normal;}"], function (props) {
+})(["margin-top:8rem;display:flex;& > button{margin-right:1.8rem;}a{color:", ";text-decoration:none;font-weight:normal;&:hover{color:red;}}"], function (props) {
   return props.theme.white;
 });
 
@@ -302,73 +295,75 @@ var Hero = function Hero(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroImage, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     },
     __self: this
   }, props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroBlock, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "intro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 60
     },
     __self: this
   }, "Hello, I'm Tom"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "description",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 61
     },
     __self: this
   }, "I\u2019m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroButtons, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    type: "primary",
+    primaryColor: "#05af43",
+    bgColor: "#05af43",
+    btnFontSize: "1.7rem",
+    hoverBg: '#05da53',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 67
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "My Work")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    primaryColor: "#05af43",
+    bgColor: "transparent",
+    borderColor: '#fff',
+    btnFontSize: "1.7rem",
+    hoverBg: '#fff',
+    hoverColor: '#000',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, "My Work"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    type: "secondary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 69
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 77
     },
     __self: this
   }, "Let's Talk"))))));
@@ -394,7 +389,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/logo.png */ "./static/logo.png");
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_logo_png__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/Logo.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Logo.js";
 
 
 
@@ -441,7 +436,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_NavStyles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/NavStyles */ "./components/styles/NavStyles.js");
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/Nav.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Nav.js";
 
 
 
@@ -526,7 +521,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/Portfolio/PortfolioItem.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Portfolio/PortfolioItem.js";
 
 
 
@@ -634,7 +629,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_port_gpws_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_port_gpws_jpg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../static/port-careers.jpg */ "./static/port-careers.jpg");
 /* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/Portfolio/PortfolioList.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Portfolio/PortfolioList.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -770,7 +765,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_twitter_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_twitter_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/linkedin.svg */ "./static/linkedin.svg");
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/components/SocialLinks.js";
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/SocialLinks.js";
+
 
 
 
@@ -780,7 +777,9 @@ var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/co
 var SocialWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "SocialLinks__SocialWrapper",
   componentId: "bmn958-0"
-})(["display:flex;padding:0;margin:0;& > div{width:100%;height:350px;-webkit-flex-flow:wrap row;flex-flow:wrap row;display:flex;align-items:center;justify-content:center;}"]);
+})(["display:flex;padding:0;margin:0;& > div{width:100%;height:350px;-webkit-flex-flow:wrap row;flex-flow:wrap row;display:flex;align-items:center;justify-content:center;flex-direction:column;}.heading{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;color:#2a363b;font-size:3.7rem;margin:0;}"], function (props) {
+  return props.theme.fontPrimary;
+});
 var GetInTouch = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "SocialLinks__GetInTouch",
   componentId: "bmn958-1"
@@ -800,7 +799,7 @@ var Linkedin = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.wit
 var SocialIcon = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "SocialLinks__SocialIcon",
   componentId: "bmn958-5"
-})(["svg{fill:#FFF;width:15%;}&:hover{cursor:pointer;fill:", ";}"], function (props) {
+})(["text-align:center;svg{fill:#fff;width:27%;&:hover{cursor:pointer;fill:", ";}}"], function (props) {
   return props.theme.black;
 });
 
@@ -808,37 +807,51 @@ var SocialLinks = function SocialLinks() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SocialWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(GetInTouch, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: "heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 67
     },
     __self: this
-  }, "Get in touch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  }, "Get in touch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    primaryColor: "#05af43",
+    bgColor: "transparent",
+    borderColor: '#fff',
+    btnFontSize: "1.7rem",
+    hoverBg: '#fff',
+    hoverColor: '#000',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 68
     },
     __self: this
   }, "Free Quote")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Facebook, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SocialIcon, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 80
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.facebook.com/tblaymire1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -846,19 +859,26 @@ var SocialLinks = function SocialLinks() {
     alt: "Facebook",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 82
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Twitter, {
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Twitter, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 86
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SocialIcon, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 87
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://twitter.com/thomas_blaymire",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -866,30 +886,37 @@ var SocialLinks = function SocialLinks() {
     alt: "Twitter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 89
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Linkedin, {
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Linkedin, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SocialIcon, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 94
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.linkedin.com/in/thomasblaymire",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__["default"], {
     src: _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
-    alt: "Facebook",
+    alt: "Linkedin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 96
     },
     __self: this
-  }))));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SocialLinks);
@@ -16716,7 +16743,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_keyboard_svg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_static_keyboard_svg__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _static_laptop_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../static/laptop.svg */ "./static/laptop.svg");
 /* harmony import */ var _static_laptop_svg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_static_laptop_svg__WEBPACK_IMPORTED_MODULE_12__);
-var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/pages/index.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/pages/index.js";
 
 
 
@@ -16975,7 +17002,7 @@ module.exports = "/_next/static/images/ctaImage1-fb4579535992ebf2f746a10bebf6f37
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMzQzIDEydjI2NGgtMTU3cS04NiAwLTExNiAzNnQtMzAgMTA4djE4OWgyOTNsLTM5IDI5NmgtMjU0djc1OWgtMzA2di03NTloLTI1NXYtMjk2aDI1NXYtMjE4cTAtMTg2IDEwNC0yODguNXQyNzctMTAyLjVxMTQ3IDAgMjI4IDEyeiIvPjwvc3ZnPg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyAgdmlld0JveD0iMCAwIDE3OTIgMTc5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTM0MyAxMnYyNjRoLTE1N3EtODYgMC0xMTYgMzZ0LTMwIDEwOHYxODloMjkzbC0zOSAyOTZoLTI1NHY3NTloLTMwNnYtNzU5aC0yNTV2LTI5NmgyNTV2LTIxOHEwLTE4NiAxMDQtMjg4LjV0Mjc3LTEwMi41cTE0NyAwIDIyOCAxMnoiLz48L3N2Zz4="
 
 /***/ }),
 
@@ -17008,7 +17035,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik00NzcgNjI1djk5MWgtMzMwdi05OTFoMzMwem0yMS0zMDZxMSA3My01MC41IDEyMnQtMTM1LjUgNDloLTJxLTgyIDAtMTMyLTQ5dC01MC0xMjJxMC03NCA1MS41LTEyMi41dDEzNC41LTQ4LjUgMTMzIDQ4LjUgNTEgMTIyLjV6bTExNjYgNzI5djU2OGgtMzI5di01MzBxMC0xMDUtNDAuNS0xNjQuNXQtMTI2LjUtNTkuNXEtNjMgMC0xMDUuNSAzNC41dC02My41IDg1LjVxLTExIDMwLTExIDgxdjU1M2gtMzI5cTItMzk5IDItNjQ3dC0xLTI5NmwtMS00OGgzMjl2MTQ0aC0ycTIwLTMyIDQxLTU2dDU2LjUtNTIgODctNDMuNSAxMTQuNS0xNS41cTE3MSAwIDI3NSAxMTMuNXQxMDQgMzMyLjV6IiAvPjwvc3ZnPg=="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik00NzcgNjI1djk5MWgtMzMwdi05OTFoMzMwem0yMS0zMDZxMSA3My01MC41IDEyMnQtMTM1LjUgNDloLTJxLTgyIDAtMTMyLTQ5dC01MC0xMjJxMC03NCA1MS41LTEyMi41dDEzNC41LTQ4LjUgMTMzIDQ4LjUgNTEgMTIyLjV6bTExNjYgNzI5djU2OGgtMzI5di01MzBxMC0xMDUtNDAuNS0xNjQuNXQtMTI2LjUtNTkuNXEtNjMgMC0xMDUuNSAzNC41dC02My41IDg1LjVxLTExIDMwLTExIDgxdjU1M2gtMzI5cTItMzk5IDItNjQ3dC0xLTI5NmwtMS00OGgzMjl2MTQ0aC0ycTIwLTMyIDQxLTU2dDU2LjUtNTIgODctNDMuNSAxMTQuNS0xNS41cTE3MSAwIDI3NSAxMTMuNXQxMDQgMzMyLjV6IiAvPjwvc3ZnPg=="
 
 /***/ }),
 
@@ -17096,7 +17123,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjg0IDQwOHEtNjcgOTgtMTYyIDE2NyAxIDE0IDEgNDIgMCAxMzAtMzggMjU5LjV0LTExNS41IDI0OC41LTE4NC41IDIxMC41LTI1OCAxNDYtMzIzIDU0LjVxLTI3MSAwLTQ5Ni0xNDUgMzUgNCA3OCA0IDIyNSAwIDQwMS0xMzgtMTA1LTItMTg4LTY0LjV0LTExNC0xNTkuNXEzMyA1IDYxIDUgNDMgMCA4NS0xMS0xMTItMjMtMTg1LjUtMTExLjV0LTczLjUtMjA1LjV2LTRxNjggMzggMTQ2IDQxLTY2LTQ0LTEwNS0xMTV0LTM5LTE1NHEwLTg4IDQ0LTE2MyAxMjEgMTQ5IDI5NC41IDIzOC41dDM3MS41IDk5LjVxLTgtMzgtOC03NCAwLTEzNCA5NC41LTIyOC41dDIyOC41LTk0LjVxMTQwIDAgMjM2IDEwMiAxMDktMjEgMjA1LTc4LTM3IDExNS0xNDIgMTc4IDkzLTEwIDE4Ni01MHoiLz48L3N2Zz4="
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjg0IDQwOHEtNjcgOTgtMTYyIDE2NyAxIDE0IDEgNDIgMCAxMzAtMzggMjU5LjV0LTExNS41IDI0OC41LTE4NC41IDIxMC41LTI1OCAxNDYtMzIzIDU0LjVxLTI3MSAwLTQ5Ni0xNDUgMzUgNCA3OCA0IDIyNSAwIDQwMS0xMzgtMTA1LTItMTg4LTY0LjV0LTExNC0xNTkuNXEzMyA1IDYxIDUgNDMgMCA4NS0xMS0xMTItMjMtMTg1LjUtMTExLjV0LTczLjUtMjA1LjV2LTRxNjggMzggMTQ2IDQxLTY2LTQ0LTEwNS0xMTV0LTM5LTE1NHEwLTg4IDQ0LTE2MyAxMjEgMTQ5IDI5NC41IDIzOC41dDM3MS41IDk5LjVxLTgtMzgtOC03NCAwLTEzNCA5NC41LTIyOC41dDIyOC41LTk0LjVxMTQwIDAgMjM2IDEwMiAxMDktMjEgMjA1LTc4LTM3IDExNS0xNDIgMTc4IDkzLTEwIDE4Ni01MHoiLz48L3N2Zz4="
 
 /***/ }),
 

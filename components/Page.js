@@ -4,18 +4,18 @@ import Meta from './Meta';
 
 const theme = {
 	red: '#FF0000',
-	black: '#393939',
-  grey: '#494949',
-  greyDark: '#2a363b',
-  white: '#FFFFFF',
+	black: '#000000',
+	grey: '#494949',
+	greyDark: '#2a363b',
+	white: '#FFFFFF',
 	lightgrey: '#E1E1E1',
-  green: '#3eaca8',
-  seaGreen: '#e5eec1',
+	green: '#3eaca8',
+	seaGreen: '#e5eec1',
 	offWhite: '#EDEDED',
 	maxWidth: '1000px',
-  bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
-  fontPrimary: 'Poppins',
-  fontSecondary: 'Source Sans Pro'
+	bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
+	fontPrimary: 'Poppins',
+	fontSecondary: 'Source Sans Pro',
 };
 
 const StyledPage = styled.div`

@@ -37,14 +37,17 @@ const HeroButtons = styled.div`
 	margin-top: 8rem;
 	display: flex;
 
-	& > * {
-		padding-right: 2rem;
+	& > button {
+		margin-right: 1.8rem;
 	}
 
 	a {
 		color: ${props => props.theme.white};
 		text-decoration: none;
 		font-weight: normal;
+		&:hover {
+			color: red;
+		}
 	}
 `;
 
@@ -60,12 +63,17 @@ const Hero = props => {
 						products that meet both user and business needs.
 					</div>
 					<HeroButtons>
-						<Button type="primary">
-							<Link href="/portfolio">
-								<a>My Work</a>
-							</Link>
+						<Button primaryColor="#05af43" bgColor="#05af43" btnFontSize="1.7rem" hoverBg={'#05da53'}>
+							<Link href="/portfolio">My Work</Link>
 						</Button>
-						<Button type="secondary">
+						<Button
+							primaryColor="#05af43"
+							bgColor="transparent"
+							borderColor={'#fff'}
+							btnFontSize="1.7rem"
+							hoverBg={'#fff'}
+							hoverColor={'#000'}
+						>
 							<Link href="/contact">Let's Talk</Link>
 						</Button>
 					</HeroButtons>

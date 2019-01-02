@@ -1,49 +1,25 @@
 import styled from 'styled-components';
 
-const PrimaryButton = styled.button`
-	background-color: #05af43;
-	font-size: 1.6rem;
-	padding: 10px 30px;
-	color: ${props => props.theme.white};
-	border: solid 2px #05af43;
+const StyledButton = styled.button`
+	color: ${props => props.primaryColor};
+	background-color: ${props => props.bgColor || '#eee'};
+	border: 2px solid ${props => props.borderColor};
 	border-radius: 5px;
 	font-family: ${props => props.theme.fontPrimary};
+	font-size: ${props => props.btnFontSize || 50};
+	padding: 10px 30px;
 	cursor: pointer;
 	width: 200px;
 
 	&:hover {
-		background-color: #05da53;
-		border: solid 2px #05da53;
-	}
-`;
-
-const SecondaryButton = styled.button`
-	background-color: transparent;
-	font-size: 1.6rem;
-	padding: 10px 30px;
-	color: ${props => props.theme.white};
-	border: solid 2px white;
-	border-radius: 5px;
-	font-family: ${props => props.theme.fontPrimary};
-	cursor: pointer;
-	width: 200px;
-
-	&:hover {
-		color: red;
-		background-color: ${props => props.theme.white};
+		background-color: ${props => props.hoverBg};
+		color: ${props => props.hoverColor};
+		border: 2px solid ${props => props.hoverBg};
 	}
 `;
 
 const Button = props => {
-	return (
-		<div>
-			{props.type === 'primary' ? (
-				<PrimaryButton>{props.children}</PrimaryButton>
-			) : (
-				<SecondaryButton>{props.children}</SecondaryButton>
-			)}
-		</div>
-	);
+	return <StyledButton {...props} />;
 };
 
 export default Button;

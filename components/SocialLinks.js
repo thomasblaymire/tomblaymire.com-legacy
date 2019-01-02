@@ -3,6 +3,7 @@ import SVG from 'react-inlinesvg';
 import facebookIcon from '../static/facebook.svg';
 import twitterIcon from '../static/twitter.svg';
 import linkedinIcon from '../static/linkedin.svg';
+import Button from './Button';
 
 const SocialWrapper = styled.div`
 	display: flex;
@@ -16,6 +17,17 @@ const SocialWrapper = styled.div`
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		flex-direction: column;
+	}
+
+	.heading {
+		font-family: ${props => props.theme.fontPrimary};
+		letter-spacing: -0.02em;
+		font-weight: 700;
+		font-style: normal;
+		color: #2a363b;
+		font-size: 3.7rem;
+		margin: 0;
 	}
 `;
 
@@ -36,14 +48,15 @@ const Linkedin = styled.div`
 `;
 
 const SocialIcon = styled.div`
-
+	text-align: center;
 	svg {
-		fill: #FFF;
-		width: 15%;
-	}
-	&:hover {
-		cursor: pointer;
-		fill: ${props => props.theme.black};
+		fill: #fff;
+		width: 27%;
+
+		&:hover {
+			cursor: pointer;
+			fill: ${props => props.theme.black};
+		}
 	}
 `;
 
@@ -51,22 +64,37 @@ const SocialLinks = () => {
 	return (
 		<SocialWrapper>
 			<GetInTouch>
-				<h4>Get in touch</h4>
-				<button>Free Quote</button>
+				<h4 className="heading">Get in touch</h4>
+				<Button
+					primaryColor="#05af43"
+					bgColor="transparent"
+					borderColor={'#fff'}
+					btnFontSize="1.7rem"
+					hoverBg={'#fff'}
+					hoverColor={'#000'}
+				>
+					Free Quote
+				</Button>
 			</GetInTouch>
 			<Facebook>
 				<SocialIcon>
-					<SVG src={facebookIcon} alt="Facebook" />
+					<a href="https://www.facebook.com/tblaymire1">
+						<SVG src={facebookIcon} alt="Facebook" />
+					</a>
 				</SocialIcon>
 			</Facebook>
 			<Twitter>
 				<SocialIcon>
-					<SVG src={twitterIcon} alt="Twitter" />
+					<a href="https://twitter.com/thomas_blaymire">
+						<SVG src={twitterIcon} alt="Twitter" />
+					</a>
 				</SocialIcon>
 			</Twitter>
 			<Linkedin>
 				<SocialIcon>
-					<SVG src={linkedinIcon} alt="Facebook" />
+					<a href="https://www.linkedin.com/in/thomasblaymire">
+						<SVG src={linkedinIcon} alt="Linkedin" />
+					</a>
 				</SocialIcon>
 			</Linkedin>
 		</SocialWrapper>
