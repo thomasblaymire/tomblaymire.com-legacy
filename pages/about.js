@@ -28,8 +28,8 @@ const AboutInfo = styled.div`
 	p {
 		margin: 0 0 20px;
 		line-height: 30px;
-		color: #494949;
-		font-family: 'Source Sans Pro', sans-serif;
+		color: ${props => props.theme.grey};
+		font-family: ${props => props.theme.fontSecondary};
 		font-size: 1.8rem;
 	}
 `;

@@ -13,12 +13,11 @@ const HeroContainer = styled.div`
 	width: 1170px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0px 15px;
 `;
 
 const HeroBlock = styled.div`
-	color: #fff;
+	color: ${props => props.theme.white};
 	margin-top: 11rem;
 	width: 60%;
 
@@ -43,9 +42,8 @@ const HeroButtons = styled.div`
 	}
 
 	a {
-		color: #ffffff;
+		color: ${props => props.theme.white};
 		text-decoration: none;
-
 		font-weight: normal;
 	}
 `;

@@ -14,12 +14,12 @@ const NavStyles = styled.ul`
 		text-transform: uppercase;
 		font-size: 1.7rem;
 		background: none;
-		font-family: 'Poppins';
+		font-family: ${props => props.theme.fontPrimary};
 		letter-spacing: 0.05em;
 		font-weight: 500;
 		border: 0;
 		cursor: pointer;
-		color: #ffffff;
+		color: ${props => props.theme.white};
 		padding: 25px 15px;
 		&:hover {
 			color: #3eaca8;

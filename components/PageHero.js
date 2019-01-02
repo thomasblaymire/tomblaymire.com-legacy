@@ -4,12 +4,11 @@ const HeroContainer = styled.div`
 	width: 1170px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0px 15px;
 `;
 
 const HeroBlock = styled.div`
-	color: #fff;
+	color: ${props => props.theme.white};
 	position: absolute;
 	top: 29%;
 	width: 54%;

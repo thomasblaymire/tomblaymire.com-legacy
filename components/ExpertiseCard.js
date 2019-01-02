@@ -4,25 +4,24 @@ const Block = styled.div`
 	width: 100%;
 
 	.title {
-		color: #2a363b;
+		color: ${props => props.theme.greyDark};
 	}
 
 	.description {
 		line-height: 30px;
-		color: #494949;
-		font-family: 'Source Sans Pro', sans-serif;
+		color: ${props => props.theme.grey};
+		font-family: ${props => props.theme.fontSecondary};
 		font-size: 1.8rem;
 	}
 
 	.seperator {
-		margin-top: 27px;
-		margin-bottom: 27px;
+		margin: 27px 0px;
 	}
 
 	.divide {
 		width: 20%;
 		height: 2px;
-		background-color: #2a363b;
+		background-color: ${props => props.theme.greyDark};
 		display: block;
 		content: '';
 	}

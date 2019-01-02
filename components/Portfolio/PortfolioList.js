@@ -44,7 +44,7 @@ class PortfolioList extends Component {
 	render() {
 		const portfolioItems = this.state.portfolioItems
 			.slice(0, this.props.amount)
-			.map(item => <PortfolioItem key={item.id} image={item.image} name={item.name} tags={item.tags} />);
+			.map(item => <PortfolioItem key={item.id} image={item.image} id={item.id} name={item.name} tags={item.tags} />);
 
 		return <PortfolioItems>{portfolioItems}</PortfolioItems>;
 	}

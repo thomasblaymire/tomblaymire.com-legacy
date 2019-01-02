@@ -7,14 +7,13 @@ const BackgroudImage = styled.div`
 	background-size: cover;
 	background-position: center center;
 	background-attachment: scroll;
-	padding-top: 8%;
-	padding-bottom: 8%;
+	padding: 8% 0%;
 `;
 
 const BackgroundText = styled.h2`
-	color: #fff;
+	color: ${props => props.theme.white};
 	text-align: center;
-	font-family: Poppins;
+	font-family: ${props => props.theme.fontPrimary};
 	letter-spacing: -0.02em;
 	font-weight: 700;
 	font-style: normal;

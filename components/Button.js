@@ -4,10 +4,10 @@ const PrimaryButton = styled.button`
 	background-color: #05af43;
 	font-size: 1.6rem;
 	padding: 10px 30px;
-	color: #fff;
+	color: ${props => props.theme.white};
 	border: solid 2px #05af43;
 	border-radius: 5px;
-	font-family: 'Poppins', sans-serif;
+	font-family: ${props => props.theme.fontPrimary};
 	cursor: pointer;
 	width: 200px;
 
@@ -21,16 +21,16 @@ const SecondaryButton = styled.button`
 	background-color: transparent;
 	font-size: 1.6rem;
 	padding: 10px 30px;
-	color: #fff;
+	color: ${props => props.theme.white};
 	border: solid 2px white;
 	border-radius: 5px;
-	font-family: 'Poppins', sans-serif;
+	font-family: ${props => props.theme.fontPrimary};
 	cursor: pointer;
 	width: 200px;
 
 	&:hover {
 		color: red;
-		background-color: #fff;
+		background-color: ${props => props.theme.white};
 	}
 `;
 

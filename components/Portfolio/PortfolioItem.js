@@ -20,7 +20,7 @@ const PortfolioBox = styled.div`
 
 const PortfolioMeta = styled.div`
 	.portfolio-title {
-		font-family: Poppins;
+		font-family: ${props => props.theme.fontPrimary};
 		letter-spacing: -0.02em;
 		font-weight: 700;
 		font-style: normal;
@@ -47,7 +47,7 @@ const PortfolioMeta = styled.div`
 `;
 
 const PortfolioItem = props => {
-	const { image, name, tags } = props;
+	const { image, name, tags, id} = props;
 
 	const tagList = tags.map(tag => <li key={tag}>{tag}</li>);
 
@@ -55,8 +55,8 @@ const PortfolioItem = props => {
 		<PortfolioBox>
 			<Link
 				href={{
-					pathname: '/portfolio',
-					query: { id: name },
+					pathname: '/portfolio-full',
+					query: { id: id },
 				}}
 			>
 				<a>

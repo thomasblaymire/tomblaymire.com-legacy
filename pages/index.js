@@ -12,8 +12,7 @@ import keyboard from '../static/keyboard.svg';
 import laptop from '../static/laptop.svg';
 
 const Expertise = styled.div`
-	padding-top: 10rem;
-	padding-bottom: 10rem;
+	padding: 10rem 0rem;
 `;
 
 const ExpertiseRow = styled.div`
@@ -26,8 +25,8 @@ const ExpertiseRow = styled.div`
 
 const Location = styled.div`
 	height: 100vh;
-	background-color: #e5eec1;
 	display: flex;
+	background-color: ${props => props.theme.seaGreen};
 `;
 
 const LocationContent = styled.div`
@@ -36,7 +35,7 @@ const LocationContent = styled.div`
 	padding-right: 6%;
 	padding-bottom: 35px;
 	padding-left: 6%;
-	color: #494949;
+	color: ${props => props.theme.grey};
 	p {
 		margin: 0 0 20px;
 	}
@@ -51,8 +50,7 @@ const LocationImage = styled.div`
 
 const RecentProjects = styled.div`
 	min-height: 100vh;
-	padding-top: 10rem;
-	padding-bottom: 10rem;
+	padding: 10rem 0rem;
 	p {
 		width: 70%;
 	}

@@ -5,7 +5,7 @@ const PageStyles = styled.div`
 	min-height: 100vh;
 
 	.heading {
-		font-family: Poppins;
+		font-family: ${props => props.theme.fontPrimary};
 		letter-spacing: -0.02em;
 		font-weight: 700;
 		font-style: normal;
@@ -15,7 +15,7 @@ const PageStyles = styled.div`
 	}
 
 	.sub-heading {
-		font-family: 'Source Sans Pro';
+		font-family: ${props => props.theme.fontSecondary};
 		font-size: 2rem;
 		color: #474747;
 		margin: 0;
