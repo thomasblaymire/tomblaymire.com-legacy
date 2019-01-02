@@ -1,0 +1,1 @@
+export const PRISMIC_API_URL = 'https://tomblaymirecom.cdn.prismic.io/api/v2';
