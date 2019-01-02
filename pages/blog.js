@@ -1,4 +1,4 @@
-import { getBlogPostsAPI } from '../api';
+import { getPortfolioItemsAPI } from '../api';
 import { linkResolver } from '../helpers';
 
 
@@ -11,7 +11,7 @@ const Blog = () => {
         <li key={index}>
           <Link
             as={linkResolver(post)}
-            href={`/blogPost?slug=${post.uid}`}
+            href={`/portfolio?slug=${post.uid}`}
             passHref
           >
             <a>{post.data.title[0].text}</a>
@@ -24,7 +24,7 @@ const Blog = () => {
 
 Blog.getInitialProps = async () => {
 	// Here we call the API and request 5 documents
-	const response = await getBlogPostsAPI({ pageSize: 5 });
+	const response = await getPortfolioItemsAPI({ pageSize: 5 });
 	return {
 	  posts: response.results
 	};

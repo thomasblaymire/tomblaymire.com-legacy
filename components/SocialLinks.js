@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import SVG from 'react-inlinesvg';
 import facebookIcon from '../static/facebook.svg';
 import twitterIcon from '../static/twitter.svg';
 import linkedinIcon from '../static/linkedin.svg';
@@ -34,14 +35,15 @@ const Linkedin = styled.div`
 	background-color: #2a363b;
 `;
 
-const SocialIcon = styled.img`
-	width: 25%;
+const SocialIcon = styled.div`
+
 	svg {
-		fill: red;
+		fill: #FFF;
+		width: 15%;
 	}
 	&:hover {
 		cursor: pointer;
-		fill: red;
+		fill: ${props => props.theme.black};
 	}
 `;
 
@@ -53,13 +55,19 @@ const SocialLinks = () => {
 				<button>Free Quote</button>
 			</GetInTouch>
 			<Facebook>
-				<SocialIcon src={facebookIcon} alt="Facebook" />
+				<SocialIcon>
+					<SVG src={facebookIcon} alt="Facebook" />
+				</SocialIcon>
 			</Facebook>
 			<Twitter>
-				<SocialIcon src={twitterIcon} alt="Twitter" />
+				<SocialIcon>
+					<SVG src={twitterIcon} alt="Twitter" />
+				</SocialIcon>
 			</Twitter>
 			<Linkedin>
-				<SocialIcon src={linkedinIcon} alt="Linkedin" />
+				<SocialIcon>
+					<SVG src={linkedinIcon} alt="Facebook" />
+				</SocialIcon>
 			</Linkedin>
 		</SocialWrapper>
 	);

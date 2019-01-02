@@ -1,4 +1,5 @@
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
+import SVG from 'react-inlinesvg';
 
 const Block = styled.div`
 	width: 100%;
@@ -27,8 +28,11 @@ const Block = styled.div`
 	}
 
 	.icon {
-		width: 5rem;
 		fill: #3eaca8;
+		&:hover {
+			transition: all .2s ease-in-out;
+			fill: ${props => props.theme.black};
+		}
 	}
 `;
 
@@ -37,7 +41,7 @@ const ExpertiseCard = props => {
 
 	return (
 		<Block>
-			<img className="icon" src={icon} alt={title} />
+			<SVG className="icon" src={icon} alt={title} />
 			<h2 className="title">{title}</h2>
 			<div className="seperator">
 				<span className="divide" />
