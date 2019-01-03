@@ -63,19 +63,16 @@ const Hero = props => {
 						products that meet both user and business needs.
 					</div>
 					<HeroButtons>
-						<Button primaryColor="#05af43" bgColor="#05af43" btnFontSize="1.7rem" hoverBg={'#05da53'}>
-							<Link href="/portfolio">My Work</Link>
-						</Button>
-						<Button
-							primaryColor="#05af43"
-							bgColor="transparent"
-							borderColor={'#fff'}
-							btnFontSize="1.7rem"
-							hoverBg={'#fff'}
-							hoverColor={'#000'}
-						>
-							<Link href="/contact">Let's Talk</Link>
-						</Button>
+						<Link href="/portfolio">
+							<Button primaryColor="#05af43" bgColor="#05af43" hoverBg={'#05da53'}>
+								My Work
+							</Button>
+						</Link>
+						<Link href="/contact">
+							<Button primaryColor="#05af43" bgColor="transparent" borderColor={'#fff'} hoverBg={'#fff'} hoverColor={'#000'}>
+								Let's Talk
+							</Button>
+						</Link>
 					</HeroButtons>
 				</HeroBlock>
 			</HeroContainer>

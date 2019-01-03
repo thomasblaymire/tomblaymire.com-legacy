@@ -47,18 +47,13 @@ const PortfolioMeta = styled.div`
 `;
 
 const PortfolioItem = props => {
-	const { image, name, tags, id} = props;
+	const { image, name, tags, id, url} = props;
 
 	const tagList = tags.map(tag => <li key={tag}>{tag}</li>);
 
 	return (
 		<PortfolioBox>
-			<Link
-				href={{
-					pathname: '/portfolio-full',
-					query: { id: id },
-				}}
-			>
+			<Link href={{ pathname: {url} }} >
 				<a>
 					<img className="portfolio-image" src={image} alt={name} />
 					<PortfolioMeta>

@@ -69,9 +69,9 @@ const SocialLinks = () => {
 					primaryColor="#05af43"
 					bgColor="transparent"
 					borderColor={'#fff'}
-					btnFontSize="1.7rem"
 					hoverBg={'#fff'}
 					hoverColor={'#000'}
+					borderRadius={'10px'}
 				>
 					Free Quote
 				</Button>
