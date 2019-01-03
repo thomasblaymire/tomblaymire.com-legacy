@@ -28,6 +28,7 @@ const SocialWrapper = styled.div`
 		color: #2a363b;
 		font-size: 3.7rem;
 		margin: 0;
+		padding-bottom: 1rem;
 	}
 `;
 
@@ -66,12 +67,12 @@ const SocialLinks = () => {
 			<GetInTouch>
 				<h4 className="heading">Get in touch</h4>
 				<Button
-					primaryColor="#05af43"
-					bgColor="transparent"
-					borderColor={'#fff'}
-					hoverBg={'#fff'}
-					hoverColor={'#000'}
-					borderRadius={'10px'}
+					btnFontSize={'1.4rem'}
+					borderColor={'#05af43'}
+					primaryColor="#fff"
+					bgColor="#05af43"
+					hoverBg={'#05da53'}
+					borderRadius={'35px'}
 				>
 					Free Quote
 				</Button>

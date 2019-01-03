@@ -64,12 +64,18 @@ const Hero = props => {
 					</div>
 					<HeroButtons>
 						<Link href="/portfolio">
-							<Button primaryColor="#05af43" bgColor="#05af43" hoverBg={'#05da53'}>
+							<Button primaryColor="#fff" borderColor={'#05af43'} bgColor="#05af43" hoverBg={'#05da53'}>
 								My Work
 							</Button>
 						</Link>
 						<Link href="/contact">
-							<Button primaryColor="#05af43" bgColor="transparent" borderColor={'#fff'} hoverBg={'#fff'} hoverColor={'#000'}>
+							<Button
+								primaryColor="#fff"
+								bgColor="transparent"
+								borderColor={'#fff'}
+								hoverBg={'#fff'}
+								hoverColor={'#000'}
+							>
 								Let's Talk
 							</Button>
 						</Link>

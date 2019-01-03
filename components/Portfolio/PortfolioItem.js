@@ -3,9 +3,8 @@ import Link from 'next/link';
 
 const PortfolioBox = styled.div`
 	.portfolio-image {
-		width: 380px;
-		height: 300px;
-		margin-right: 30px;
+		width: 100%;
+		height: 450px;
 		position: relative;
 
 		&:hover {
@@ -47,13 +46,13 @@ const PortfolioMeta = styled.div`
 `;
 
 const PortfolioItem = props => {
-	const { image, name, tags, id, url} = props;
+	const { image, name, tags, id, url } = props;
 
 	const tagList = tags.map(tag => <li key={tag}>{tag}</li>);
 
 	return (
 		<PortfolioBox>
-			<Link href={{ pathname: {url} }} >
+			<Link href={url}>
 				<a>
 					<img className="portfolio-image" src={image} alt={name} />
 					<PortfolioMeta>
