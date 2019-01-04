@@ -4,16 +4,16 @@ import NavStyles from './styles/NavStyles';
 const Nav = () => {
 	return (
 		<NavStyles>
-			<Link href="/about">
+			<Link href="/about" prefetch>
 				<a>About</a>
 			</Link>
 			<Link href="/blog">
 				<a>Blog</a>
 			</Link>
-			<Link href="/portfolio">
+			<Link href="/portfolio" prefetch>
 				<a>Portfolio</a>
 			</Link>
-			<Link href="/contact">
+			<Link href="/contact" prefetch>
 				<a>Contact</a>
 			</Link>
 		</NavStyles>
