@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -334,7 +334,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_NavStyles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/NavStyles */ "./components/styles/NavStyles.js");
+/* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-inlinesvg */ "react-inlinesvg");
+/* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_inlinesvg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _static_hamburger_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/hamburger.svg */ "./static/hamburger.svg");
+/* harmony import */ var _static_hamburger_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_hamburger_svg__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Nav.js";
+
+
 
 
 
@@ -343,62 +349,78 @@ var Nav = function Nav() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_NavStyles__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/blog",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://medium.com/@thomas_blaymire",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
     },
     __self: this
   }, "Blog")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
   }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
-  }, "Contact")));
+  }, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "hamburger",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    src: _static_hamburger_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "Hamburger Icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
@@ -428,7 +450,7 @@ var HeroContainer = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div
 var HeroBlock = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PageHero__HeroBlock",
   componentId: "sc-13x60d9-1"
-})(["color:", ";position:absolute;top:29%;width:54%;.intro{font-size:5.5rem;margin:0;}.description{font-size:2.5rem;line-height:38px;}"], function (props) {
+})(["color:", ";position:absolute;top:29%;width:54%;.intro{font-size:5.5rem;margin:0;line-height:1.5em;}.description{font-size:2.5rem;line-height:38px;}"], function (props) {
   return props.theme.white;
 });
 
@@ -447,33 +469,33 @@ var Hero = function Hero(props) {
     style: style,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 41
     },
     __self: this
   }, props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroBlock, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "intro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 44
     },
     __self: this
   }, pageName), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "description",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 45
     },
     __self: this
   }, description))));
@@ -505,12 +527,16 @@ var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/com
 var PortfolioBox = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PortfolioItem__PortfolioBox",
   componentId: "sc-25rbs8-0"
-})([".portfolio-image{width:100%;height:450px;position:relative;&:hover{cursor:pointer;}}a{text-decoration:none;font-weight:normal;}"]);
+})(["margin-top:4rem;.portfolio-image{width:100%;height:auto;position:relative;&:hover{cursor:pointer;}}a{text-decoration:none;font-weight:normal;}"]);
 var PortfolioMeta = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PortfolioItem__PortfolioMeta",
   componentId: "sc-25rbs8-1"
-})([".portfolio-title{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;font-size:2rem;margin:0;color:#2a363b;cursor:pointer;}ul{list-style-type:none;padding:0;display:flex;}li{color:#474747;margin-right:1rem;background:#dadada;border-radius:5px;padding:0 10px;cursor:initial;}"], function (props) {
+})([".portfolio-title{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;font-size:2rem;margin:0;color:", ";cursor:pointer;}ul{list-style-type:none;padding:0;display:flex;margin-top:0.5rem;}li{color:#474747;margin-right:1rem;background:", ";border-radius:5px;padding:0 10px;cursor:initial;}"], function (props) {
   return props.theme.fontPrimary;
+}, function (props) {
+  return props.theme.greyDark;
+}, function (props) {
+  return props.theme.greyLight;
 });
 
 var PortfolioItem = function PortfolioItem(props) {
@@ -524,7 +550,7 @@ var PortfolioItem = function PortfolioItem(props) {
       key: tag,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 54
       },
       __self: this
     }, tag);
@@ -532,20 +558,20 @@ var PortfolioItem = function PortfolioItem(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -554,26 +580,26 @@ var PortfolioItem = function PortfolioItem(props) {
     alt: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 60
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioMeta, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "portfolio-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 62
     },
     __self: this
   }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 63
     },
     __self: this
   }, tagList)))));
@@ -605,8 +631,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../static/port-innovation-main.png */ "./static/port-innovation-main.png");
 /* harmony import */ var _static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _static_port_skybet_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../static/port-skybet.png */ "./static/port-skybet.png");
-/* harmony import */ var _static_port_skybet_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_port_skybet_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../static/hermes-main.jpg */ "./static/hermes-main.jpg");
+/* harmony import */ var _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../static/port-location.jpg */ "./static/port-location.jpg");
 /* harmony import */ var _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8__);
 var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Portfolio/PortfolioList.js";
@@ -681,19 +707,24 @@ function (_Component) {
         image: _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
         name: 'Hermes Careers',
         tags: ['Angular 2', 'ES6', 'CSS3', 'Web Development'],
-        url: '/portfolio-skybet'
+        url: '/portfolio-careers'
       }, {
         id: 4,
+        image: _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+        name: 'Hermes',
+        tags: ['Angular 2', 'ES6', 'CSS3', 'Web Development'],
+        url: '/portfolio-hermes'
+      }, {
+        id: 5,
         image: _static_port_gpws_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
         name: 'GP Web Solutions',
         tags: ['React', 'CSS3', 'Web Development', 'JavaScript'],
         url: '/portfolio-gpws'
       }, {
-        id: 5,
+        id: 6,
         image: _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
         name: 'Location Search',
-        tags: ['React', 'Redux', 'ES6', 'JavaScript'],
-        url: '/portfolio-gpws'
+        tags: ['React', 'Redux', 'ES6', 'JavaScript']
       }]
     });
 
@@ -718,7 +749,7 @@ function (_Component) {
           tags: item.tags,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 62
+            lineNumber: 68
           },
           __self: this
         });
@@ -726,7 +757,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioItems, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 71
         },
         __self: this
       }, portfolioItems);
@@ -755,7 +786,7 @@ __webpack_require__.r(__webpack_exports__);
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.ul.withConfig({
   displayName: "NavStyles",
   componentId: "bpb6y7-0"
-})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}}"], function (props) {
+})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}}.hamburger{display:none;align-self:flex-end;display:initial;position:absolute;cursor:pointer;svg{width:50px;}}"], function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
   return props.theme.white;
@@ -779,8 +810,10 @@ __webpack_require__.r(__webpack_exports__);
 var PageStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "PageStyles",
   componentId: "sc-1dspmwg-0"
-})(["height:auto;min-height:100vh;.heading{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;color:#2a363b;font-size:4.2rem;margin:0;}.sub-heading{font-family:", ";font-size:2rem;color:#474747;margin:0;line-height:3rem;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}"], function (props) {
+})(["height:auto;min-height:100vh;.heading{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;color:", ";font-size:4.2rem;margin:0;}.sub-heading{font-family:", ";font-size:2rem;color:#474747;margin:0;line-height:3rem;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding:0px 15px;}"], function (props) {
   return props.theme.fontPrimary;
+}, function (props) {
+  return props.theme.greyDark;
 }, function (props) {
   return props.theme.fontSecondary;
 });
@@ -820,60 +853,60 @@ var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/pag
 var PortfolioWrapper = styled_components__WEBPACK_IMPORTED_MODULE_7___default.a.div.withConfig({
   displayName: "portfolio__PortfolioWrapper",
   componentId: "sc-1jmilhs-0"
-})(["margin:7rem 0rem;& > *{display:grid;grid-template-columns:50% 50%;grid-gap:3rem;}"]);
+})(["margin:7rem 0rem;& > *{display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));grid-gap:5rem;justify-content:center;}"]);
 
 var Portfolio = function Portfolio() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PageHero__WEBPACK_IMPORTED_MODULE_1__["default"], {
     image: _static_portfolio_hero_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
     pageName: "Portfolio",
-    description: "View my projects.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    description: "View my past projects and recent work.",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Portfolio_PortfolioList__WEBPACK_IMPORTED_MODULE_6__["default"], {
     amount: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   })));
@@ -891,6 +924,28 @@ var Portfolio = function Portfolio() {
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyAgdmlld0JveD0iMCAwIDE3OTIgMTc5MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTM0MyAxMnYyNjRoLTE1N3EtODYgMC0xMTYgMzZ0LTMwIDEwOHYxODloMjkzbC0zOSAyOTZoLTI1NHY3NTloLTMwNnYtNzU5aC0yNTV2LTI5NmgyNTV2LTIxOHEwLTE4NiAxMDQtMjg4LjV0Mjc3LTEwMi41cTE0NyAwIDIyOCAxMnoiLz48L3N2Zz4="
+
+/***/ }),
+
+/***/ "./static/hamburger.svg":
+/*!******************************!*\
+  !*** ./static/hamburger.svg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNjY0IDEzNDR2MTI4cTAgMjYtMTkgNDV0LTQ1IDE5aC0xNDA4cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMTQwOHEyNiAwIDQ1IDE5dDE5IDQ1em0wLTUxMnYxMjhxMCAyNi0xOSA0NXQtNDUgMTloLTE0MDhxLTI2IDAtNDUtMTl0LTE5LTQ1di0xMjhxMC0yNiAxOS00NXQ0NS0xOWgxNDA4cTI2IDAgNDUgMTl0MTkgNDV6bTAtNTEydjEyOHEwIDI2LTE5IDQ1dC00NSAxOWgtMTQwOHEtMjYgMC00NS0xOXQtMTktNDV2LTEyOHEwLTI2IDE5LTQ1dDQ1LTE5aDE0MDhxMjYgMCA0NSAxOXQxOSA0NXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
+
+/***/ }),
+
+/***/ "./static/hermes-main.jpg":
+/*!********************************!*\
+  !*** ./static/hermes-main.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/hermes-main-47845c99c51b4718b1a7b870e8d38ca2.jpg";
 
 /***/ }),
 
@@ -971,17 +1026,6 @@ module.exports = "/_next/static/images/port-pad-ac7ec497bf51a42dafef5afa98fe50fc
 
 /***/ }),
 
-/***/ "./static/port-skybet.png":
-/*!********************************!*\
-  !*** ./static/port-skybet.png ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/port-skybet-5ab0b9504db843be50036b460fa6b854.png";
-
-/***/ }),
-
 /***/ "./static/portfolio-hero.jpg":
 /*!***********************************!*\
   !*** ./static/portfolio-hero.jpg ***!
@@ -1004,7 +1048,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!**********************************!*\
   !*** multi ./pages/portfolio.js ***!
   \**********************************/
@@ -1035,6 +1079,17 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-inlinesvg":
+/*!**********************************!*\
+  !*** external "react-inlinesvg" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-inlinesvg");
 
 /***/ }),
 

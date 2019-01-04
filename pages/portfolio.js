@@ -11,15 +11,16 @@ const PortfolioWrapper = styled.div`
 	margin: 7rem 0rem;
 	& > * {
 		display: grid;
-		grid-template-columns: 50% 50%;
-		grid-gap: 3rem;
+		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+		grid-gap: 5rem;
+		justify-content: center;
 	}
 `;
 
 const Portfolio = () => {
 	return (
 		<div>
-			<PageHero image={portfolioHero} pageName="Portfolio" description="View my projects.">
+			<PageHero image={portfolioHero} pageName="Portfolio" description="View my past projects and recent work.">
 				<Header />
 			</PageHero>
 			<PageContent>

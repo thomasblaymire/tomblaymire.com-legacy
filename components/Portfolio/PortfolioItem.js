@@ -2,15 +2,17 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const PortfolioBox = styled.div`
+	margin-top: 4rem;
 	.portfolio-image {
 		width: 100%;
-		height: 450px;
+		height: auto;
 		position: relative;
 
 		&:hover {
 			cursor: pointer;
 		}
 	}
+
 	a {
 		text-decoration: none;
 		font-weight: normal;
@@ -33,6 +35,7 @@ const PortfolioMeta = styled.div`
 		list-style-type: none;
 		padding: 0;
 		display: flex;
+		margin-top: 0.5rem;
 	}
 
 	li {

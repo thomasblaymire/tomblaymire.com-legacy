@@ -58,10 +58,10 @@ const RecentProjects = styled.div`
 
 const PortfolioWrapper = styled.div`
 	& > * {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
 		margin-top: 5rem;
+		display: grid;
+		grid-gap: 2rem;
+		grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 	}
 `;
 

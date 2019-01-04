@@ -5,7 +5,7 @@ import productAnalysis from '../../static/port-pad.jpg';
 import gpWeb from '../../static/port-gpws.jpg';
 import careers from '../../static/port-careers.jpg';
 import innovation from '../../static/port-innovation-main.png';
-import sports from '../../static/port-skybet.png';
+import hermes from '../../static/hermes-main.jpg';
 import location from '../../static/port-location.jpg';
 
 const PortfolioItems = styled.div``;
@@ -32,21 +32,27 @@ class PortfolioList extends Component {
 				image: careers,
 				name: 'Hermes Careers',
 				tags: ['Angular 2', 'ES6', 'CSS3', 'Web Development'],
-				url: '/portfolio-skybet',
+				url: '/portfolio-careers',
 			},
 			{
 				id: 4,
+				image: hermes,
+				name: 'Hermes',
+				tags: ['Angular 2', 'ES6', 'CSS3', 'Web Development'],
+				url: '/portfolio-hermes',
+			},
+			{
+				id: 5,
 				image: gpWeb,
 				name: 'GP Web Solutions',
 				tags: ['React', 'CSS3', 'Web Development', 'JavaScript'],
 				url: '/portfolio-gpws',
 			},
 			{
-				id: 5,
+				id: 6,
 				image: location,
 				name: 'Location Search',
 				tags: ['React', 'Redux', 'ES6', 'JavaScript'],
-				url: '/portfolio-gpws',
 			},
 		],
 	};

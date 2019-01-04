@@ -16,6 +16,7 @@ const HeroBlock = styled.div`
 	.intro {
 		font-size: 5.5rem;
 		margin: 0;
+		line-height: 1.5em;
 	}
 
 	.description {

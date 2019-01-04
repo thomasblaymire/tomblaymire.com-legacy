@@ -32,17 +32,18 @@ const NavStyles = styled.ul`
 		display: initial;
 		position: absolute;
 		cursor: pointer;
+		svg {
+			width: 50px;
+		}
 	}
 
-	@media only screen and (max-width: 768px) {
+	/* @media only screen and (max-width: 768px) {
 		flex-direction: column;
 
 		a {
 			display:none;
 		}
-	}
-
-
+	} */
 `;
 
 export default NavStyles;

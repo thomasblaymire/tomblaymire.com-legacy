@@ -137,6 +137,7 @@ var theme = {
   black: '#000000',
   grey: '#494949',
   greyDark: '#2a363b',
+  greyLight: '#DADADA',
   white: '#FFFFFF',
   lightgrey: '#E1E1E1',
   green: '#3eaca8',
@@ -171,19 +172,19 @@ function (_Component) {
         theme: theme,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 58
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledPage, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 59
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         },
         __self: this
       }), this.props.children));

@@ -1,6 +1,7 @@
 import PageHero from '../components/PageHero';
 import Header from '../components/Header';
 import PageContent from '../components/styles/PageStyles';
+import contactPortfolio from '../static/about-hero.jpg';
 import Button from '../components/Button';
 import Footer from '../components/Footer';
 import styled from 'styled-components';
@@ -12,7 +13,7 @@ const ContactWrapper = styled.div`
 const Contact = () => {
 	return (
 		<div>
-			<PageHero image={portfolioHero} pageName="Contact" description="Get In Touch">
+			<PageHero image={contactPortfolio} pageName="Contact" description="Get In Touch">
 				<Header />
 			</PageHero>
 			<PageContent>
