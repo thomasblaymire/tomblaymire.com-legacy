@@ -25,6 +25,24 @@ const NavStyles = styled.ul`
 			color: #3eaca8;
 		}
 	}
+
+	.hamburger {
+		display: none;
+		align-self: flex-end;
+		display: initial;
+		position: absolute;
+		cursor: pointer;
+	}
+
+	@media only screen and (max-width: 768px) {
+		flex-direction: column;
+
+		a {
+			display:none;
+		}
+	}
+
+
 `;
 
 export default NavStyles;

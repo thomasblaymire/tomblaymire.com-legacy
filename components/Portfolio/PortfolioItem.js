@@ -25,7 +25,7 @@ const PortfolioMeta = styled.div`
 		font-style: normal;
 		font-size: 2rem;
 		margin: 0;
-		color: #2a363b;
+		color: ${props => props.theme.greyDark};
 		cursor: pointer;
 	}
 
@@ -38,7 +38,7 @@ const PortfolioMeta = styled.div`
 	li {
 		color: #474747;
 		margin-right: 1rem;
-		background: #dadada;
+		background: ${props => props.theme.greyLight};
 		border-radius: 5px;
 		padding: 0 10px;
 		cursor: initial;

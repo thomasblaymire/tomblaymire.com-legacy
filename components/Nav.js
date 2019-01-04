@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import NavStyles from './styles/NavStyles';
+import SVG from 'react-inlinesvg';
+import hamburgerIcon from '../static/hamburger.svg';
 
 const Nav = () => {
 	return (
@@ -7,8 +9,8 @@ const Nav = () => {
 			<Link href="/about" prefetch>
 				<a>About</a>
 			</Link>
-			<Link href="/blog">
-				<a>Blog</a>
+			<Link href="https://medium.com/@thomas_blaymire">
+				<a target="_blank">Blog</a>
 			</Link>
 			<Link href="/portfolio" prefetch>
 				<a>Portfolio</a>
@@ -16,6 +18,11 @@ const Nav = () => {
 			<Link href="/contact" prefetch>
 				<a>Contact</a>
 			</Link>
+
+			<div className="hamburger">
+				<SVG src={hamburgerIcon} alt="Hamburger Icon" />
+			</div>
+
 		</NavStyles>
 	);
 };

@@ -9,7 +9,7 @@ const PageStyles = styled.div`
 		letter-spacing: -0.02em;
 		font-weight: 700;
 		font-style: normal;
-		color: #2a363b;
+		color: ${props => props.theme.greyDark};
 		font-size: 4.2rem;
 		margin: 0;
 	}
@@ -26,8 +26,7 @@ const PageStyles = styled.div`
 		max-width: 1170px;
 		margin-right: auto;
 		margin-left: auto;
-		padding-left: 15px;
-		padding-right: 15px;
+		padding: 0px 15px;
 	}
 `;
 

@@ -20,40 +20,41 @@ const PortfolioPad = () => {
 							<div class="content">
 								<h3 class="heading">Project Requirements</h3>
 								<p class="description">
-									Hermes Innovation required a new website to help develop their brand awareness and gather project
-									feedback with the community.
+									Hermes Depot managers required a bespoke dashboard for the upcoming Christmas perioud so they could easily see and analyse the volume of parcels expected within the network throughout the day.
 								</p>
 								<p className="description">
-									I built the entire new front-end from scratch whilst working alongside designers, testers and project
-									managers.
+									Having a clear user interface with responsive live updating graphs was essential, the graphs also needed to be responsive out of the box as managers used various different devices from iPads to Samsung mobiles.
 								</p>
 							</div>
 						</div>
 						<div class="row">
 							<img src={portfolioPad} class="screenshot" alt="Screenshot 1" />
 							<div class="content">
-								<h3 class="heading">Project Requirements</h3>
+								<h3 class="heading">Dashboard Features</h3>
 								<p class="description">
-									Hermes Innovation required a new website to help develop their brand awareness and gather project
-									feedback with the community.
-								</p>
-								<p className="description">
-									I built the entire new front-end from scratch whilst working alongside designers, testers and project
-									managers.
+									<ul>
+										<li>Authentication (via user ID & depot)</li>
+										<li>Real Time Updates</li>
+										<li>Responsive</li>
+										<li>Performant in low network areas</li>
+										<li>Visually appealing in low light situations</li>
+									</ul>
 								</p>
 							</div>
 						</div>
 						<div class="row">
 							<img src={portfolioPad} class="screenshot" alt="Screenshot 1" />
 							<div class="content">
-								<h3 class="heading">Project Requirements</h3>
+								<h3 class="heading">Technology Stack </h3>
 								<p class="description">
-									Hermes Innovation required a new website to help develop their brand awareness and gather project
-									feedback with the community.
-								</p>
-								<p className="description">
-									I built the entire new front-end from scratch whilst working alongside designers, testers and project
-									managers.
+									<ul>
+										<li>React & Redux</li>
+										<li>Jest & Enzyme</li>
+										<li>SCSS</li>
+										<li>Twitter Bootstrap</li>
+										<li>REST</li>
+										<li>Auth0</li>
+									</ul>
 								</p>
 							</div>
 						</div>
