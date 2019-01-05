@@ -17220,7 +17220,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ 10:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -17245,5 +17245,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
