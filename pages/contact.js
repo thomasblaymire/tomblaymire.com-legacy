@@ -13,13 +13,14 @@ const ContactWrapper = styled.div`
 const Contact = () => {
 	return (
 		<div>
-			<PageHero image={contactPortfolio} pageName="Contact" description="Get In Touch">
+			<PageHero image={contactPortfolio} pageName="Contact" description="Please get in touch using the form below.">
 				<Header />
 			</PageHero>
 			<PageContent>
 				<div className="container">
 					<ContactWrapper>
-						<p>Blah blah blah contact me information, email button link.</p>
+						<p>If you have a project you’d like to discuss you can use the form to the right or:</p>
+						Email: support@tomblaymire.com
 						<Button primaryColor="#05af43" bgColor="#05af43" hoverBg={'#05da53'}>
 							Contact Me
 						</Button>

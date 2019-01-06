@@ -1,74 +1,27 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_0a5735af42686c2a38b2.js"
+  ],
   "pages": {
     "/_app": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/about": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/contact": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/index": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/portfolio-careers": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/portfolio-gpws": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/portfolio-hermes": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/portfolio-innovation": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/portfolio-pad": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/portfolio-skybet": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/portfolio": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
-    ],
-    "/services": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/portfolio": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/": [
-      "static/runtime/webpack-6530062b14e55a45eb85.js",
-      "static/chunks/commons.98b9ff8fc2710bebb07a.js",
-      "static/runtime/main-a4b1a1905a9384f570e8.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

@@ -39,7 +39,10 @@ const PortfolioHermes = () => {
 							<img src={parcelshopFinder} class="screenshot" alt="Product Analysis Login" />
 							<div class="content">
 								<h3 class="heading">Parcelshop Finder</h3>
-								<p class="description">Built with Angular JS, Java & Twitter Bootstrap the site also includes a</p>
+								<p class="description">
+									Built with Angular JS, Java & Twitter Bootstrap the site also includes a Google Maps parcelshop
+									finder, editable pages via an integrated CRM.
+								</p>
 							</div>
 						</div>
 						<div class="row">
@@ -50,11 +53,14 @@ const PortfolioHermes = () => {
 									<ul>
 										<li>React & Redux</li>
 										<li>Jest & Enzyme</li>
-										<li>SCSS</li>
-										<li>Twitter Bootstrap</li>
+										<li>SCSS (Twitter Bootstrap)</li>
 										<li>REST</li>
 										<li>Auth0</li>
+										<li>Google Analytics & VWO</li>
 									</ul>
+								</p>
+								<p class="description">
+									<a href="https://www.myhermes.co.uk/">Live URL</a>
 								</p>
 							</div>
 						</div>

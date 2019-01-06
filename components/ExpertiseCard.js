@@ -30,7 +30,7 @@ const Block = styled.div`
 	.icon {
 		fill: #3eaca8;
 		&:hover {
-			transition: all .2s ease-in-out;
+			transition: all 0.2s ease-in-out;
 			fill: ${props => props.theme.black};
 		}
 	}

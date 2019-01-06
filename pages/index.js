@@ -7,7 +7,7 @@ import ExpertiseCard from '../components/ExpertiseCard';
 import SocialLinks from '../components/SocialLinks';
 import FullWidthCta from '../components/FullWidthCta';
 import locationImage from '../static/man-phone.jpg';
-import rocket from '../static/rocket.svg';
+import rocket from '../static/test_animated.svg';
 import keyboard from '../static/keyboard.svg';
 import laptop from '../static/laptop.svg';
 
@@ -32,10 +32,9 @@ const Location = styled.div`
 const LocationContent = styled.div`
 	width: 50%;
 	padding-top: 35px;
-	padding-right: 6%;
 	padding-bottom: 35px;
-	padding-left: 6%;
 	color: ${props => props.theme.grey};
+
 	p {
 		margin: 0 0 20px;
 	}
@@ -78,7 +77,7 @@ const Home = () => {
 						<ExpertiseRow>
 							<ExpertiseCard
 								title="Web Development"
-								description="I work with various different front end technologies including HTML5, CSS3, React and Redux to to ensure the end product is fast and easy to use."
+								description="I work with various different front end technologies including HTML5, JavaScript, React and Redux to to ensure the end product is fast and easy to use."
 								icon={keyboard}
 							/>
 
