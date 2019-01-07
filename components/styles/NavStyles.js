@@ -6,6 +6,7 @@ const NavStyles = styled.ul`
 	display: flex;
 	justify-content: flex-end;
 	font-size: 2rem;
+
 	a,
 	button {
 		display: flex;
@@ -25,25 +26,6 @@ const NavStyles = styled.ul`
 			color: #3eaca8;
 		}
 	}
-
-	.hamburger {
-		display: none;
-		align-self: flex-end;
-		display: initial;
-		position: absolute;
-		cursor: pointer;
-		svg {
-			width: 50px;
-		}
-	}
-
-	/* @media only screen and (max-width: 768px) {
-		flex-direction: column;
-
-		a {
-			display:none;
-		}
-	} */
 `;
 
 export default NavStyles;
