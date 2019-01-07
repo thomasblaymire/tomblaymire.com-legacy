@@ -40,7 +40,7 @@ const LocationContent = styled.div`
 	}
 `;
 const LocationImage = styled.div`
-	width: 50%;
+	width: 100%;
 	background-image: url(${locationImage});
 	background-attachment: fixed;
 	background-size: cover;
@@ -96,16 +96,18 @@ const Home = () => {
 					</div>
 				</Expertise>
 				<Location>
-					<LocationContent>
-						<h2 className="heading">I live and work in Leeds UK.</h2>
-						<p>
-							I specialize in helping small businesses succeed online. With over 6 years experience working for some of
-							the largest companies in the UK I have a breadth of knowledge around Web Design & Development.
-						</p>
-						<p>I also post regular helpful articles around startups, web design and user experience.</p>
-					</LocationContent>
+					<div class="container flex-container">
+						<LocationContent>
+							<h2 className="heading">I live and work in Leeds UK.</h2>
+							<p>
+								I specialize in helping small businesses succeed online. With over 6 years experience working for some
+								of the largest companies in the UK I have a breadth of knowledge around Web Design & Development.
+							</p>
+							<p>I also post regular helpful articles around startups, web design and user experience.</p>
+						</LocationContent>
 
-					<LocationImage />
+						<LocationImage />
+					</div>
 				</Location>
 				<FullWidthCta text="Hire me for your next project" />
 				<RecentProjects>

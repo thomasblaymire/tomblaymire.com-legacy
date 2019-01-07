@@ -473,11 +473,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].div.withConfig({
   displayName: "Nav__NavStyles",
   componentId: "hwzlet-0"
-})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;.show{opacity:1;visibility:visible;transition:.2s;position:absolute;left:0;background:#100e17;z-index:1;display:grid;width:100%;height:calc(100vh);height:100%;}"]);
+})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;.show{opacity:1;visibility:visible;transition:0.2s;position:fixed;left:0;top:0;background:#100e17f2;z-index:1;display:grid;width:100%;height:calc(100vh);height:100%;}.close-button{border:none;background:0 0;display:none;cursor:pointer;position:absolute;top:0;right:0;svg{width:50px;height:50px;}}"]);
 var NavList = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].ul.withConfig({
   displayName: "Nav__NavList",
   componentId: "hwzlet-1"
-})(["display:flex;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}}"], function (props) {
+})(["display:flex;align-items:center;justify-content:center;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}@media (max-width:950px){display:none;}}"], function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
   return props.theme.white;
@@ -485,11 +485,7 @@ var NavList = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].ul.withC
 var HamburgerIcon = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].button.withConfig({
   displayName: "Nav__HamburgerIcon",
   componentId: "hwzlet-2"
-})(["border:none;background:0 0;display:none;cursor:pointer;@media(max-width:950px){display:block;}svg{width:50px;height:50px;}"]);
-var CloseButton = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].button.withConfig({
-  displayName: "Nav__CloseButton",
-  componentId: "hwzlet-3"
-})(["border:none;background:0 0;display:none;cursor:pointer;svg{width:50px;height:50px;}"]);
+})(["border:none;background:0 0;display:none;cursor:pointer;outline:none;@media (max-width:950px){display:block;}svg{width:50px;height:50px;}"]);
 
 var Nav =
 /*#__PURE__*/
@@ -528,80 +524,80 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavStyles, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 104
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: this.state.mobileNav ? 'show' : 'haha',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 105
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavList, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 106
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 107
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 108
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "https://medium.com/@thomas_blaymire",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 110
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 111
         },
         __self: this
       }, "Blog")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/portfolio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 113
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 114
         },
         __self: this
       }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 116
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 117
         },
         __self: this
-      }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HamburgerIcon, {
+      }, "Contact")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HamburgerIcon, {
         onClick: this.toggleNavigationHandler,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 120
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -609,13 +605,14 @@ function (_Component) {
         alt: "Open Navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 121
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(CloseButton, {
+      }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+        className: "close-button",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 125
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -623,7 +620,7 @@ function (_Component) {
         alt: "Close Navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 126
         },
         __self: this
       }))));
@@ -1092,7 +1089,7 @@ __webpack_require__.r(__webpack_exports__);
 var PageStyles = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "PageStyles",
   componentId: "sc-1dspmwg-0"
-})(["height:auto;min-height:100vh;.heading{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;color:", ";font-size:4.2rem;margin:0;}.sub-heading{font-family:", ";font-size:2rem;color:#474747;margin:0;line-height:3rem;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding:0px 15px;}"], function (props) {
+})(["height:auto;min-height:100vh;.heading{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;color:", ";font-size:4.2rem;margin:0;}.sub-heading{font-family:", ";font-size:2rem;color:#474747;margin:0;line-height:3rem;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding:0px 15px;}.flex-container{display:flex;}"], function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
   return props.theme.greyDark;
@@ -16914,7 +16911,7 @@ var LocationContent = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].
 var LocationImage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "pages__LocationImage",
   componentId: "sc-1lwpsg5-4"
-})(["width:50%;background-image:url(", ");background-attachment:fixed;background-size:cover;height:100%;"], _static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_9___default.a);
+})(["width:100%;background-image:url(", ");background-attachment:fixed;background-size:cover;height:100%;"], _static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_9___default.a);
 var RecentProjects = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "pages__RecentProjects",
   componentId: "sc-1lwpsg5-5"
@@ -17008,88 +17005,95 @@ var Home = function Home() {
       lineNumber: 98
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LocationContent, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "container flex-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 99
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LocationContent, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 101
     },
     __self: this
   }, "I live and work in Leeds UK."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 102
     },
     __self: this
   }, "I specialize in helping small businesses succeed online. With over 6 years experience working for some of the largest companies in the UK I have a breadth of knowledge around Web Design & Development."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 106
     },
     __self: this
   }, "I also post regular helpful articles around startups, web design and user experience.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LocationImage, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 109
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FullWidthCta__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FullWidthCta__WEBPACK_IMPORTED_MODULE_8__["default"], {
     text: "Hire me for your next project",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 112
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentProjects, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 115
     },
     __self: this
   }, "Recent projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "sub-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 116
     },
     __self: this
   }, "I have worked across various exiting projects each with different requirements and deadlines. Some of my highlights are listed below."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 120
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Portfolio_PortfolioList__WEBPACK_IMPORTED_MODULE_5__["default"], {
     amount: 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 121
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SocialLinks__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 125
     },
     __self: this
   })));

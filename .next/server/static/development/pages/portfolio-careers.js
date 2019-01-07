@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -372,11 +372,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div.withConfig({
   displayName: "Nav__NavStyles",
   componentId: "hwzlet-0"
-})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;.show{opacity:1;visibility:visible;transition:.2s;position:absolute;left:0;background:#100e17;z-index:1;display:grid;width:100%;height:calc(100vh);height:100%;}"]);
+})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;.show{opacity:1;visibility:visible;transition:0.2s;position:fixed;left:0;top:0;background:#100e17f2;z-index:1;display:grid;width:100%;height:calc(100vh);height:100%;}.close-button{border:none;background:0 0;display:none;cursor:pointer;position:absolute;top:0;right:0;svg{width:50px;height:50px;}}"]);
 var NavList = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.ul.withConfig({
   displayName: "Nav__NavList",
   componentId: "hwzlet-1"
-})(["display:flex;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}}"], function (props) {
+})(["display:flex;align-items:center;justify-content:center;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}@media (max-width:950px){display:none;}}"], function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
   return props.theme.white;
@@ -384,11 +384,7 @@ var NavList = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.ul.withCo
 var HamburgerIcon = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.button.withConfig({
   displayName: "Nav__HamburgerIcon",
   componentId: "hwzlet-2"
-})(["border:none;background:0 0;display:none;cursor:pointer;@media(max-width:950px){display:block;}svg{width:50px;height:50px;}"]);
-var CloseButton = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.button.withConfig({
-  displayName: "Nav__CloseButton",
-  componentId: "hwzlet-3"
-})(["border:none;background:0 0;display:none;cursor:pointer;svg{width:50px;height:50px;}"]);
+})(["border:none;background:0 0;display:none;cursor:pointer;outline:none;@media (max-width:950px){display:block;}svg{width:50px;height:50px;}"]);
 
 var Nav =
 /*#__PURE__*/
@@ -427,80 +423,80 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavStyles, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 104
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: this.state.mobileNav ? 'show' : 'haha',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 105
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavList, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 106
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 107
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 108
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "https://medium.com/@thomas_blaymire",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 110
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 111
         },
         __self: this
       }, "Blog")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/portfolio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 113
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 114
         },
         __self: this
       }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 116
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 117
         },
         __self: this
-      }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HamburgerIcon, {
+      }, "Contact")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HamburgerIcon, {
         onClick: this.toggleNavigationHandler,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 120
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -508,13 +504,14 @@ function (_Component) {
         alt: "Open Navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 121
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(CloseButton, {
+      }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+        className: "close-button",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 125
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -522,7 +519,7 @@ function (_Component) {
         alt: "Close Navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 126
         },
         __self: this
       }))));
@@ -629,7 +626,7 @@ __webpack_require__.r(__webpack_exports__);
 var PageStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "PageStyles",
   componentId: "sc-1dspmwg-0"
-})(["height:auto;min-height:100vh;.heading{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;color:", ";font-size:4.2rem;margin:0;}.sub-heading{font-family:", ";font-size:2rem;color:#474747;margin:0;line-height:3rem;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding:0px 15px;}"], function (props) {
+})(["height:auto;min-height:100vh;.heading{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;color:", ";font-size:4.2rem;margin:0;}.sub-heading{font-family:", ";font-size:2rem;color:#474747;margin:0;line-height:3rem;}.container{max-width:1170px;margin-right:auto;margin-left:auto;padding:0px 15px;}.flex-container{display:flex;}"], function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
   return props.theme.greyDark;
@@ -662,10 +659,10 @@ var PortfolioStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.d
 
 /***/ }),
 
-/***/ "./pages/portfolio-pad.js":
-/*!********************************!*\
-  !*** ./pages/portfolio-pad.js ***!
-  \********************************/
+/***/ "./pages/portfolio-careers.js":
+/*!************************************!*\
+  !*** ./pages/portfolio-careers.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -680,13 +677,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/styles/PageStyles */ "./components/styles/PageStyles.js");
 /* harmony import */ var _static_about_hero_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/about-hero.jpg */ "./static/about-hero.jpg");
 /* harmony import */ var _static_about_hero_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_about_hero_jpg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _static_port_pad_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/port-pad.jpg */ "./static/port-pad.jpg");
-/* harmony import */ var _static_port_pad_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_port_pad_jpg__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _static_pad_stats_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../static/pad-stats.png */ "./static/pad-stats.png");
-/* harmony import */ var _static_pad_stats_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_pad_stats_png__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _static_pad_login_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../static/pad-login.jpg */ "./static/pad-login.jpg");
-/* harmony import */ var _static_pad_login_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_static_pad_login_jpg__WEBPACK_IMPORTED_MODULE_9__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/pages/portfolio-pad.js";
+/* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/port-careers.jpg */ "./static/port-careers.jpg");
+/* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _static_careers_map_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../static/careers-map.png */ "./static/careers-map.png");
+/* harmony import */ var _static_careers_map_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_careers_map_png__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _static_careers_performance_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../static/careers-performance.png */ "./static/careers-performance.png");
+/* harmony import */ var _static_careers_performance_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_static_careers_performance_png__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _static_Careers_About_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../static/Careers-About.jpg */ "./static/Careers-About.jpg");
+/* harmony import */ var _static_Careers_About_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_static_Careers_About_jpg__WEBPACK_IMPORTED_MODULE_10__);
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/pages/portfolio-careers.js";
 
 
 
@@ -698,252 +697,287 @@ var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/pag
 
 
 
-var PortfolioPad = function PortfolioPad() {
+
+var PortfolioCareers = function PortfolioCareers() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PageHero__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    image: _static_about_hero_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
-    pageName: "Product Analysis Dashbaord",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PageHero__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    image: _static_about_hero_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
+    pageName: "Hermes Careers",
+    description: "A new recruitment site to increase business awareness and job applicants. ",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styles_PortfolioStyles__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _static_port_pad_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+    src: _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
     class: "screenshot",
-    alt: "Product Analysis Homepage",
+    alt: "Screenshot 1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     class: "heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 28
     },
     __self: this
   }, "Project Requirements"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     class: "description",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 29
     },
     __self: this
-  }, "Hermes Depot managers required a bespoke dashboard for the upcoming Christmas perioud so they could easily see and analyse the volume of parcels expected within the network throughout the day."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Hermes required a new careers website to give potential candidates insight into the business along with the ability for them to easily track and apply for new opportunites online."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "description",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 33
     },
     __self: this
-  }, "Having a clear user interface with responsive live updating graphs was essential, the graphs also needed to be responsive out of the box as managers used various different devices from iPads to Samsung mobiles."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "The website required a strong SEO presence, fully featured blog and responsive design."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _static_pad_login_jpg__WEBPACK_IMPORTED_MODULE_9___default.a,
-    class: "screenshot",
-    alt: "Product Analysis Login",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    class: "heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, "Dashboard Features"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "description",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _static_careers_map_png__WEBPACK_IMPORTED_MODULE_8___default.a,
+    class: "screenshot",
+    alt: "Screenshot 1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Authentication (via user ID & depot)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Real Time Updates"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "Responsive"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "Performant in low network areas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "Visually appealing in low light situations"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _static_pad_stats_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-    class: "screenshot",
-    alt: "Product Analysis Technology",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     class: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     class: "heading",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "Locations Map"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "A primary requirement of the app was to include an interactive map so that applicants can easily find new roles via thier location."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "The map was built with Google Maps API along with a Node.JS backend to provide accurate location descriptions."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _static_Careers_About_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
+    class: "screenshot",
+    alt: "Screenshot 1",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
-  }, "Technology Stack "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "description",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    class: "heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Technology Stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
     },
     __self: this
-  }, "React & Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, "Jest & Enzyme"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, "SCSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "The website was built via various different components on the front end following strict design and accessibility guidelines.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }, "Twitter Bootstrap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, "REST"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Angular 2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 61
     },
     __self: this
-  }, "Auth0"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 62
+    },
+    __self: this
+  }, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, "Google Maps API"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "SCSS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "Jasmine"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _static_careers_performance_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    class: "screenshot",
+    alt: "Screenshot 1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    class: "heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "Performance & Accessibility"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, "Prior to the project start I created a performance budget with the idea to limit the ammount of resources loaded on the page, the budget was met and achieved a final performance score of B+."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://careers.hermes-europe.co.uk/#/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "Live URL")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
     },
     __self: this
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (PortfolioPad);
+/* harmony default export */ __webpack_exports__["default"] = (PortfolioCareers);
+
+/***/ }),
+
+/***/ "./static/Careers-About.jpg":
+/*!**********************************!*\
+  !*** ./static/Careers-About.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Careers-About-cc814436f863e80a44f377450d435dd0.jpg";
 
 /***/ }),
 
@@ -955,6 +989,28 @@ var PortfolioPad = function PortfolioPad() {
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/about-hero-6467717d262a2674f7031b37438f9f79.jpg";
+
+/***/ }),
+
+/***/ "./static/careers-map.png":
+/*!********************************!*\
+  !*** ./static/careers-map.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/careers-map-ac830cab3d26d41c9a7d99e19317804d.png";
+
+/***/ }),
+
+/***/ "./static/careers-performance.png":
+/*!****************************************!*\
+  !*** ./static/careers-performance.png ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/careers-performance-a7c4d97be8a5ee6af686bd5f9d64af96.png";
 
 /***/ }),
 
@@ -1013,36 +1069,14 @@ module.exports = "/_next/static/images/logo-db385bfb85d6b3e1d78473cc8831d3ef.png
 
 /***/ }),
 
-/***/ "./static/pad-login.jpg":
-/*!******************************!*\
-  !*** ./static/pad-login.jpg ***!
-  \******************************/
+/***/ "./static/port-careers.jpg":
+/*!*********************************!*\
+  !*** ./static/port-careers.jpg ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/pad-login-822e8cd0e2252c17ca225e4dc8d70a8d.jpg";
-
-/***/ }),
-
-/***/ "./static/pad-stats.png":
-/*!******************************!*\
-  !*** ./static/pad-stats.png ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/pad-stats-1114ce62ec82809f7330d64936cabd79.png";
-
-/***/ }),
-
-/***/ "./static/port-pad.jpg":
-/*!*****************************!*\
-  !*** ./static/port-pad.jpg ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/port-pad-ac7ec497bf51a42dafef5afa98fe50fc.jpg";
+module.exports = "/_next/static/images/port-careers-4ef76766d14c0b0a705899f757ac22a7.jpg";
 
 /***/ }),
 
@@ -1057,14 +1091,14 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ 7:
-/*!**************************************!*\
-  !*** multi ./pages/portfolio-pad.js ***!
-  \**************************************/
+/***/ 8:
+/*!******************************************!*\
+  !*** multi ./pages/portfolio-careers.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/portfolio-pad.js */"./pages/portfolio-pad.js");
+module.exports = __webpack_require__(/*! ./pages/portfolio-careers.js */"./pages/portfolio-careers.js");
 
 
 /***/ }),
@@ -1114,4 +1148,4 @@ module.exports = require("styled-components");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=portfolio-pad.js.map
+//# sourceMappingURL=portfolio-careers.js.map

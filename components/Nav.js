@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import SVG from 'react-inlinesvg';
 import hamburgerIcon from '../static/hamburger.svg';
 import closeIcon from '../static/close.svg';
@@ -14,21 +14,40 @@ const NavStyles = styled.div`
 
 	.show {
 		opacity: 1;
-   		visibility: visible;
-		transition: .2s;
-		position: absolute;
+		visibility: visible;
+		transition: 0.2s;
+		position: fixed;
 		left: 0;
-		background: #100e17;
+		top: 0;
+		background: #100e17f2;
 		z-index: 1;
 		display: grid;
 		width: 100%;
 		height: calc(100vh);
 		height: 100%;
 	}
+
+	.close-button {
+		border: none;
+		background: 0 0;
+		display: none;
+		cursor: pointer;
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		svg {
+			width: 50px;
+			height: 50px;
+		}
+	}
 `;
 
 const NavList = styled.ul`
 	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	a,
 	button {
 		display: flex;
@@ -47,6 +66,10 @@ const NavList = styled.ul`
 		&:hover {
 			color: #3eaca8;
 		}
+
+		@media (max-width: 950px) {
+			display: none;
+		}
 	}
 `;
 
@@ -55,8 +78,9 @@ const HamburgerIcon = styled.button`
 	background: 0 0;
 	display: none;
 	cursor: pointer;
+	outline: none;
 
-	@media(max-width: 950px) {
+	@media (max-width: 950px) {
 		display: block;
 	}
 
@@ -66,26 +90,14 @@ const HamburgerIcon = styled.button`
 	}
 `;
 
-const CloseButton = styled.button`
-	border: none;
-	background: 0 0;
-	display: none;
-	cursor: pointer;
-	svg {
-		width: 50px;
-		height: 50px;
-	}
-`;
-
 class Nav extends Component {
-
 	state = {
-		mobileNav: false
-	}
+		mobileNav: false,
+	};
 
 	toggleNavigationHandler = () => {
 		this.setState({ mobileNav: !this.state.mobileNav });
-	}
+	};
 
 	render() {
 		return (
@@ -104,15 +116,15 @@ class Nav extends Component {
 						<Link href="/contact">
 							<a>Contact</a>
 						</Link>
+
+						<HamburgerIcon onClick={this.toggleNavigationHandler}>
+							<SVG src={hamburgerIcon} alt="Open Navigation" />
+						</HamburgerIcon>
 					</NavList>
 
-					<HamburgerIcon onClick={this.toggleNavigationHandler}>
-						<SVG src={hamburgerIcon} alt="Open Navigation" />
-					</HamburgerIcon>
-
-					<CloseButton>
+					<button className="close-button">
 						<SVG src={closeIcon} alt="Close Navigation" />
-					</CloseButton>
+					</button>
 				</div>
 			</NavStyles>
 		);

@@ -1,5 +1,7 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_0a5735af42686c2a38b2.js"
+  ],
   "pages": {
     "/_app": [
       "static/runtime/webpack.js",
@@ -13,7 +15,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/portfolio-pad": [
+    "/portfolio-careers": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/portfolio": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
