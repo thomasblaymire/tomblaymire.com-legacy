@@ -22,7 +22,7 @@ const PortfolioGpws = () => {
 								<h3 class="heading">Sales Website</h3>
 								<p class="description">
 									I was heavily involved with the creation of the main sales webste with the primary goal to increase
-									sales and allow for customers to easily get in touch for business enquiries and support queries.{' '}
+									sales and allow for customers to easily get in touch for enquiries and support queries.{' '}
 								</p>
 							</div>
 						</div>
@@ -35,7 +35,7 @@ const PortfolioGpws = () => {
 									book appointments online via their local practice website.
 								</p>
 								<p class="description">
-									Websites were built with accessibility as a first priority and adheared to WCAG 2.0 guidelines.
+									Websites were built with accessibility as a first priority due to patients with various disabilities and adhered to WCAG 2.0 guidelines.
 								</p>
 								<ul>
 									<li>Angular JS</li>

@@ -14,7 +14,7 @@ const PortfolioHermes = () => {
 			<PageHero
 				image={aboutHero}
 				pageName="Hermes"
-				description="The primary website used to track, send and return parcels. "
+				description="The primary e-commerce website used to track, send and return parcels. "
 			>
 				<Header />
 			</PageHero>
@@ -26,7 +26,7 @@ const PortfolioHermes = () => {
 							<div class="content">
 								<h3 class="heading">E-commerce Platform</h3>
 								<p class="description">
-									The Hermes website was used by millions of customers every month to track, send and return thier
+									The Hermes website was used by hundreds of thousands customers every month to track, send and return thier
 									parcels.
 								</p>
 								<p className="description">

@@ -15,7 +15,7 @@ const PortfolioCareers = () => {
 			<PageHero
 				image={portfolioHero}
 				pageName="Hermes Careers"
-				description="A new recruitment site to increase business awareness and job applications. "
+				description="A new recruitment site to increase business awareness and job applicants. "
 			>
 				<Header />
 			</PageHero>
@@ -27,8 +27,8 @@ const PortfolioCareers = () => {
 							<div class="content">
 								<h3 class="heading">Project Requirements</h3>
 								<p class="description">
-									Hermes required a new careers website to give potential candidates an insight into the business along
-									with the ability for them to easily track and apply for opportunites online.
+									Hermes required a new careers website to give potential candidates insight into the business along
+									with the ability for them to easily track and apply for new opportunites online.
 								</p>
 								<p className="description">
 									The website required a strong SEO presence, fully featured blog and responsive design.
@@ -72,8 +72,8 @@ const PortfolioCareers = () => {
 							<div class="content">
 								<h3 class="heading">Performance & Accessibility</h3>
 								<p class="description">
-									Prior to the project I created a performance budget with the idea to limit the ammount of resources
-									loaded on the page. Final performance score was B+.
+									Prior to the project start I created a performance budget with the idea to limit the ammount of resources
+									loaded on the page, the budget was met and achieved a final performance score of B+.
 								</p>
 								<p class="description">
 									<a href="http://careers.hermes-europe.co.uk/#/">Live URL</a>
