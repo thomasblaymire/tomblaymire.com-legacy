@@ -575,19 +575,23 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.div.withConfig({
   displayName: "Nav__NavStyles",
   componentId: "hwzlet-0"
-})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;.show{opacity:1;visibility:visible;transition:.2s;position:absolute;left:0;background:#100e17;z-index:1;display:grid;width:100%;height:100%;}"]);
+})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;.show{opacity:1;visibility:visible;transition:.2s;position:absolute;left:0;background:#100e17;z-index:1;display:grid;width:100%;height:calc(100vh);height:100%;}"]);
 var NavList = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.ul.withConfig({
   displayName: "Nav__NavList",
   componentId: "hwzlet-1"
-})(["a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}}"], function (props) {
+})(["display:flex;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}}"], function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
   return props.theme.white;
 });
-var MobileNavButton = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.button.withConfig({
-  displayName: "Nav__MobileNavButton",
+var HamburgerIcon = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.button.withConfig({
+  displayName: "Nav__HamburgerIcon",
   componentId: "hwzlet-2"
-})(["background:0 0;border:0;display:none;align-self:flex-end;display:initial;position:absolute;cursor:pointer;@media(min-width:900px){display:block;}svg{width:50px;}"]);
+})(["border:none;background:0 0;cursor:pointer;svg{width:50px;height:50px;}"]);
+var CloseButton = styled_components__WEBPACK_IMPORTED_MODULE_5___default.a.button.withConfig({
+  displayName: "Nav__CloseButton",
+  componentId: "hwzlet-3"
+})(["border:none;background:0 0;cursor:pointer;svg{width:50px;height:50px;}"]);
 
 var Nav =
 /*#__PURE__*/
@@ -612,10 +616,8 @@ function (_Component) {
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "toggleNavigationHandler", function () {
-      console.log('Toggle Navigation Hit');
-
       _this.setState({
-        mobileNav: !mobileNav
+        mobileNav: !_this.state.mobileNav
       });
     });
 
@@ -626,60 +628,53 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavStyles, {
-        className: this.state.mobileNav ? 'show' : '',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 85
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: this.state.mobileNav ? 'show' : 'haha',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavList, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 87
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 88
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 89
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "https://medium.com/@thomas_blaymire",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 91
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 92
         },
         __self: this
       }, "Blog")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/portfolio",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 92
-        },
-        __self: this
-      }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
-        href: "/contact",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 94
@@ -691,18 +686,24 @@ function (_Component) {
           lineNumber: 95
         },
         __self: this
-      }, "Contact")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MobileNavButton, {
-        onClick: this.toggleNavigationHandler,
+      }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
+        href: "/contact",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 98
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "hamburger",
+      }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HamburgerIcon, {
+        onClick: this.toggleNavigationHandler,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 102
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -710,18 +711,24 @@ function (_Component) {
         alt: "Open Navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 103
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(CloseButton, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
         src: _static_close_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
         alt: "Close Navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 107
         },
         __self: this
-      })))));
+      }))));
     }
   }]);
 

@@ -22,12 +22,13 @@ const NavStyles = styled.div`
 		z-index: 1;
 		display: grid;
 		width: 100%;
-		/* height: calc(100vh - var(--nav-height)); */
+		height: calc(100vh);
 		height: 100%;
 	}
 `;
 
 const NavList = styled.ul`
+	display: flex;
 	a,
 	button {
 		display: flex;
@@ -49,21 +50,23 @@ const NavList = styled.ul`
 	}
 `;
 
-const MobileNavButton = styled.button`
-    background: 0 0;
-    border: 0;
-	display: none;
-	align-self: flex-end;
-	display: initial;
-	position: absolute;
+const HamburgerIcon = styled.button`
+	border: none;
+	background: 0 0;
 	cursor: pointer;
-
-	@media(min-width: 900px) {
-		display: block;
-	}
-
 	svg {
 		width: 50px;
+		height: 50px;
+	}
+`;
+
+const CloseButton = styled.button`
+	border: none;
+	background: 0 0;
+	cursor: pointer;
+	svg {
+		width: 50px;
+		height: 50px;
 	}
 `;
 
@@ -74,34 +77,36 @@ class Nav extends Component {
 	}
 
 	toggleNavigationHandler = () => {
-		console.log('Toggle Navigation Hit');
-		this.setState({ mobileNav: !mobileNav });
+		this.setState({ mobileNav: !this.state.mobileNav });
 	}
 
 	render() {
 		return (
-			<NavStyles className={this.state.mobileNav ? 'show' : ''}>
-				<NavList>
-					<Link href="/about">
-						<a>About</a>
-					</Link>
-					<Link href="https://medium.com/@thomas_blaymire">
-						<a target="_blank">Blog</a>
-					</Link>
-					<Link href="/portfolio">
-						<a>Portfolio</a>
-					</Link>
-					<Link href="/contact">
-						<a>Contact</a>
-					</Link>
+			<NavStyles>
+				<div className={this.state.mobileNav ? 'show' : 'haha'}>
+					<NavList>
+						<Link href="/about">
+							<a>About</a>
+						</Link>
+						<Link href="https://medium.com/@thomas_blaymire">
+							<a target="_blank">Blog</a>
+						</Link>
+						<Link href="/portfolio">
+							<a>Portfolio</a>
+						</Link>
+						<Link href="/contact">
+							<a>Contact</a>
+						</Link>
+					</NavList>
 
-					<MobileNavButton onClick={this.toggleNavigationHandler}>
-						<div className="hamburger">
-							<SVG src={hamburgerIcon} alt="Open Navigation" />
-							<SVG src={closeIcon} alt="Close Navigation" />
-						</div>
-					</MobileNavButton>
-				</NavList>
+					<HamburgerIcon onClick={this.toggleNavigationHandler}>
+						<SVG src={hamburgerIcon} alt="Open Navigation" />
+					</HamburgerIcon>
+
+					<CloseButton>
+						<SVG src={closeIcon} alt="Close Navigation" />
+					</CloseButton>
+				</div>
 			</NavStyles>
 		);
 	}
