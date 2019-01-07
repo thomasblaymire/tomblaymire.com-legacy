@@ -23,12 +23,14 @@
 - Server Rendered
 - Code Splitting
 
-## Future Plans
+## Future Plans / Needed Features
 
-- Image Optimisation (Bundle Size)
+- Sitemap.xml
+- SEO Improvements
+- Image Optimization (Bundle Size)
 - Integrate Prismic (Blog & Post Management)
 - Logging (Sentry)
-- Unit Testing
+- Unit Testing Continued...
 
 ## How To Use
 
@@ -36,7 +38,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/thomasblaymire/react-spotify-clone.git
+$ git clone https://github.com/thomasblaymire/tomblaymire.com
 
 # Go into the clientrepository
 $ cd tomblaymire.com
