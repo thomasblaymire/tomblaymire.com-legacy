@@ -53,7 +53,13 @@ const NavList = styled.ul`
 const HamburgerIcon = styled.button`
 	border: none;
 	background: 0 0;
+	display: none;
 	cursor: pointer;
+
+	@media(max-width: 950px) {
+		display: block;
+	}
+
 	svg {
 		width: 50px;
 		height: 50px;
@@ -63,6 +69,7 @@ const HamburgerIcon = styled.button`
 const CloseButton = styled.button`
 	border: none;
 	background: 0 0;
+	display: none;
 	cursor: pointer;
 	svg {
 		width: 50px;
