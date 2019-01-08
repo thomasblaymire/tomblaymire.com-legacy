@@ -22,12 +22,12 @@ const HeroBlock = styled.div`
 	width: 60%;
 
 	.intro {
-		font-size: 5.5rem;
+		/* font-size: 5.5rem; */
+		font-size: 6vmin;
 		margin: 0;
 	}
 
 	.description {
-		font-size: 2.5rem;
 		line-height: 38px;
 		font-weight: 300;
 	}

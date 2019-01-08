@@ -15,11 +15,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/portfolio-careers": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/portfolio": [
+    "/portfolio-pad": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

@@ -6,14 +6,13 @@ const PortfolioStyles = styled.div`
 	font-size: 2rem;
 
 	.row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    	grid-gap: 20px;
 		margin-bottom: 8rem;
 	}
 
 	.screenshot {
-		width: 50%;
 		max-width: 100%;
 	}
 
@@ -28,8 +27,11 @@ const PortfolioStyles = styled.div`
 	}
 
 	.content {
-		padding: 0rem 5rem;
-		width: 50%;
+		padding: 0;
+
+		@media(min-width: 950px) {
+			padding: 0rem 0rem 0rem 5rem;
+		}
 
 		.description {
 			color: black;

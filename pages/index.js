@@ -96,7 +96,7 @@ const Home = () => {
 					</div>
 				</Expertise>
 				<Location>
-					<div class="container flex-container">
+					<div className="container flex-container">
 						<LocationContent>
 							<h2 className="heading">I live and work in Leeds UK.</h2>
 							<p>
