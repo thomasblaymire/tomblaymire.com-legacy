@@ -28,10 +28,6 @@ const PageStyles = styled.div`
 		margin-left: auto;
 		padding: 0px 15px;
 	}
-
-	.flex-container {
-		display: flex;
-	}
 `;
 
 export default PageStyles;

@@ -9,8 +9,7 @@ const HeroContainer = styled.div`
 
 const HeroBlock = styled.div`
 	color: ${props => props.theme.white};
-	position: absolute;
-	top: 29%;
+	margin-top: 4rem;
 	width: 54%;
 
 	.intro {

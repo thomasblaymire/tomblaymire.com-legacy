@@ -6,6 +6,7 @@ import PortfolioList from '../components/Portfolio/PortfolioList';
 import ExpertiseCard from '../components/ExpertiseCard';
 import SocialLinks from '../components/SocialLinks';
 import FullWidthCta from '../components/FullWidthCta';
+import Button from '../components/Button';
 import locationImage from '../static/man-phone.jpg';
 import rocket from '../static/test_animated.svg';
 import keyboard from '../static/keyboard.svg';
@@ -26,25 +27,40 @@ const ExpertiseRow = styled.div`
 const Location = styled.div`
 	height: 100vh;
 	display: flex;
+	align-items: center;
 	background-color: ${props => props.theme.seaGreen};
 `;
 
 const LocationContent = styled.div`
-	width: 50%;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	width: 100%;
 	color: ${props => props.theme.grey};
+
+	.location-content {
+		width: 60%;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.location-heading {
+		line-height: 1.4em;
+		margin-bottom: 4rem;
+		font-size: 4.7rem;
+		width: 80%;
+	}
 
 	p {
 		margin: 0 0 20px;
+		font-size: 1.8rem;
+		color: #474747;
+		font-family: Source Sans Pro;
 	}
 `;
 const LocationImage = styled.div`
 	width: 100%;
+	height: 100%;
 	background-image: url(${locationImage});
 	background-attachment: fixed;
 	background-size: cover;
-	height: 100%;
 `;
 
 const RecentProjects = styled.div`
@@ -96,18 +112,28 @@ const Home = () => {
 					</div>
 				</Expertise>
 				<Location>
-					<div className="container flex-container">
-						<LocationContent>
-							<h2 className="heading">I live and work in Leeds UK.</h2>
+					<LocationContent>
+						<div className="location-content">
+							<h2 className="heading location-heading">I live and work in Leeds UK!</h2>
 							<p>
 								I specialize in helping small businesses succeed online. With over 6 years experience working for some
 								of the largest companies in the UK I have a breadth of knowledge around Web Design & Development.
 							</p>
 							<p>I also post regular helpful articles around startups, web design and user experience.</p>
-						</LocationContent>
+							<Button
+								btnFontSize={'1.7rem'}
+								borderColor={'#05af43'}
+								primaryColor="#fff"
+								bgColor="#05af43"
+								hoverBg={'#05da53'}
+								borderRadius={'35px'}
+							>
+								Explore My Blog
+							</Button>
+						</div>
+					</LocationContent>
 
-						<LocationImage />
-					</div>
+					<LocationImage />
 				</Location>
 				<FullWidthCta text="Hire me for your next project" />
 				<RecentProjects>

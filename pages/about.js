@@ -14,16 +14,13 @@ const AboutIntro = styled.div`
 `;
 
 const AboutWrapper = styled.div`
-	display: flex;
-	padding: 5rem 0rem;
-	box-sizing: border-box;
-	flex-wrap: wrap;
-	-webkit-box-align: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	align-items: center;
+	margin-top: 2rem;
 `;
 
 const AboutInfo = styled.div`
-	width: 50%;
 	padding-right: 3rem;
 	p {
 		margin: 0 0 20px;
@@ -35,7 +32,6 @@ const AboutInfo = styled.div`
 `;
 
 const AboutImage = styled.div`
-	width: 50%;
 	img {
 		width: 550px;
 		box-sizing: border-box;

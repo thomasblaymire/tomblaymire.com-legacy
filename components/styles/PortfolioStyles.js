@@ -8,8 +8,9 @@ const PortfolioStyles = styled.div`
 	.row {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    	grid-gap: 20px;
+		grid-gap: 20px;
 		margin-bottom: 8rem;
+		align-items: center;
 	}
 
 	.screenshot {
@@ -29,7 +30,7 @@ const PortfolioStyles = styled.div`
 	.content {
 		padding: 0;
 
-		@media(min-width: 950px) {
+		@media (min-width: 950px) {
 			padding: 0rem 0rem 0rem 5rem;
 		}
 

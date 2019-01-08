@@ -18,16 +18,16 @@ const HeroContainer = styled.div`
 
 const HeroBlock = styled.div`
 	color: ${props => props.theme.white};
-	margin-top: 11rem;
+	margin-top: 3.5rem;
 	width: 60%;
 
 	.intro {
-		/* font-size: 5.5rem; */
-		font-size: 6vmin;
+		font-size: 7vmin;
 		margin: 0;
 	}
 
 	.description {
+		font-size: 3.5vmin;
 		line-height: 38px;
 		font-weight: 300;
 	}
