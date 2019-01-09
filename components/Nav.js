@@ -25,6 +25,11 @@ const NavStyles = styled.div`
 		width: 100%;
 		height: calc(100vh);
 		height: 100%;
+
+		> ul {
+			flex-direction: column;
+		}
+
 	}
 
 	.close-button {
@@ -32,7 +37,7 @@ const NavStyles = styled.div`
 		background: 0 0;
 		display: none;
 		cursor: pointer;
-		position: absolute;
+		position: relative;
 		top: 0;
 		right: 0;
 
@@ -117,14 +122,18 @@ class Nav extends Component {
 							<a>Contact</a>
 						</Link>
 
-						<HamburgerIcon onClick={this.toggleNavigationHandler}>
-							<SVG src={hamburgerIcon} alt="Open Navigation" />
-						</HamburgerIcon>
+						{!this.state.mobileNav && (
+							<HamburgerIcon onClick={this.toggleNavigationHandler}>
+								<SVG src={hamburgerIcon} alt="Open Navigation" />
+							</HamburgerIcon>
+						)}
 					</NavList>
 
-					<button className="close-button">
-						<SVG src={closeIcon} alt="Close Navigation" />
-					</button>
+					{this.state.mobileNav && (
+						<button className="close-button" onClick={this.toggleNavigationHandler}>
+							<SVG src={closeIcon} alt="Close Navigation" />
+						</button>
+					)}
 				</div>
 			</NavStyles>
 		);
