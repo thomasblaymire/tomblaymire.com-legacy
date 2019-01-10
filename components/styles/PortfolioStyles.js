@@ -15,6 +15,7 @@ const PortfolioStyles = styled.div`
 
 	.screenshot {
 		max-width: 100%;
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.08), 0 0 4px rgba(0, 0, 0, 0.05);
 	}
 
 	.heading {
