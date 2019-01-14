@@ -27,6 +27,16 @@ const PageStyles = styled.div`
 		margin-right: auto;
 		margin-left: auto;
 		padding: 0px 15px;
+
+		@media (min-width: 568px) {
+			width: auto;
+		}
+		@media (min-width: 992px) {
+			width: 970px;
+		}
+		@media (min-width: 1200px) {
+			width: 1170px;
+		}
 	}
 `;
 

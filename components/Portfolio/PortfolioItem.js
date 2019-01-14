@@ -5,8 +5,17 @@ const PortfolioBox = styled.div`
 	margin-top: 4rem;
 	.portfolio-image {
 		width: 100%;
-		height: auto;
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.08), 0 0 4px rgba(0, 0, 0, 0.05);
 		position: relative;
+		height: auto;
+
+		@media (min-width: 768px) {
+			height: 350px;
+		}
+
+		@media (min-width: 992px) {
+			height: 450px;
+		}
 
 		&:hover {
 			cursor: pointer;
@@ -44,7 +53,8 @@ const PortfolioMeta = styled.div`
 		margin-right: 1rem;
 		background: ${props => props.theme.greyLight};
 		border-radius: 5px;
-		padding: 0 10px;
+		padding: 0 1rem;
+		margin-bottom: 1rem;
 		cursor: initial;
 	}
 `;

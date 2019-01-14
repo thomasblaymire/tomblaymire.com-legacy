@@ -28,8 +28,9 @@ const NavStyles = styled.div`
 
 		> ul {
 			flex-direction: column;
+			opacity: none;
+			visibility: visible;
 		}
-
 	}
 
 	.close-button {
@@ -44,6 +45,22 @@ const NavStyles = styled.div`
 		svg {
 			width: 50px;
 			height: 50px;
+		}
+	}
+
+	.hamburger-button {
+		display: block;
+		border: none;
+		cursor: pointer;
+		outline: none;
+
+		svg {
+			width: 50px;
+			height: 50px;
+		}
+
+		@media (min-width: 950px) {
+			display: none;
 		}
 	}
 `;
@@ -71,27 +88,13 @@ const NavList = styled.ul`
 		&:hover {
 			color: #3eaca8;
 		}
+	}
 
+	a {
 		@media (max-width: 950px) {
-			display: none;
+			opacity: 0;
+			visibility: hidden;
 		}
-	}
-`;
-
-const HamburgerIcon = styled.button`
-	border: none;
-	background: 0 0;
-	display: none;
-	cursor: pointer;
-	outline: none;
-
-	@media (max-width: 950px) {
-		display: block;
-	}
-
-	svg {
-		width: 50px;
-		height: 50px;
 	}
 `;
 
@@ -107,7 +110,7 @@ class Nav extends Component {
 	render() {
 		return (
 			<NavStyles>
-				<div className={this.state.mobileNav ? 'show' : 'haha'}>
+				<div className={this.state.mobileNav && 'show'}>
 					<NavList>
 						<Link href="/about">
 							<a>About</a>
@@ -123,9 +126,9 @@ class Nav extends Component {
 						</Link>
 
 						{!this.state.mobileNav && (
-							<HamburgerIcon onClick={this.toggleNavigationHandler}>
+							<button className="hamburger-button" onClick={this.toggleNavigationHandler}>
 								<SVG src={hamburgerIcon} alt="Open Navigation" />
-							</HamburgerIcon>
+							</button>
 						)}
 					</NavList>
 

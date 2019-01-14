@@ -3,23 +3,19 @@ import Nav from './Nav';
 import Logo from './Logo';
 
 const StyledHeader = styled.header`
-	.bar {
-		width: 1170px;
-		display: flex;
-		-webkit-box-pack: justify;
-		justify-content: space-between;
-		-webkit-box-align: center;
-		align-items: center;
-		padding: 2rem 0rem;
-	}
+	max-width: 1170px;
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	align-items: center;
+	padding: 2rem 0rem;
 `;
 
 const Header = () => (
 	<StyledHeader>
-		<div className="bar">
-			<Logo />
-			<Nav />
-		</div>
+		<Logo />
+		<Nav />
 	</StyledHeader>
 );
 

@@ -1,11 +1,5 @@
 import styled from 'styled-components';
-
-const HeroContainer = styled.div`
-	width: 1170px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0px 15px;
-`;
+import PageStyles from './styles/PageStyles';
 
 const HeroBlock = styled.div`
 	color: ${props => props.theme.white};
@@ -37,13 +31,15 @@ const Hero = props => {
 
 	return (
 		<div style={style}>
-			<HeroContainer>
-				{props.children}
-				<HeroBlock>
-					<h2 className="intro">{pageName}</h2>
-					<div className="description">{description}</div>
-				</HeroBlock>
-			</HeroContainer>
+			<PageStyles>
+				<div className="container">
+					{props.children}
+					<HeroBlock>
+						<h2 className="intro">{pageName}</h2>
+						<div className="description">{description}</div>
+					</HeroBlock>
+				</div>
+			</PageStyles>
 		</div>
 	);
 };

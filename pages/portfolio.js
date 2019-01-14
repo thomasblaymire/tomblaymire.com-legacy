@@ -8,12 +8,20 @@ import PortfolioList from '../components/Portfolio/PortfolioList';
 import styled from 'styled-components';
 
 const PortfolioWrapper = styled.div`
-	margin: 7rem 0rem;
+	margin: 0;
 	& > * {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-		grid-gap: 5rem;
+		grid-gap: 0rem;
 		justify-content: center;
+
+		@media (min-width: 480px) {
+			grid-gap: 5rem;
+		}
+	}
+
+	@media (min-width: 480px) {
+		margin: 7rem 0rem;
 	}
 `;
 

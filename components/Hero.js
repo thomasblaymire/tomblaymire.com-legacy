@@ -10,7 +10,7 @@ const HeroImage = styled.div`
 `;
 
 const HeroContainer = styled.div`
-	width: 1170px;
+	max-width: 1170px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0px 15px;
