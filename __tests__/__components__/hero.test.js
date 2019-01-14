@@ -13,6 +13,4 @@ describe('The Hero Component', () => {
         expect(renderedComponent).toMatchSnapshot();
     });
 
-    expect(toJson(renderedComponent)).toMatchSnapshot();
-
 });
