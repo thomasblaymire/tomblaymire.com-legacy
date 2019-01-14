@@ -1,4 +1,6 @@
+
 import styled from 'styled-components';
+import SVG from 'react-inlinesvg';
 import facebookIcon from '../static/facebook.svg';
 import twitterIcon from '../static/twitter.svg';
 import linkedinIcon from '../static/linkedin.svg';
@@ -9,6 +11,7 @@ const FooterWrapper = styled.div`
 	margin-left: auto;
 	padding: 0px 15px;
 	display: flex;
+	justify-content: center;
 `;
 
 const FooterRow = styled.div`
@@ -28,8 +31,17 @@ const FooterCopyright = styled.div`
 const FooterSocial = styled.div`
 	display: flex;
 	padding-right: 5px;
-	img {
-		width: 10px;
+`;
+
+const FooterIcon = styled.div`
+	svg {
+		fill: #fff;
+		width: 10%;
+
+		&:hover {
+			cursor: pointer;
+			fill: ${props => props.theme.black};
+		}
 	}
 `;
 
@@ -38,16 +50,24 @@ const Footer = () => {
 		<FooterRow>
 			<FooterWrapper>
 				<FooterCopyright>Copyright © Tom Blaymire All Rights Reserved.</FooterCopyright>
-				<FooterSocial>
-					<a href="https://twitter.com/thomas_blaymire">
-						<img src={twitterIcon} alt="Twitter" />
-					</a>
-					<a href="https://facebook.com/tblaymire1">
-						<img src={facebookIcon} alt="Facebook" />
-					</a>
-					<a href="https://linkedin.com/tblaymire1">
-						<img src={linkedinIcon} alt="LinkedIn" />
-					</a>
+					<FooterSocial>
+						<FooterIcon>
+							<a href="https://twitter.com/thomas_blaymire">
+								<SVG src={twitterIcon} alt="Twitter Icon" />
+							</a>
+						</FooterIcon>
+
+						<FooterIcon>
+							<a href="https://facebook.com/tblaymire1">
+								<SVG src={facebookIcon} alt="Facbook Icon" />
+							</a>
+						</FooterIcon>
+
+						<FooterIcon>
+							<a href="https://linkedin.com/tblaymire1">
+								<SVG src={linkedinIcon} alt="LinkedIn Icon" />
+							</a>
+						</FooterIcon>
 					</FooterSocial>
 			</FooterWrapper>
 		</FooterRow>
