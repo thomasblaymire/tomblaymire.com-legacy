@@ -1,0 +1,603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Hero Component Renders the Hero component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Hero />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Hero__HeroContainer>
+        <Hero__HeroBlock>
+          <h2
+            className="intro"
+          >
+            Hello, I'm Tom
+          </h2>
+          <div
+            className="description"
+          >
+            I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.
+          </div>
+          <Hero__HeroButtons>
+            <Link
+              href="/portfolio"
+            >
+              <Button
+                bgColor="#05af43"
+                borderColor="#05af43"
+                hoverBg="#05da53"
+                primaryColor="#fff"
+              >
+                My Work
+              </Button>
+            </Link>
+            <Link
+              href="/contact"
+            >
+              <Button
+                bgColor="transparent"
+                borderColor="#fff"
+                hoverBg="#fff"
+                hoverColor="#000"
+                primaryColor="#fff"
+              >
+                Let's Talk
+              </Button>
+            </Link>
+          </Hero__HeroButtons>
+        </Hero__HeroBlock>
+      </Hero__HeroContainer>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <Hero__HeroBlock>
+            <h2
+              className="intro"
+            >
+              Hello, I'm Tom
+            </h2>
+            <div
+              className="description"
+            >
+              I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.
+            </div>
+            <Hero__HeroButtons>
+              <Link
+                href="/portfolio"
+              >
+                <Button
+                  bgColor="#05af43"
+                  borderColor="#05af43"
+                  hoverBg="#05da53"
+                  primaryColor="#fff"
+                >
+                  My Work
+                </Button>
+              </Link>
+              <Link
+                href="/contact"
+              >
+                <Button
+                  bgColor="transparent"
+                  borderColor="#fff"
+                  hoverBg="#fff"
+                  hoverColor="#000"
+                  primaryColor="#fff"
+                >
+                  Let's Talk
+                </Button>
+              </Link>
+            </Hero__HeroButtons>
+          </Hero__HeroBlock>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="intro"
+              >
+                Hello, I'm Tom
+              </h2>,
+              <div
+                className="description"
+              >
+                I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.
+              </div>,
+              <Hero__HeroButtons>
+                <Link
+                  href="/portfolio"
+                >
+                  <Button
+                    bgColor="#05af43"
+                    borderColor="#05af43"
+                    hoverBg="#05da53"
+                    primaryColor="#fff"
+                  >
+                    My Work
+                  </Button>
+                </Link>
+                <Link
+                  href="/contact"
+                >
+                  <Button
+                    bgColor="transparent"
+                    borderColor="#fff"
+                    hoverBg="#fff"
+                    hoverColor="#000"
+                    primaryColor="#fff"
+                  >
+                    Let's Talk
+                  </Button>
+                </Link>
+              </Hero__HeroButtons>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hello, I'm Tom",
+                "className": "intro",
+              },
+              "ref": null,
+              "rendered": "Hello, I'm Tom",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.",
+                "className": "description",
+              },
+              "ref": null,
+              "rendered": "I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    href="/portfolio"
+                  >
+                    <Button
+                      bgColor="#05af43"
+                      borderColor="#05af43"
+                      hoverBg="#05da53"
+                      primaryColor="#fff"
+                    >
+                      My Work
+                    </Button>
+                  </Link>,
+                  <Link
+                    href="/contact"
+                  >
+                    <Button
+                      bgColor="transparent"
+                      borderColor="#fff"
+                      hoverBg="#fff"
+                      hoverColor="#000"
+                      primaryColor="#fff"
+                    >
+                      Let's Talk
+                    </Button>
+                  </Link>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Button
+                      bgColor="#05af43"
+                      borderColor="#05af43"
+                      hoverBg="#05da53"
+                      primaryColor="#fff"
+                    >
+                      My Work
+                    </Button>,
+                    "href": "/portfolio",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "bgColor": "#05af43",
+                      "borderColor": "#05af43",
+                      "children": "My Work",
+                      "hoverBg": "#05da53",
+                      "primaryColor": "#fff",
+                    },
+                    "ref": null,
+                    "rendered": "My Work",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Button
+                      bgColor="transparent"
+                      borderColor="#fff"
+                      hoverBg="#fff"
+                      hoverColor="#000"
+                      primaryColor="#fff"
+                    >
+                      Let's Talk
+                    </Button>,
+                    "href": "/contact",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "bgColor": "transparent",
+                      "borderColor": "#fff",
+                      "children": "Let's Talk",
+                      "hoverBg": "#fff",
+                      "hoverColor": "#000",
+                      "primaryColor": "#fff",
+                    },
+                    "ref": null,
+                    "rendered": "Let's Talk",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Hero__HeroContainer>
+          <Hero__HeroBlock>
+            <h2
+              className="intro"
+            >
+              Hello, I'm Tom
+            </h2>
+            <div
+              className="description"
+            >
+              I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.
+            </div>
+            <Hero__HeroButtons>
+              <Link
+                href="/portfolio"
+              >
+                <Button
+                  bgColor="#05af43"
+                  borderColor="#05af43"
+                  hoverBg="#05da53"
+                  primaryColor="#fff"
+                >
+                  My Work
+                </Button>
+              </Link>
+              <Link
+                href="/contact"
+              >
+                <Button
+                  bgColor="transparent"
+                  borderColor="#fff"
+                  hoverBg="#fff"
+                  hoverColor="#000"
+                  primaryColor="#fff"
+                >
+                  Let's Talk
+                </Button>
+              </Link>
+            </Hero__HeroButtons>
+          </Hero__HeroBlock>
+        </Hero__HeroContainer>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            undefined,
+            <Hero__HeroBlock>
+              <h2
+                className="intro"
+              >
+                Hello, I'm Tom
+              </h2>
+              <div
+                className="description"
+              >
+                I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.
+              </div>
+              <Hero__HeroButtons>
+                <Link
+                  href="/portfolio"
+                >
+                  <Button
+                    bgColor="#05af43"
+                    borderColor="#05af43"
+                    hoverBg="#05da53"
+                    primaryColor="#fff"
+                  >
+                    My Work
+                  </Button>
+                </Link>
+                <Link
+                  href="/contact"
+                >
+                  <Button
+                    bgColor="transparent"
+                    borderColor="#fff"
+                    hoverBg="#fff"
+                    hoverColor="#000"
+                    primaryColor="#fff"
+                  >
+                    Let's Talk
+                  </Button>
+                </Link>
+              </Hero__HeroButtons>
+            </Hero__HeroBlock>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <h2
+                  className="intro"
+                >
+                  Hello, I'm Tom
+                </h2>,
+                <div
+                  className="description"
+                >
+                  I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.
+                </div>,
+                <Hero__HeroButtons>
+                  <Link
+                    href="/portfolio"
+                  >
+                    <Button
+                      bgColor="#05af43"
+                      borderColor="#05af43"
+                      hoverBg="#05da53"
+                      primaryColor="#fff"
+                    >
+                      My Work
+                    </Button>
+                  </Link>
+                  <Link
+                    href="/contact"
+                  >
+                    <Button
+                      bgColor="transparent"
+                      borderColor="#fff"
+                      hoverBg="#fff"
+                      hoverColor="#000"
+                      primaryColor="#fff"
+                    >
+                      Let's Talk
+                    </Button>
+                  </Link>
+                </Hero__HeroButtons>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hello, I'm Tom",
+                  "className": "intro",
+                },
+                "ref": null,
+                "rendered": "Hello, I'm Tom",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.",
+                  "className": "description",
+                },
+                "ref": null,
+                "rendered": "I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end products that meet both user and business needs.",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Link
+                      href="/portfolio"
+                    >
+                      <Button
+                        bgColor="#05af43"
+                        borderColor="#05af43"
+                        hoverBg="#05da53"
+                        primaryColor="#fff"
+                      >
+                        My Work
+                      </Button>
+                    </Link>,
+                    <Link
+                      href="/contact"
+                    >
+                      <Button
+                        bgColor="transparent"
+                        borderColor="#fff"
+                        hoverBg="#fff"
+                        hoverColor="#000"
+                        primaryColor="#fff"
+                      >
+                        Let's Talk
+                      </Button>
+                    </Link>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Button
+                        bgColor="#05af43"
+                        borderColor="#05af43"
+                        hoverBg="#05da53"
+                        primaryColor="#fff"
+                      >
+                        My Work
+                      </Button>,
+                      "href": "/portfolio",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "bgColor": "#05af43",
+                        "borderColor": "#05af43",
+                        "children": "My Work",
+                        "hoverBg": "#05da53",
+                        "primaryColor": "#fff",
+                      },
+                      "ref": null,
+                      "rendered": "My Work",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Button
+                        bgColor="transparent"
+                        borderColor="#fff"
+                        hoverBg="#fff"
+                        hoverColor="#000"
+                        primaryColor="#fff"
+                      >
+                        Let's Talk
+                      </Button>,
+                      "href": "/contact",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "bgColor": "transparent",
+                        "borderColor": "#fff",
+                        "children": "Let's Talk",
+                        "hoverBg": "#fff",
+                        "hoverColor": "#000",
+                        "primaryColor": "#fff",
+                      },
+                      "ref": null,
+                      "rendered": "Let's Talk",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

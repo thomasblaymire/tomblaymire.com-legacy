@@ -1,0 +1,9 @@
+type Post {
+	id: ID! @unique
+	title: String!
+	body: String!
+	image: String
+	largeImage: String
+	createdAt: DateTime!
+	updatedAt: DateTime!
+}
