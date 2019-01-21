@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Button.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Button.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -170,7 +170,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_twitter_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_twitter_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/linkedin.svg */ "./static/linkedin.svg");
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Footer.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Footer.js";
 
 
 
@@ -310,7 +310,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Nav */ "./components/Nav.js");
 /* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Logo */ "./components/Logo.js");
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Header.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Header.js";
 
 
 
@@ -363,7 +363,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/logo.png */ "./static/logo.png");
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_logo_png__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Logo.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Logo.js";
 
 
 
@@ -417,7 +417,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_close_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_close_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/Nav.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Nav.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -621,7 +621,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_PageStyles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/PageStyles */ "./components/styles/PageStyles.js");
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/components/PageHero.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/PageHero.js";
 
 
 
@@ -736,7 +736,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/pages/contact.js";
+var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/pages/contact.js";
 
 
 
@@ -896,7 +896,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ 11:
+/***/ 7:
 /*!********************************!*\
   !*** multi ./pages/contact.js ***!
   \********************************/
