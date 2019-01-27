@@ -57,15 +57,19 @@ class PortfolioList extends Component {
 		],
 	};
 
-	componentDidMount() {
-		console.log(this.props.amount);
-	}
-
 	render() {
 		const portfolioItems = this.state.portfolioItems
 			.slice(0, this.props.amount)
 			.map(item => (
-				<PortfolioItem key={item.id} image={item.image} url={item.url} id={item.id} name={item.name} tags={item.tags} />
+				<PortfolioItem
+					customStyles={this.props.customStyles}
+					key={item.id}
+					image={item.image}
+					url={item.url}
+					id={item.id}
+					name={item.name}
+					tags={item.tags}
+				/>
 			));
 
 		return <PortfolioItems>{portfolioItems}</PortfolioItems>;

@@ -4,7 +4,11 @@ import PageStyles from './styles/PageStyles';
 const HeroBlock = styled.div`
 	color: ${props => props.theme.white};
 	margin-top: 4rem;
-	width: 54%;
+	width: 100%;
+
+	@media (min-width: 992px) {
+		width: 54%;
+	}
 
 	.intro {
 		font-size: 5.5rem;

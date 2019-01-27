@@ -15,7 +15,7 @@ const PortfolioCareers = () => {
 			<PageHero
 				image={portfolioHero}
 				pageName="Hermes Careers"
-				description="A new recruitment site to increase business awareness and job applicants. "
+				description="A new recruitment site to increase business awareness and job applicants."
 			>
 				<Header />
 			</PageHero>
@@ -72,8 +72,8 @@ const PortfolioCareers = () => {
 							<div class="content">
 								<h3 class="heading">Performance & Accessibility</h3>
 								<p class="description">
-									Prior to the project start I created a performance budget with the idea to limit the ammount of resources
-									loaded on the page, the budget was met and achieved a final performance score of B+.
+									Prior to the project start I created a performance budget with the idea to limit the ammount of
+									resources loaded on the page, the budget was met and achieved a final performance score of B+.
 								</p>
 								<p class="description">
 									<a href="http://careers.hermes-europe.co.uk/#/">Live URL</a>

@@ -11,7 +11,11 @@ import padLogin from '../static/pad-login.jpg';
 const PortfolioPad = () => {
 	return (
 		<div>
-			<PageHero image={aboutHero} pageName="Product Analysis Dashbaord">
+			<PageHero
+				image={aboutHero}
+				pageName="Product Dashboard"
+				description="A fully featured dashboard to track expected volumes, metrics and performance."
+			>
 				<Header />
 			</PageHero>
 			<PageContent>

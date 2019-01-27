@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<h4 align="center">Current website rebuild using Next.JS & React.</h4>
+<h4 align="center">My current personal website website rebuild using Next.JS & React.</h4>
 
 ## Live URL
 
@@ -25,6 +25,7 @@
 
 ## Future Plans / Needed Features
 
+- Minor Responsive Fixes
 - Sitemap.xml
 - SEO Improvements
 - Image Optimization (Bundle Size)

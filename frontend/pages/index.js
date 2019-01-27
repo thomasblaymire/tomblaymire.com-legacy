@@ -144,7 +144,7 @@ const Home = () => {
 							highlights are listed below.
 						</p>
 						<PortfolioWrapper>
-							<PortfolioList amount={3} />
+							<PortfolioList amount={3} customStyle={true} />
 						</PortfolioWrapper>
 					</div>
 				</RecentProjects>

@@ -663,13 +663,14 @@ var PortfolioItem = function PortfolioItem(props) {
       name = props.name,
       tags = props.tags,
       id = props.id,
-      url = props.url;
+      url = props.url,
+      customStyles = props.customStyles;
   var tagList = tags.map(function (tag) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       key: tag,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 66
       },
       __self: this
     }, tag);
@@ -677,20 +678,20 @@ var PortfolioItem = function PortfolioItem(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 69
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 70
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 71
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -699,26 +700,26 @@ var PortfolioItem = function PortfolioItem(props) {
     alt: name,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 72
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioMeta, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "portfolio-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: this
   }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 75
     },
     __self: this
   }, tagList)))));
@@ -850,15 +851,13 @@ function (_Component) {
   }
 
   _createClass(PortfolioList, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      console.log(this.props.amount);
-    }
-  }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       var portfolioItems = this.state.portfolioItems.slice(0, this.props.amount).map(function (item) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PortfolioItem__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          customStyles: _this2.props.customStyles,
           key: item.id,
           image: item.image,
           url: item.url,
@@ -867,7 +866,7 @@ function (_Component) {
           tags: item.tags,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 68
+            lineNumber: 64
           },
           __self: this
         });
@@ -875,7 +874,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioItems, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 75
         },
         __self: this
       }, portfolioItems);
@@ -17090,6 +17089,7 @@ var Home = function Home() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Portfolio_PortfolioList__WEBPACK_IMPORTED_MODULE_5__["default"], {
     amount: 3,
+    customStyle: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 147
@@ -17325,7 +17325,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ 3:
+/***/ 10:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -17350,5 +17350,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[10,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map

@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const PortfolioBox = styled.div`
 	margin-top: 4rem;
+
 	.portfolio-image {
 		width: 100%;
 		box-shadow: 0 0 15px rgba(0, 0, 0, 0.08), 0 0 4px rgba(0, 0, 0, 0.05);
@@ -60,7 +61,7 @@ const PortfolioMeta = styled.div`
 `;
 
 const PortfolioItem = props => {
-	const { image, name, tags, id, url } = props;
+	const { image, name, tags, id, url, customStyles } = props;
 
 	const tagList = tags.map(tag => <li key={tag}>{tag}</li>);
 

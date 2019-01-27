@@ -10,7 +10,11 @@ import gpwsImageTwo from '../static/practice1.jpg';
 const PortfolioGpws = () => {
 	return (
 		<div>
-			<PageHero image={aboutHero} pageName="GP Web Solutios">
+			<PageHero
+				image={aboutHero}
+				pageName="GP Web Solutios"
+				description="Medical Practice websites with a focus on accessibility and performance."
+			>
 				<Header />
 			</PageHero>
 			<PageContent>
@@ -35,7 +39,8 @@ const PortfolioGpws = () => {
 									book appointments online via their local practice website.
 								</p>
 								<p class="description">
-									Websites were built with accessibility as a first priority due to patients with various disabilities and adhered to WCAG 2.0 guidelines.
+									Websites were built with accessibility as a first priority due to patients with various disabilities
+									and adhered to WCAG 2.0 guidelines.
 								</p>
 								<ul>
 									<li>Angular JS</li>
