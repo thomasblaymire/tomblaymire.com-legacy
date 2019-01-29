@@ -25,7 +25,8 @@ const ExpertiseRow = styled.div`
 `;
 
 const Location = styled.div`
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 	display: flex;
 	align-items: center;
 	background-color: ${props => props.theme.seaGreen};
@@ -61,6 +62,11 @@ const LocationImage = styled.div`
 	background-image: url(${locationImage});
 	background-attachment: fixed;
 	background-size: cover;
+	display: none;
+
+	@media (min-width: 480px) {
+		display: block;
+	}
 `;
 
 const RecentProjects = styled.div`

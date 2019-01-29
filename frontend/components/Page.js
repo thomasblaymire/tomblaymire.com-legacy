@@ -52,7 +52,6 @@ injectGlobal`
     color: ${theme.green};
     font-weight: bold;
   }
-}
 `;
 
 class Page extends Component {
