@@ -8,26 +8,44 @@ import styled from 'styled-components';
 
 const ContactWrapper = styled.div`
 	margin-top: 5rem;
+	margin-bottom: 5rem;
+	min-height: 100%;
+
+	.container {
+		max-width: 1170px;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 0px 15px;
+
+		@media (min-width: 568px) {
+			width: auto;
+		}
+		@media (min-width: 992px) {
+			width: 970px;
+		}
+		@media (min-width: 1200px) {
+			width: 1170px;
+		}
+	}
 `;
 
 const Contact = () => {
 	return (
 		<div>
-			<PageHero image={contactPortfolio} pageName="Contact" description="Please get in touch using the form below.">
+			<PageHero image={contactPortfolio} pageName="Contact" description="Please get in touch using the email below.">
 				<Header />
 			</PageHero>
-			<PageContent>
+
+			<ContactWrapper>
 				<div className="container">
-					<ContactWrapper>
-						<p>If you have a project you’d like to discuss you can use the form to the right or:</p>
-						Email: support@tomblaymire.com
-						<Button primaryColor="#05af43" bgColor="#05af43" hoverBg={'#05da53'}>
-							Contact Me
-						</Button>
-					</ContactWrapper>
+					<p>If you have a project you’d like to discuss please drop me a line on the email address below:</p>
+					Email:{' '}
+					<a href="mailto:support@tomblaymire.com?Subject=New Project" target="_top">
+						support@tomblaymire.com
+					</a>
 				</div>
-				<Footer />
-			</PageContent>
+			</ContactWrapper>
+			<Footer />
 		</div>
 	);
 };

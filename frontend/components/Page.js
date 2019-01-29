@@ -6,8 +6,8 @@ const theme = {
 	red: '#FF0000',
 	black: '#000000',
 	grey: '#494949',
-  greyDark: '#2a363b',
-  greyLight: '#DADADA',
+	greyDark: '#2a363b',
+	greyLight: '#DADADA',
 	white: '#FFFFFF',
 	lightgrey: '#E1E1E1',
 	green: '#3eaca8',
@@ -52,6 +52,7 @@ injectGlobal`
     color: ${theme.green};
     font-weight: bold;
   }
+}
 `;
 
 class Page extends Component {

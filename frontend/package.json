@@ -23,6 +23,7 @@
 		"jest": "^23.6.0",
 		"next": "^7.0.2",
 		"next-images": "^1.0.4",
+		"nprogress": "^0.2.0",
 		"prismic-javascript": "^2.0.1",
 		"prismic-reactjs": "^0.3.2",
 		"react": "^16.7.0",
@@ -41,7 +42,8 @@
 			"^.+\\.js?$": "babel-jest"
 		},
 		"moduleNameMapper": {
-			"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/assetsTransformer.js", "\\.(css|less)$": "<rootDir>/assetsTransformer.js"
+			"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/assetsTransformer.js",
+			"\\.(css|less)$": "<rootDir>/assetsTransformer.js"
 		}
 	},
 	"//": "This is our babel config, I prefer this over a .babelrc file",
