@@ -96,6 +96,13 @@ const NavList = styled.ul`
 			visibility: hidden;
 		}
 	}
+
+	.show {
+		* a {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
 `;
 
 class Nav extends Component {
@@ -110,8 +117,8 @@ class Nav extends Component {
 	render() {
 		return (
 			<NavStyles>
-				<div className={this.state.mobileNav && 'show'}>
-					<NavList>
+				<div>
+					<NavList className={this.state.mobileNav && 'show'}>
 						<Link href="/about">
 							<a>About</a>
 						</Link>

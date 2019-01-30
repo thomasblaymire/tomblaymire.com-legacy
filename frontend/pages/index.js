@@ -58,13 +58,18 @@ const LocationContent = styled.div`
 `;
 const LocationImage = styled.div`
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background-image: url(${locationImage});
 	background-attachment: fixed;
 	background-size: cover;
 	display: none;
 
 	@media (min-width: 480px) {
+		display: none;
+	}
+
+	@media (min-width: 768px) {
+		height: 110vh;
 		display: block;
 	}
 `;
