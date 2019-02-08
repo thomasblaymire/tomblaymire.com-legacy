@@ -53,6 +53,7 @@ class PortfolioList extends Component {
 				image: location,
 				name: 'Location Search',
 				tags: ['React', 'Redux', 'ES6', 'JavaScript'],
+				url: '/portfolio'
 			},
 		],
 	};
@@ -62,7 +63,7 @@ class PortfolioList extends Component {
 			.slice(0, this.props.amount)
 			.map(item => (
 				<PortfolioItem
-					customStyles={this.props.customStyles}
+					customStyle={this.props.customStyle}
 					key={item.id}
 					image={item.image}
 					url={item.url}

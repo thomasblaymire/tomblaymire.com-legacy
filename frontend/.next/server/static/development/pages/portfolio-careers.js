@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_twitter_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_twitter_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/linkedin.svg */ "./static/linkedin.svg");
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Footer.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Footer.js";
 
 
 
@@ -169,7 +169,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! nprogress */ "nprogress");
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Header.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Header.js";
 
 
 
@@ -237,7 +237,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/logo.png */ "./static/logo.png");
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_logo_png__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Logo.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Logo.js";
 
 
 
@@ -291,7 +291,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_close_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_close_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Nav.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Nav.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -495,7 +495,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_PageStyles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/PageStyles */ "./components/styles/PageStyles.js");
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/PageHero.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/PageHero.js";
 
 
 
@@ -638,7 +638,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_careers_performance_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_static_careers_performance_png__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _static_Careers_About_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../static/Careers-About.jpg */ "./static/Careers-About.jpg");
 /* harmony import */ var _static_Careers_About_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_static_Careers_About_jpg__WEBPACK_IMPORTED_MODULE_10__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/pages/portfolio-careers.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/pages/portfolio-careers.js";
 
 
 
@@ -693,7 +693,7 @@ var PortfolioCareers = function PortfolioCareers() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row",
+    className: "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -701,7 +701,7 @@ var PortfolioCareers = function PortfolioCareers() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
-    class: "screenshot",
+    className: "screenshot",
     alt: "Screenshot 1",
     __source: {
       fileName: _jsxFileName,
@@ -709,21 +709,21 @@ var PortfolioCareers = function PortfolioCareers() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "content",
+    className: "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    class: "heading",
+    className: "heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
   }, "Project Requirements"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "description",
+    className: "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -737,7 +737,7 @@ var PortfolioCareers = function PortfolioCareers() {
     },
     __self: this
   }, "The website required a strong SEO presence, fully featured blog and responsive design."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row",
+    className: "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
@@ -745,7 +745,7 @@ var PortfolioCareers = function PortfolioCareers() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _static_careers_map_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-    class: "screenshot",
+    className: "screenshot",
     alt: "Screenshot 1",
     __source: {
       fileName: _jsxFileName,
@@ -753,21 +753,21 @@ var PortfolioCareers = function PortfolioCareers() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "content",
+    className: "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    class: "heading",
+    className: "heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
   }, "Locations Map"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "description",
+    className: "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
@@ -781,7 +781,7 @@ var PortfolioCareers = function PortfolioCareers() {
     },
     __self: this
   }, "The map was built with Google Maps API along with a Node.JS backend to provide accurate location descriptions."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row",
+    className: "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
@@ -789,7 +789,7 @@ var PortfolioCareers = function PortfolioCareers() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _static_Careers_About_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
-    class: "screenshot",
+    className: "screenshot",
     alt: "Screenshot 1",
     __source: {
       fileName: _jsxFileName,
@@ -797,14 +797,14 @@ var PortfolioCareers = function PortfolioCareers() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "content",
+    className: "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    class: "heading",
+    className: "heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
@@ -860,7 +860,7 @@ var PortfolioCareers = function PortfolioCareers() {
     },
     __self: this
   }, "Jasmine"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row",
+    className: "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
@@ -868,7 +868,7 @@ var PortfolioCareers = function PortfolioCareers() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _static_careers_performance_png__WEBPACK_IMPORTED_MODULE_9___default.a,
-    class: "screenshot",
+    className: "screenshot",
     alt: "Screenshot 1",
     __source: {
       fileName: _jsxFileName,
@@ -876,28 +876,28 @@ var PortfolioCareers = function PortfolioCareers() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "content",
+    className: "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    class: "heading",
+    className: "heading",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 73
     },
     __self: this
   }, "Performance & Accessibility"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "description",
+    className: "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 74
     },
     __self: this
   }, "Prior to the project start I created a performance budget with the idea to limit the ammount of resources loaded on the page, the budget was met and achieved a final performance score of B+."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "description",
+    className: "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78
@@ -1044,7 +1044,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ 5:
+/***/ 7:
 /*!******************************************!*\
   !*** multi ./pages/portfolio-careers.js ***!
   \******************************************/

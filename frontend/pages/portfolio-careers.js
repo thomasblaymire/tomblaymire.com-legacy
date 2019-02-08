@@ -22,11 +22,11 @@ const PortfolioCareers = () => {
 			<PageContent>
 				<div className="container">
 					<Portfolio>
-						<div class="row">
-							<img src={portCareers} class="screenshot" alt="Screenshot 1" />
-							<div class="content">
-								<h3 class="heading">Project Requirements</h3>
-								<p class="description">
+						<div className="row">
+							<img src={portCareers} className="screenshot" alt="Screenshot 1" />
+							<div className="content">
+								<h3 className="heading">Project Requirements</h3>
+								<p className="description">
 									Hermes required a new careers website to give potential candidates insight into the business along
 									with the ability for them to easily track and apply for new opportunites online.
 								</p>
@@ -35,11 +35,11 @@ const PortfolioCareers = () => {
 								</p>
 							</div>
 						</div>
-						<div class="row">
-							<img src={careersMap} class="screenshot" alt="Screenshot 1" />
-							<div class="content">
-								<h3 class="heading">Locations Map</h3>
-								<p class="description">
+						<div className="row">
+							<img src={careersMap} className="screenshot" alt="Screenshot 1" />
+							<div className="content">
+								<h3 className="heading">Locations Map</h3>
+								<p className="description">
 									A primary requirement of the app was to include an interactive map so that applicants can easily find
 									new roles via thier location.
 								</p>
@@ -49,10 +49,10 @@ const PortfolioCareers = () => {
 								</p>
 							</div>
 						</div>
-						<div class="row">
-							<img src={careersAbout} class="screenshot" alt="Screenshot 1" />
-							<div class="content">
-								<h3 class="heading">Technology Stack</h3>
+						<div className="row">
+							<img src={careersAbout} className="screenshot" alt="Screenshot 1" />
+							<div className="content">
+								<h3 className="heading">Technology Stack</h3>
 								<p className="description">
 									The website was built via various different components on the front end following strict design and
 									accessibility guidelines.
@@ -67,15 +67,15 @@ const PortfolioCareers = () => {
 								</p>
 							</div>
 						</div>
-						<div class="row">
-							<img src={careersPerf} class="screenshot" alt="Screenshot 1" />
-							<div class="content">
-								<h3 class="heading">Performance & Accessibility</h3>
-								<p class="description">
+						<div className="row">
+							<img src={careersPerf} className="screenshot" alt="Screenshot 1" />
+							<div className="content">
+								<h3 className="heading">Performance & Accessibility</h3>
+								<p className="description">
 									Prior to the project start I created a performance budget with the idea to limit the ammount of
 									resources loaded on the page, the budget was met and achieved a final performance score of B+.
 								</p>
-								<p class="description">
+								<p className="description">
 									<a href="http://careers.hermes-europe.co.uk/#/">Live URL</a>
 								</p>
 							</div>

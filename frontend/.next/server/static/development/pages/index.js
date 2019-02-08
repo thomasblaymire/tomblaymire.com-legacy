@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Button.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Button.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -164,7 +164,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-inlinesvg */ "react-inlinesvg");
 /* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/ExpertiseCard.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/ExpertiseCard.js";
 
 
 
@@ -252,7 +252,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _static_ctaImage1_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../static/ctaImage1.jpg */ "./static/ctaImage1.jpg");
 /* harmony import */ var _static_ctaImage1_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_ctaImage1_jpg__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/FullWidthCta.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/FullWidthCta.js";
 
 
 
@@ -308,7 +308,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! nprogress */ "nprogress");
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Header.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Header.js";
 
 
 
@@ -377,7 +377,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_me_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/me.jpg */ "./static/me.jpg");
 /* harmony import */ var _static_me_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_me_jpg__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Hero.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Hero.js";
 
 
 
@@ -502,7 +502,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/logo.png */ "./static/logo.png");
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_logo_png__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Logo.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Logo.js";
 
 
 
@@ -556,7 +556,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_close_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_close_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Nav.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Nav.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -761,18 +761,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Portfolio/PortfolioItem.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Portfolio/PortfolioItem.js";
 
 
 
 var PortfolioBox = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PortfolioItem__PortfolioBox",
   componentId: "sc-25rbs8-0"
-})(["margin-top:4rem;.portfolio-image{width:100%;box-shadow:0 0 15px rgba(0,0,0,0.08),0 0 4px rgba(0,0,0,0.05);position:relative;height:auto;@media (min-width:768px){height:350px;}@media (min-width:992px){height:450px;}&:hover{cursor:pointer;}}a{text-decoration:none;font-weight:normal;}"]);
+})(["margin-top:4rem;a{text-decoration:none;font-weight:normal;}"]);
+var PortfolioImage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.img.withConfig({
+  displayName: "PortfolioItem__PortfolioImage",
+  componentId: "sc-25rbs8-1"
+})(["width:100%;box-shadow:0 0 15px rgba(0,0,0,0.08),0 0 4px rgba(0,0,0,0.05);position:relative;height:auto;@media (min-width:768px){height:350px;}@media (min-width:992px){height:", ";}&:hover{cursor:pointer;}"], function (props) {
+  return props.customStyle ? "350px" : "450px";
+});
 var PortfolioMeta = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PortfolioItem__PortfolioMeta",
-  componentId: "sc-25rbs8-1"
-})([".portfolio-title{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;font-size:2rem;margin:0;color:", ";cursor:pointer;}ul{list-style-type:none;padding:0;display:flex;flex-wrap:wrap;margin-top:0.5rem;}li{color:#474747;margin-right:1rem;background:", ";border-radius:5px;padding:0 1rem;margin-bottom:1rem;cursor:initial;}"], function (props) {
+  componentId: "sc-25rbs8-2"
+})([".portfolio-title{font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;font-size:2rem;margin:0;color:", ";cursor:pointer;}ul{list-style-type:none;padding:0;display:flex;flex-wrap:wrap;margin-top:0.5rem;}li{color:#474747;margin-right:1rem;background:", ";font-size:1.3rem;border-radius:5px;padding:0 1rem;margin-bottom:1rem;cursor:initial;}"], function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
   return props.theme.greyDark;
@@ -786,62 +792,63 @@ var PortfolioItem = function PortfolioItem(props) {
       tags = props.tags,
       id = props.id,
       url = props.url,
-      customStyles = props.customStyles;
+      customStyle = props.customStyle;
   var tagList = tags.map(function (tag) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       key: tag,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 68
       },
       __self: this
     }, tag);
   });
+  console.log(customStyle);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioBox, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: url,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 74
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 75
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "portfolio-image",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioImage, {
     src: image,
     alt: name,
+    customStyle: customStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 76
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioMeta, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 77
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "portfolio-title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 78
     },
     __self: this
   }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 79
     },
     __self: this
   }, tagList)))));
@@ -877,7 +884,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../static/port-location.jpg */ "./static/port-location.jpg");
 /* harmony import */ var _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/Portfolio/PortfolioList.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Portfolio/PortfolioList.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -966,7 +973,8 @@ function (_Component) {
         id: 6,
         image: _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
         name: 'Location Search',
-        tags: ['React', 'Redux', 'ES6', 'JavaScript']
+        tags: ['React', 'Redux', 'ES6', 'JavaScript'],
+        url: '/portfolio'
       }]
     });
 
@@ -980,7 +988,7 @@ function (_Component) {
 
       var portfolioItems = this.state.portfolioItems.slice(0, this.props.amount).map(function (item) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PortfolioItem__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          customStyles: _this2.props.customStyles,
+          customStyle: _this2.props.customStyle,
           key: item.id,
           image: item.image,
           url: item.url,
@@ -989,7 +997,7 @@ function (_Component) {
           tags: item.tags,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 64
+            lineNumber: 65
           },
           __self: this
         });
@@ -997,7 +1005,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioItems, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 76
         },
         __self: this
       }, portfolioItems);
@@ -1033,7 +1041,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/linkedin.svg */ "./static/linkedin.svg");
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/components/SocialLinks.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/SocialLinks.js";
 
 
 
@@ -1245,7 +1253,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_keyboard_svg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_static_keyboard_svg__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var _static_laptop_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../static/laptop.svg */ "./static/laptop.svg");
 /* harmony import */ var _static_laptop_svg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_static_laptop_svg__WEBPACK_IMPORTED_MODULE_13__);
-var _jsxFileName = "/Users/Admin/Documents/Development/React/tomblaymire.com/frontend/pages/index.js";
+var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/pages/index.js";
 
 
 
