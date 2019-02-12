@@ -28,7 +28,7 @@ const HeroBlock = styled.div`
 	width: 100%;
 
 	@media (min-width: 480px) {
-		width: 60%;
+		width: 70%;
 	}
 
 	.intro {
@@ -40,12 +40,11 @@ const HeroBlock = styled.div`
 		font-size: 1.6rem;
 		line-height: 2.6rem;
 		font-weight: 300;
-		width: 80%;
 		@media (min-width: 480px) {
 			line-height: 38px;
 			font-size: 3.5vmin;
-			line-height: 24px;
 			font-weight: 300;
+			min-width: 80%;
 		}
 	}
 `;
@@ -76,7 +75,7 @@ const Hero = props => {
 				<HeroBlock>
 					<h2 className="intro">Hello, I'm Tom</h2>
 					<div className="description">
-						I’m a Freelance (UI/UX) Software Engineer based in Leeds. I help companies deliver innovative, end-to-end
+						I’m a Freelance (UI/UX) Software Engineer based in Sydney. I help companies deliver innovative, end-to-end
 						products that meet both user and business needs.
 					</div>
 					<HeroButtons>

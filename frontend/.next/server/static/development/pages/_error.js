@@ -112,7 +112,7 @@ module.exports = __webpack_require__(/*! next/error */ "next/error")
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/tbl02/Development/Workspaces/React/tomblaymire.com/frontend/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
+module.exports = __webpack_require__(/*! /Users/admin/Development/React/tomblaymire.com/frontend/node_modules/next/dist/pages/_error.js */"./node_modules/next/dist/pages/_error.js");
 
 
 /***/ }),
