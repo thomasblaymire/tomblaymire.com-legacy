@@ -25,11 +25,14 @@ const ExpertiseRow = styled.div`
 `;
 
 const Location = styled.div`
-	min-height: 100vh;
+	min-height: 80vh;
 	height: auto;
 	display: flex;
 	align-items: center;
 	background-color: ${props => props.theme.seaGreen};
+	@media(min-width: 480px) {
+		min-height: 100vh;
+	}
 `;
 
 const LocationContent = styled.div`
@@ -37,16 +40,22 @@ const LocationContent = styled.div`
 	color: ${props => props.theme.grey};
 
 	.location-content {
-		width: 60%;
+		width: 90%;
 		margin: 0 auto;
 		text-align: left;
+		@media(min-width: 480px) {
+			width: 60%;
+		}
 	}
 
 	.location-heading {
 		line-height: 1.4em;
 		margin-bottom: 4rem;
 		font-size: 4.7rem;
-		width: 80%;
+		width: 100%;
+		@media(min-width: 480px) {
+			width: 80%;
+		}
 	}
 
 	p {

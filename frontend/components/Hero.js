@@ -7,6 +7,8 @@ const HeroImage = styled.div`
 	background-image: url(${hero});
 	background-size: cover;
 	min-height: 70vh;
+	background-repeat: no-repeat;
+    background-position: center center;
 
 	@media (min-width: 480px) {
 		min-height: 100vh;
@@ -35,11 +37,15 @@ const HeroBlock = styled.div`
 	}
 
 	.description {
-		font-size: 3.5vmin;
-		line-height: 24px;
+		font-size: 1.6rem;
+		line-height: 2.6rem;
 		font-weight: 300;
+		width: 80%;
 		@media (min-width: 480px) {
 			line-height: 38px;
+			font-size: 3.5vmin;
+			line-height: 24px;
+			font-weight: 300;
 		}
 	}
 `;

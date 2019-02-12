@@ -9,15 +9,23 @@ const SocialWrapper = styled.div`
 	display: flex;
 	padding: 0;
 	margin: 0;
+	flex-direction: column;
 	& > div {
 		width: 100%;
-		height: 350px;
+		height: 200px;
 		-webkit-flex-flow: wrap row;
 		flex-flow: wrap row;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
+		@media(min-width: 480px) {
+			height: 350px;
+		}
+	}
+
+	@media(min-width: 480px) {
+		flex-direction: row;
 	}
 
 	.heading {

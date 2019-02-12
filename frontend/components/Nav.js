@@ -25,6 +25,7 @@ const NavStyles = styled.div`
 		width: 100%;
 		height: calc(100vh);
 		height: 100%;
+		margin: 0;
 
 		> ul {
 			flex-direction: column;
@@ -90,16 +91,9 @@ const NavList = styled.ul`
 		}
 	}
 
-	a {
-		display: none;
-		@media (min-width: 950px) {
-			opacity: 1;
-			visibility: visible;
-		}
-	}
-
 	.show {
-		* a {
+		a {
+			display: block;
 			opacity: 1;
 			visibility: visible;
 		}
@@ -109,10 +103,14 @@ const NavList = styled.ul`
 class Nav extends Component {
 	state = {
 		mobileNav: false,
+		mobileOpen: false
 	};
 
 	toggleNavigationHandler = () => {
-		this.setState({ mobileNav: !this.state.mobileNav });
+		this.setState({
+			mobileNav: !this.state.mobileNav,
+			mobileOpen: !this.state.mobileOpen
+		 });
 	};
 
 	render() {
