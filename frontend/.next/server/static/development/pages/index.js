@@ -331,25 +331,25 @@ next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeError = function
 var StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.header.withConfig({
   displayName: "Header__StyledHeader",
   componentId: "sc-1stxykk-0"
-})(["max-width:1170px;display:flex;-webkit-box-pack:justify;justify-content:space-between;-webkit-box-align:center;align-items:center;padding:2rem 0rem;"]);
+})(["max-width:1170px;display:flex;-webkit-box-pack:justify;justify-content:space-between;-webkit-box-align:center;align-items:center;"]);
 
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledHeader, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 31
     },
     __self: this
   }));
@@ -386,7 +386,7 @@ var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/comp
 var HeroImage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Hero__HeroImage",
   componentId: "sc-1oj9b8p-0"
-})(["background-image:url(", ");background-size:cover;min-height:70vh;background-repeat:no-repeat;background-position:center center;@media (min-width:480px){min-height:100vh;}"], _static_me_jpg__WEBPACK_IMPORTED_MODULE_3___default.a);
+})(["background-image:url(", ");background-size:cover;min-height:70vh;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;@media (min-width:480px){min-height:100vh;}"], _static_me_jpg__WEBPACK_IMPORTED_MODULE_3___default.a);
 var HeroContainer = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Hero__HeroContainer",
   componentId: "sc-1oj9b8p-1"
@@ -394,7 +394,7 @@ var HeroContainer = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div
 var HeroBlock = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Hero__HeroBlock",
   componentId: "sc-1oj9b8p-2"
-})(["color:", ";margin-top:3.5rem;width:100%;@media (min-width:480px){width:70%;}.intro{font-size:7vmin;margin:0;}.description{font-size:1.6rem;line-height:2.6rem;font-weight:300;@media (min-width:480px){line-height:38px;font-size:3.5vmin;font-weight:300;min-width:80%;}}"], function (props) {
+})(["color:", ";margin-top:7rem;width:100%;@media (min-width:480px){width:70%;}.intro{font-size:7vmin;margin:0;}.description{font-size:1.6rem;line-height:2.6rem;font-weight:300;@media (min-width:480px){line-height:38px;font-size:3.5vmin;font-weight:300;min-width:80%;}}"], function (props) {
   return props.theme.white;
 });
 var HeroButtons = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -408,46 +408,46 @@ var Hero = function Hero(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroImage, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: this
   }, props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroBlock, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 76
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "intro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 77
     },
     __self: this
   }, "Hello, I'm Tom"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "description",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 78
     },
     __self: this
   }, "I\u2019m a Freelance (UI/UX) Software Engineer based in Sydney. I help companies deliver innovative, end-to-end products that meet both user and business needs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroButtons, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 83
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -457,14 +457,14 @@ var Hero = function Hero(props) {
     hoverBg: '#05da53',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 84
     },
     __self: this
   }, "My Work")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -475,7 +475,7 @@ var Hero = function Hero(props) {
     hoverColor: '#000',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 89
     },
     __self: this
   }, "Let's Talk"))))));
@@ -590,19 +590,41 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var NavStyles = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
   displayName: "Nav__NavStyles",
   componentId: "hwzlet-0"
-})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;.show{opacity:1;visibility:visible;transition:0.2s;position:fixed;left:0;top:0;background:#100e17f2;z-index:1;display:grid;width:100%;height:calc(100vh);height:100%;margin:0;> ul{flex-direction:column;opacity:none;visibility:visible;}}.close-button{border:none;background:0 0;display:none;cursor:pointer;position:relative;top:0;right:0;svg{width:50px;height:50px;}}.hamburger-button{display:block;border:none;cursor:pointer;outline:none;svg{width:50px;height:50px;}@media (min-width:950px){display:none;}}"]);
+})(["margin:0;padding:0;display:flex;justify-content:flex-end;font-size:2rem;.show{opacity:1;visibility:visible;transition:0.2s;position:fixed;left:0;top:0;background:#100e17f2;z-index:1;display:grid;width:100%;height:calc(100vh);height:100%;margin:0;> ul{flex-direction:column;opacity:none;visibility:visible;justify-content:center;}}.close-button{border:none;background:0 0;display:none;cursor:pointer;position:relative;top:0;right:0;svg{width:50px;height:50px;}}.hamburger-button{display:block;border:none;cursor:pointer;outline:none;background:transparent;svg{width:50px;height:50px;}@media (min-width:950px){display:none;}}"]);
 var NavList = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.ul.withConfig({
   displayName: "Nav__NavList",
   componentId: "hwzlet-1"
-})(["display:flex;align-items:center;justify-content:center;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}}.show{a{display:block;opacity:1;visibility:visible;}}"], function (props) {
+})(["display:flex;align-items:center;justify-content:center;flex-wrap:wrap;visibility:hidden;a,button{display:flex;align-items:center;position:relative;text-transform:uppercase;font-size:1.7rem;background:none;font-family:", ";letter-spacing:0.05em;font-weight:500;border:0;cursor:pointer;color:", ";padding:25px 15px;&:hover{color:#3eaca8;}}@media (min-width:950px){visibility:visible;}.show{a{display:block;opacity:1;visibility:visible;}}"], function (props) {
   return props.theme.fontPrimary;
 }, function (props) {
   return props.theme.white;
 });
-var NavSocial = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
-  displayName: "Nav__NavSocial",
+var NavContainer = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
+  displayName: "Nav__NavContainer",
   componentId: "hwzlet-2"
-})([".links-button{width:25px;position:relative;}.social-menu{background:black;position:absolute;top:105px;padding:5px 5px;margin-left:15px;transition:visibility 0s ease 0s,opacity 0.5s ease;-webkit-transition:visibility 0s ease 0s,opacity 0.5s ease;z-index:2;background-color:#242424;list-style-type:none;li{cursor:pointer;display:block;padding:0px;}}"]);
+})(["display:flex;"]); // const NavSocial = styled.div`
+//   .links-button {
+//     width: 25px;
+//     position: relative;
+//   }
+//   .social-menu {
+//     background: black;
+// 	position: absolute;
+// 	top: 105px;
+// 	padding: 5px 5px;
+// 	margin-left: 15px;
+//     transition: visibility 0s ease 0s, opacity 0.5s ease;
+//     -webkit-transition: visibility 0s ease 0s, opacity 0.5s ease;
+// 	z-index: 2;
+// 	background-color: #242424;
+// 	list-style-type: none;
+// 	li {
+// 		cursor: pointer;
+// 		display: block;
+//     	padding: 0px;
+// 	}
+//   }
+// `;
 
 var Nav =
 /*#__PURE__*/
@@ -650,134 +672,81 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavStyles, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 160
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavContainer, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149
+          lineNumber: 161
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavList, {
         className: this.state.mobileNav && "show",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 162
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 163
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 164
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "https://medium.com/@thomas_blaymire",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 166
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 167
         },
         __self: this
       }, "Blog")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/portfolio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 169
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 170
         },
         __self: this
       }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
         href: "/contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 172
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
-        },
-        __self: this
-      }, "Contact")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(NavSocial, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 164
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        onMouseOver: this.toggleSocialLinks,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 165
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        className: "links-button",
-        src: _static_socialShare_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
-        alt: "Open Scial Links",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 166
-        },
-        __self: this
-      })), this.state.socialMenu && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-        className: "social-menu",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 173
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 174
-        },
-        __self: this
-      }, "F"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 175
-        },
-        __self: this
-      }, "T"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176
-        },
-        __self: this
-      }, "L"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 177
-        },
-        __self: this
-      }, "G"))), !this.state.mobileNav && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+      }, "Contact"))), !this.state.mobileNav && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "hamburger-button",
         onClick: this.toggleNavigationHandler,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 183
+          lineNumber: 196
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -785,15 +754,15 @@ function (_Component) {
         alt: "Open Navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187
+          lineNumber: 200
         },
         __self: this
-      }))), this.state.mobileNav && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+      })), this.state.mobileNav && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "close-button",
         onClick: this.toggleNavigationHandler,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 193
+          lineNumber: 205
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -801,7 +770,7 @@ function (_Component) {
         alt: "Close Navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 197
+          lineNumber: 209
         },
         __self: this
       }))));
