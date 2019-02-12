@@ -6,7 +6,11 @@ import Button from './Button';
 const HeroImage = styled.div`
 	background-image: url(${hero});
 	background-size: cover;
-	min-height: 100vh;
+	min-height: 70vh;
+
+	@media (min-width: 480px) {
+		min-height: 100vh;
+	}
 `;
 
 const HeroContainer = styled.div`
@@ -19,7 +23,11 @@ const HeroContainer = styled.div`
 const HeroBlock = styled.div`
 	color: ${props => props.theme.white};
 	margin-top: 3.5rem;
-	width: 60%;
+	width: 100%;
+
+	@media (min-width: 480px) {
+		width: 60%;
+	}
 
 	.intro {
 		font-size: 7vmin;
@@ -28,8 +36,11 @@ const HeroBlock = styled.div`
 
 	.description {
 		font-size: 3.5vmin;
-		line-height: 38px;
+		line-height: 24px;
 		font-weight: 300;
+		@media (min-width: 480px) {
+			line-height: 38px;
+		}
 	}
 `;
 

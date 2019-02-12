@@ -91,9 +91,10 @@ const NavList = styled.ul`
 	}
 
 	a {
-		@media (max-width: 950px) {
-			opacity: 0;
-			visibility: hidden;
+		display: none;
+		@media (min-width: 950px) {
+			opacity: 1;
+			visibility: visible;
 		}
 	}
 
