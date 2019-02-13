@@ -98,6 +98,7 @@ const NavList = styled.ul`
 
   @media (min-width: 950px) {
 	  visibility: visible;
+	  margin: 0;
 	}
 
   .show {
@@ -111,6 +112,7 @@ const NavList = styled.ul`
 
 const NavContainer = styled.div`
 	display: flex;
+	height: 10vh;
 `;
 
 // const NavSocial = styled.div`

@@ -23,6 +23,7 @@ const StyledHeader = styled.header`
 	justify-content: space-between;
 	-webkit-box-align: center;
 	align-items: center;
+	padding: 2rem 0;
 `;
 
 const Header = () => (

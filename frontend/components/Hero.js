@@ -7,13 +7,16 @@ const HeroImage = styled.div`
 	background-image: url(${hero});
 	background-size: cover;
 	min-height: 70vh;
+	height: auto;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	position: relative;
+	background-position-x: -500px;
 
 	@media (min-width: 480px) {
 		min-height: 100vh;
+		background-position-x: center;
 	}
 `;
 
@@ -26,10 +29,10 @@ const HeroContainer = styled.div`
 
 const HeroBlock = styled.div`
 	color: ${props => props.theme.white};
-	margin-top: 7rem;
 	width: 100%;
-	position: absolute;
-	bottom: 25rem;
+	position: relative;
+	
+	top: 10rem;
 
 	@media (min-width: 480px) {
 		width: 60%;
