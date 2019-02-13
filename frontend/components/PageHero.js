@@ -3,11 +3,13 @@ import PageStyles from './styles/PageStyles';
 
 const HeroBlock = styled.div`
 	color: ${props => props.theme.white};
-	margin-top: 4rem;
 	width: 100%;
+	position: absolute;
+	bottom: 10rem;
 
 	@media (min-width: 992px) {
 		width: 54%;
+		bottom: 20rem;
 	}
 
 	.intro {
@@ -31,6 +33,7 @@ const Hero = props => {
 		height: '70vh',
 		backgroundAttachment: 'fixed',
 		backgroundPositionY: '-20rem',
+		position: 'relative'
 	};
 
 	return (

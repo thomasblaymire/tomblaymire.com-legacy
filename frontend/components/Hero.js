@@ -10,6 +10,7 @@ const HeroImage = styled.div`
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
+	position: relative;
 
 	@media (min-width: 480px) {
 		min-height: 100vh;
@@ -27,9 +28,11 @@ const HeroBlock = styled.div`
 	color: ${props => props.theme.white};
 	margin-top: 7rem;
 	width: 100%;
+	position: absolute;
+	bottom: 25rem;
 
 	@media (min-width: 480px) {
-		width: 70%;
+		width: 60%;
 	}
 
 	.intro {
@@ -42,7 +45,7 @@ const HeroBlock = styled.div`
 		line-height: 2.6rem;
 		font-weight: 300;
 		@media (min-width: 480px) {
-			line-height: 38px;
+			line-height: 4.5rem;
 			font-size: 3.5vmin;
 			font-weight: 300;
 			min-width: 80%;

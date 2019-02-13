@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_twitter_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_twitter_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/linkedin.svg */ "./static/linkedin.svg");
 /* harmony import */ var _static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_linkedin_svg__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Footer.js";
+var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/frontend/components/Footer.js";
 
 
 
@@ -169,7 +169,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! nprogress */ "nprogress");
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Header.js";
+var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/frontend/components/Header.js";
 
 
 
@@ -237,7 +237,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/logo.png */ "./static/logo.png");
 /* harmony import */ var _static_logo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_logo_png__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Logo.js";
+var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/frontend/components/Logo.js";
 
 
 
@@ -293,7 +293,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_socialShare_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_socialShare_svg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Nav.js";
+var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/frontend/components/Nav.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -533,14 +533,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles_PageStyles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/PageStyles */ "./components/styles/PageStyles.js");
-var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/PageHero.js";
+var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/frontend/components/PageHero.js";
 
 
 
 var HeroBlock = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PageHero__HeroBlock",
   componentId: "sc-13x60d9-0"
-})(["color:", ";margin-top:4rem;width:100%;@media (min-width:992px){width:54%;}.intro{font-size:5.5rem;margin:0;line-height:1.5em;}.description{font-size:2.5rem;line-height:38px;}"], function (props) {
+})(["color:", ";width:100%;position:absolute;bottom:10rem;@media (min-width:992px){width:54%;bottom:20rem;}.intro{font-size:5.5rem;margin:0;line-height:1.5em;}.description{font-size:2.5rem;line-height:38px;}"], function (props) {
   return props.theme.white;
 });
 
@@ -553,46 +553,47 @@ var Hero = function Hero(props) {
     backgroundSize: 'cover',
     height: '70vh',
     backgroundAttachment: 'fixed',
-    backgroundPositionY: '-20rem'
+    backgroundPositionY: '-20rem',
+    position: 'relative'
   };
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: style,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_PageStyles__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 42
     },
     __self: this
   }, props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeroBlock, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "intro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 45
     },
     __self: this
   }, pageName), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "description",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }, description)))));
@@ -674,7 +675,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/styles/PageStyles */ "./components/styles/PageStyles.js");
 /* harmony import */ var _static_about_hero_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../static/about-hero.jpg */ "./static/about-hero.jpg");
 /* harmony import */ var _static_about_hero_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_static_about_hero_jpg__WEBPACK_IMPORTED_MODULE_9__);
-var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/pages/portfolio-innovation.js";
+var _jsxFileName = "/Users/tbl02/Development/Workspaces/React/tomblaymire.com/frontend/pages/portfolio-innovation.js";
 
 
 

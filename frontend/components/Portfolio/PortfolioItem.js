@@ -16,7 +16,6 @@ const PortfolioImage = styled.img`
 	position: relative;
 	height: auto;
 
-
 	@media (min-width: 768px) {
 		height: 350px;
 	}
@@ -66,8 +65,8 @@ const PortfolioItem = props => {
 	const { image, name, tags, id, url, customStyle} = props;
 
 	const tagList = tags.map(tag => <li key={tag}>{tag}</li>);
-	
-	console.log(customStyle); 
+
+	console.log(customStyle);
 
 	return (
 		<PortfolioBox>
