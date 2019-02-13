@@ -7,6 +7,8 @@
 
 ## Live URL
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ccb8cf6e-bac5-4c77-a5f6-af33c76faa0c/deploy-status)](https://app.netlify.com/sites/tomblaymire/deploys)
+
 <strong>www.tomblaymire.com</strong>
 
 ## Screenshot
@@ -22,6 +24,7 @@
 - Styled-Components
 - Server Rendered
 - Code Splitting
+
 
 ## Future Plans / Needed Features
 
