@@ -161,13 +161,13 @@ var Meta = function Meta() {
     src: "https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
   }, "Tom Blaymire | Front End Deveoper | Leeds UK"));
@@ -227,20 +227,20 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 var theme = {
-  red: '#FF0000',
-  black: '#000000',
-  grey: '#494949',
-  greyDark: '#2a363b',
-  greyLight: '#DADADA',
-  white: '#FFFFFF',
-  lightgrey: '#E1E1E1',
-  green: '#3eaca8',
-  seaGreen: '#e5eec1',
-  offWhite: '#EDEDED',
-  maxWidth: '1000px',
-  bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
-  fontPrimary: 'Poppins',
-  fontSecondary: 'Source Sans Pro'
+  red: "#FF0000",
+  black: "#000000",
+  grey: "#494949",
+  greyDark: "#2a363b",
+  greyLight: "#DADADA",
+  white: "#FFFFFF",
+  lightgrey: "#E1E1E1",
+  green: "#3eaca8",
+  seaGreen: "#e5eec1",
+  offWhite: "#EDEDED",
+  maxWidth: "1000px",
+  bs: "0 12px 24px 0 rgba(0, 0, 0, 0.09)",
+  fontPrimary: "Poppins",
+  fontSecondary: "Source Sans Pro"
 };
 var StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Page__StyledPage",

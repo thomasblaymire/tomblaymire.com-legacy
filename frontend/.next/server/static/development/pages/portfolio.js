@@ -540,7 +540,7 @@ var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/comp
 var HeroBlock = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "PageHero__HeroBlock",
   componentId: "sc-13x60d9-0"
-})(["color:", ";width:100%;position:absolute;bottom:10rem;@media (min-width:992px){width:54%;bottom:20rem;}.intro{font-size:5.5rem;margin:0;line-height:1.5em;}.description{font-size:2.5rem;line-height:38px;}"], function (props) {
+})(["color:", ";width:100%;position:absolute;bottom:10rem;@media (min-width:992px){width:54%;bottom:16rem;}.intro{font-size:5.5rem;margin:0;line-height:1.5em;}.description{font-size:2.5rem;line-height:38px;}"], function (props) {
   return props.theme.white;
 });
 
@@ -549,12 +549,12 @@ var Hero = function Hero(props) {
       pageName = props.pageName,
       description = props.description;
   var style = {
-    backgroundImage: 'url(' + image + ')',
-    backgroundSize: 'cover',
-    height: '70vh',
-    backgroundAttachment: 'fixed',
-    backgroundPositionY: '-20rem',
-    position: 'relative'
+    backgroundImage: "url(" + image + ")",
+    backgroundSize: "cover",
+    height: "70vh",
+    backgroundAttachment: "fixed",
+    backgroundPositionY: "-20rem",
+    position: "relative"
   };
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: style,
@@ -955,39 +955,39 @@ var Portfolio = function Portfolio() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 36
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Portfolio_PortfolioList__WEBPACK_IMPORTED_MODULE_6__["default"], {
     amount: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 41
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 44
     },
     __self: this
   })));

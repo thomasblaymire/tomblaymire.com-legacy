@@ -26,13 +26,13 @@ const NavStyles = styled.div`
     width: 100%;
     height: calc(100vh);
     height: 100%;
-	margin: 0;
+    margin: 0;
 
     > ul {
       flex-direction: column;
       opacity: none;
-	  visibility: visible;
-	  justify-content: center;
+      visibility: visible;
+      justify-content: center;
     }
   }
 
@@ -55,8 +55,8 @@ const NavStyles = styled.div`
     display: block;
     border: none;
     cursor: pointer;
-	outline: none;
-	background: transparent;
+    outline: none;
+    background: transparent;
 
     svg {
       width: 50px;
@@ -73,12 +73,12 @@ const NavList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   visibility: hidden;
 
   a,
   button {
-	display: flex;
+    display: flex;
     align-items: center;
     position: relative;
     text-transform: uppercase;
@@ -97,22 +97,22 @@ const NavList = styled.ul`
   }
 
   @media (min-width: 950px) {
-	  visibility: visible;
-	  margin: 0;
-	}
+    visibility: visible;
+    margin: 0;
+  }
 
   .show {
     a {
       display: block;
       opacity: 1;
-	  visibility: visible;
+      visibility: visible;
     }
   }
 `;
 
 const NavContainer = styled.div`
-	display: flex;
-	height: 10vh;
+  display: flex;
+  height: 10vh;
 `;
 
 // const NavSocial = styled.div`
@@ -194,14 +194,14 @@ class Nav extends Component {
             </NavSocial> */}
           </NavList>
 
-		  {!this.state.mobileNav && (
-              <button
-                className="hamburger-button"
-                onClick={this.toggleNavigationHandler}
-              >
-                <SVG src={hamburgerIcon} alt="Open Navigation" />
-              </button>
-            )}
+          {!this.state.mobileNav && (
+            <button
+              className="hamburger-button"
+              onClick={this.toggleNavigationHandler}
+            >
+              <SVG src={hamburgerIcon} alt="Open Navigation" />
+            </button>
+          )}
 
           {this.state.mobileNav && (
             <button
