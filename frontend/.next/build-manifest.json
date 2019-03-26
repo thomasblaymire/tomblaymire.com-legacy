@@ -15,19 +15,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/portfolio": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/contact": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/portfolio-innovation": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/portfolio-careers": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

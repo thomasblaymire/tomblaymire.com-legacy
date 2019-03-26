@@ -6,7 +6,7 @@ import Button from "./Button";
 const HeroImage = styled.div`
   background-image: url(${hero});
   background-size: cover;
-  min-height: 70vh;
+  min-height: 80vh;
   height: auto;
   background-repeat: no-repeat;
   background-position: center center;

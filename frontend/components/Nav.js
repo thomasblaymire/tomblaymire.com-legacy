@@ -22,11 +22,14 @@ const NavStyles = styled.div`
     top: 0;
     background: #100e17f2;
     z-index: 1;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: calc(100vh);
     height: 100%;
     margin: 0;
+    padding: 0;
 
     > ul {
       flex-direction: column;
