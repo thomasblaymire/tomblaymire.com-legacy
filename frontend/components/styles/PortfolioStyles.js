@@ -21,6 +21,10 @@ const PortfolioStyles = styled.div`
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.08), 0 0 4px rgba(0, 0, 0, 0.05);
   }
 
+  .screenshot-alt {
+    max-width: 100%;
+  }
+
   .heading {
     font-family: ${props => props.theme.fontPrimary};
     letter-spacing: -0.02em;

@@ -11,11 +11,31 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/portfolio": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/portfolio-skybet": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/contact": [
+    "/portfolio-innovation": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/portfolio-pad": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/portfolio-careers": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],

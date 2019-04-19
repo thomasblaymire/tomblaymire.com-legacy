@@ -809,14 +809,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_port_pad_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_port_pad_jpg__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _static_port_gpws_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../static/port-gpws.jpg */ "./static/port-gpws.jpg");
 /* harmony import */ var _static_port_gpws_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_port_gpws_jpg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../static/port-careers.jpg */ "./static/port-careers.jpg");
-/* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../static/port-innovation-main.png */ "./static/port-innovation-main.png");
-/* harmony import */ var _static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../static/hermes-main.jpg */ "./static/hermes-main.jpg");
-/* harmony import */ var _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../static/port-location.jpg */ "./static/port-location.jpg");
-/* harmony import */ var _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _static_inplay_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../static/inplay.png */ "./static/inplay.png");
+/* harmony import */ var _static_inplay_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_inplay_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../static/port-careers.jpg */ "./static/port-careers.jpg");
+/* harmony import */ var _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../static/port-innovation-main.png */ "./static/port-innovation-main.png");
+/* harmony import */ var _static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../static/hermes-main.jpg */ "./static/hermes-main.jpg");
+/* harmony import */ var _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../static/port-location.jpg */ "./static/port-location.jpg");
+/* harmony import */ var _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_static_port_location_jpg__WEBPACK_IMPORTED_MODULE_9__);
 var _jsxFileName = "/Users/admin/Development/React/tomblaymire.com/frontend/components/Portfolio/PortfolioList.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -838,6 +840,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -874,7 +877,13 @@ function (_Component) {
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
       portfolioItems: [{
         id: 1,
-        image: _static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+        image: _static_inplay_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+        name: "Sky Betting & Gaming",
+        tags: ["React", "Mobx", "Aphrodite", "ES6"],
+        url: "/portfolio-skybet"
+      }, {
+        id: 1,
+        image: _static_port_innovation_main_png__WEBPACK_IMPORTED_MODULE_7___default.a,
         name: "Hermes Innovation",
         tags: ["Angular JS", "HTML5", "CSS3", "Jasmine"],
         url: "/portfolio-innovation"
@@ -886,13 +895,13 @@ function (_Component) {
         url: "/portfolio-pad"
       }, {
         id: 3,
-        image: _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
+        image: _static_port_careers_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
         name: "Hermes Careers",
         tags: ["Angular 2", "ES6", "CSS3", "Web Development"],
         url: "/portfolio-careers"
       }, {
         id: 4,
-        image: _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+        image: _static_hermes_main_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
         name: "Hermes",
         tags: ["Angular 2", "ES6", "CSS3", "Web Development"],
         url: "/portfolio-hermes"
@@ -904,7 +913,7 @@ function (_Component) {
         url: "/portfolio-gpws"
       }, {
         id: 6,
-        image: _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
+        image: _static_port_location_jpg__WEBPACK_IMPORTED_MODULE_9___default.a,
         name: "Location Search",
         tags: ["React", "Redux", "ES6", "JavaScript"],
         url: "/portfolio"
@@ -930,7 +939,7 @@ function (_Component) {
           tags: item.tags,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65
+            lineNumber: 73
           },
           __self: this
         });
@@ -938,7 +947,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioItems, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 84
         },
         __self: this
       }, portfolioItems);
@@ -17751,6 +17760,17 @@ module.exports = "/_next/static/images/hermes-main-47845c99c51b4718b1a7b870e8d38
 
 /***/ }),
 
+/***/ "./static/inplay.png":
+/*!***************************!*\
+  !*** ./static/inplay.png ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/inplay-17c7c10278561f44de449ae35118f267.png";
+
+/***/ }),
+
 /***/ "./static/keyboard.svg":
 /*!*****************************!*\
   !*** ./static/keyboard.svg ***!
@@ -17802,7 +17822,7 @@ module.exports = "/_next/static/images/logo-db385bfb85d6b3e1d78473cc8831d3ef.png
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/man-phone-0017cd76f118e448715c49db3cf879c1.jpg";
+module.exports = "/_next/static/images/man-phone-56ea42275eb4205bbe6de95de0b9449d.jpg";
 
 /***/ }),
 
@@ -17813,7 +17833,7 @@ module.exports = "/_next/static/images/man-phone-0017cd76f118e448715c49db3cf879c
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/me-a3a0244f06c101041865fbf9af7b3fbf.jpg";
+module.exports = "/_next/static/images/me-17ae86b3e341413a8e63fc192b207046.jpg";
 
 /***/ }),
 
@@ -17846,7 +17866,7 @@ module.exports = "/_next/static/images/port-gpws-27f6360f7e506604d2592da15514e46
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/port-innovation-main-b11a1569f149734b54be4ef7b18e0b9c.png";
+module.exports = "/_next/static/images/port-innovation-main-f33966629625a6778dada0ec2a4a4e6b.png";
 
 /***/ }),
 
@@ -17905,7 +17925,7 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -17930,5 +17950,5 @@ module.exports = dll_b2d9fd95b535cd8bf589;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map

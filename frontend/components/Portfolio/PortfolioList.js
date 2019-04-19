@@ -3,6 +3,7 @@ import styled from "styled-components";
 import PortfolioItem from "./PortfolioItem";
 import productAnalysis from "../../static/port-pad.jpg";
 import gpWeb from "../../static/port-gpws.jpg";
+import skyBet from "../../static/inplay.png";
 import careers from "../../static/port-careers.jpg";
 import innovation from "../../static/port-innovation-main.png";
 import hermes from "../../static/hermes-main.jpg";
@@ -13,6 +14,13 @@ const PortfolioItems = styled.div``;
 class PortfolioList extends Component {
   state = {
     portfolioItems: [
+      {
+        id: 1,
+        image: skyBet,
+        name: "Sky Betting & Gaming",
+        tags: ["React", "Mobx", "Aphrodite", "ES6"],
+        url: "/portfolio-skybet"
+      },
       {
         id: 1,
         image: innovation,
