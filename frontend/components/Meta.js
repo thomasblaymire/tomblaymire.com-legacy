@@ -11,7 +11,7 @@ const Meta = () => (
       rel="stylesheet"
     />
     <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js" />
-    <title>Tom Blaymire | Front End Deveoper | Leeds UK</title>
+    <title>Tom Blaymire | Front End Developer | Leeds UK</title>
   </Head>
 );
 
