@@ -5,8 +5,8 @@ import Link from "next/link";
 import PageContent from "../components/styles/PageStyles";
 import PortfolioList from "../components/Portfolio/PortfolioList";
 import ExpertiseCard from "../components/ExpertiseCard";
-import SocialLinks from "../components/SocialLinks";
-import FullWidthCta from "../components/FullWidthCta";
+import Social from "../components/Social";
+import CallToAction from "../components/CallToAction";
 import Button from "../components/Button";
 import locationImage from "../static/man-phone.jpg";
 import rocket from "../static/test_animated.svg";
@@ -165,7 +165,7 @@ const Home = () => {
 
           <LocationImage />
         </Location>
-        <FullWidthCta text="Hire me for your next project" />
+        <CallToAction text="Hire me for your next project" />
         <RecentProjects>
           <div className="container">
             <h2 className="heading">Recent projects</h2>
@@ -179,7 +179,7 @@ const Home = () => {
             </PortfolioWrapper>
           </div>
         </RecentProjects>
-        <SocialLinks />
+        <Social />
       </PageContent>
     </div>
   );

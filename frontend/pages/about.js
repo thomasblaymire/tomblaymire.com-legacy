@@ -1,7 +1,7 @@
 import PageHero from "../components/PageHero";
 import Header from "../components/Header";
 import PageContent from "../components/styles/PageStyles";
-import FullWidthCta from "../components/FullWidthCta";
+import CallToAction from "../components/CallToAction";
 import Footer from "../components/Footer";
 import aboutHero from "../static/about-hero.jpg";
 import laptopPortfolio from "../static/laptop-portfolio.png";
@@ -93,7 +93,7 @@ const About = () => {
             </AboutWrapper>
           </div>
         </AboutIntro>
-        <FullWidthCta text="Work with me on your next exiting project." />
+        <CallToAction text="Work with me on your next exiting project." />
         <Footer />
       </PageContent>
     </div>
