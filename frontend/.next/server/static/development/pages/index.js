@@ -236,10 +236,10 @@ var StyledText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h2.wit
 
 /***/ }),
 
-/***/ "./components/ExpertiseCard.js":
-/*!*************************************!*\
-  !*** ./components/ExpertiseCard.js ***!
-  \*************************************/
+/***/ "./components/Card/index.js":
+/*!**********************************!*\
+  !*** ./components/Card/index.js ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -247,80 +247,104 @@ var StyledText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h2.wit
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-inlinesvg */ "react-inlinesvg");
-/* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/thomasblaymire/Development/personal-old/frontend/components/ExpertiseCard.js";
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styled */ "./components/Card/styled.js");
+var _jsxFileName = "/Users/thomasblaymire/Development/personal-old/frontend/components/Card/index.js";
 
 
 
-var Block = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "ExpertiseCard__Block",
-  componentId: "sc-1ipbg70-0"
-})(["width:100%;.title{color:", ";}.description{line-height:30px;color:", ";font-family:", ";font-size:1.8rem;}.seperator{margin:27px 0px;}.divide{width:20%;height:2px;background-color:", ";display:block;content:\"\";}.icon{fill:#3eaca8;&:hover{transition:all 0.2s ease-in-out;fill:", ";}}"], function (props) {
-  return props.theme.greyDark;
-}, function (props) {
-  return props.theme.grey;
-}, function (props) {
-  return props.theme.fontSecondary;
-}, function (props) {
-  return props.theme.greyDark;
-}, function (props) {
-  return props.theme.black;
-});
-
-var ExpertiseCard = function ExpertiseCard(props) {
-  var title = props.title,
-      description = props.description,
-      icon = props.icon;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Block, {
+var Card = function Card(_ref) {
+  var title = _ref.title,
+      description = _ref.description,
+      icon = _ref.icon;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_1__["StyledCard"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_inlinesvg__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    className: "icon",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_1__["StyledCardIcon"], {
     src: icon,
     alt: title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 6
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "title",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_1__["StyledCardTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 7
     },
     __self: this
-  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "seperator",
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_1__["StyledCardSeperator"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "divide",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_1__["StyledCardText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "description",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 9
     },
     __self: this
   }, description));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (ExpertiseCard);
+/* harmony default export */ __webpack_exports__["default"] = (Card);
+
+/***/ }),
+
+/***/ "./components/Card/styled.js":
+/*!***********************************!*\
+  !*** ./components/Card/styled.js ***!
+  \***********************************/
+/*! exports provided: StyledCard, StyledCardIcon, StyledCardTitle, StyledCardSeperator, StyledCardText */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledCard", function() { return StyledCard; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledCardIcon", function() { return StyledCardIcon; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledCardTitle", function() { return StyledCardTitle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledCardSeperator", function() { return StyledCardSeperator; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledCardText", function() { return StyledCardText; });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-inlinesvg */ "react-inlinesvg");
+/* harmony import */ var react_inlinesvg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_inlinesvg__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var StyledCard = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__StyledCard",
+  componentId: "sc-17wiupn-0"
+})(["width:100%;.seperator{margin:27px 0px;}"]);
+var StyledCardIcon = styled_components__WEBPACK_IMPORTED_MODULE_0___default()(react_inlinesvg__WEBPACK_IMPORTED_MODULE_1___default.a).withConfig({
+  displayName: "styled__StyledCardIcon",
+  componentId: "sc-17wiupn-1"
+})(["fill:#3eaca8;&:hover{transition:all 0.2s ease-in-out;fill:", ";}"], function (props) {
+  return props.theme.black;
+});
+var StyledCardTitle = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h2.withConfig({
+  displayName: "styled__StyledCardTitle",
+  componentId: "sc-17wiupn-2"
+})(["color:", ";"], function (props) {
+  return props.theme.greyDark;
+});
+var StyledCardSeperator = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__StyledCardSeperator",
+  componentId: "sc-17wiupn-3"
+})(["width:20%;height:2px;background-color:", ";display:block;margin-bottom:27px;content:'';"], function (props) {
+  return props.theme.greyDark;
+});
+var StyledCardText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.span.withConfig({
+  displayName: "styled__StyledCardText",
+  componentId: "sc-17wiupn-4"
+})(["line-height:30px;color:", ";font-family:", ";font-size:1.8rem;"], function (props) {
+  return props.theme.grey;
+}, function (props) {
+  return props.theme.fontSecondary;
+});
 
 /***/ }),
 
@@ -431,50 +455,49 @@ var _jsxFileName = "/Users/thomasblaymire/Development/personal-old/frontend/comp
 
 var Hero = function Hero(_ref) {
   var title = _ref.title,
-      description = _ref.description;
+      description = _ref.description,
+      children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledHero"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledHeroWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 14
     },
     __self: this
-  }, props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledHeroContent"], {
+  }, children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledHeroContent"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 16
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "intro",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledHeroTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 17
     },
     __self: this
-  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "description",
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledHeroText"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 18
     },
     __self: this
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledButtonBlock"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -484,14 +507,14 @@ var Hero = function Hero(_ref) {
     hoverBg: '#05da53',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 22
     },
     __self: this
   }, "My Work")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -502,7 +525,7 @@ var Hero = function Hero(_ref) {
     hoverColor: '#000',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 27
     },
     __self: this
   }, "Let's Talk"))))));
@@ -516,7 +539,7 @@ var Hero = function Hero(_ref) {
 /*!***********************************!*\
   !*** ./components/Hero/styled.js ***!
   \***********************************/
-/*! exports provided: StyledHero, StyledHeroWrapper, StyledHeroContent, StyledButtonBlock */
+/*! exports provided: StyledHero, StyledHeroWrapper, StyledHeroContent, StyledHeroTitle, StyledHeroText, StyledButtonBlock */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -524,6 +547,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledHero", function() { return StyledHero; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledHeroWrapper", function() { return StyledHeroWrapper; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledHeroContent", function() { return StyledHeroContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledHeroTitle", function() { return StyledHeroTitle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledHeroText", function() { return StyledHeroText; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledButtonBlock", function() { return StyledButtonBlock; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
@@ -542,13 +567,21 @@ var StyledHeroWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a
 var StyledHeroContent = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "styled__StyledHeroContent",
   componentId: "s7dunm-2"
-})(["color:", ";width:100%;position:relative;top:10rem;@media (min-width:480px){width:60%;}.intro{font-size:7vmin;margin:0;}.description{font-size:1.6rem;line-height:2.6rem;font-weight:300;@media (min-width:480px){line-height:4.5rem;font-size:3.3vmin;font-weight:300;min-width:80%;}}"], function (props) {
+})(["color:", ";width:100%;padding:15rem 0;line-height:20px;@media (min-width:480px){width:60%;}"], function (props) {
   return props.theme.white;
 });
+var StyledHeroTitle = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h2.withConfig({
+  displayName: "styled__StyledHeroTitle",
+  componentId: "s7dunm-3"
+})(["font-size:6rem;"]);
+var StyledHeroText = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.p.withConfig({
+  displayName: "styled__StyledHeroText",
+  componentId: "s7dunm-4"
+})(["font-size:2.6rem;line-height:3.5em;font-weight:300;padding-bottom:5rem;@media (min-width:480px){line-height:1.5em;font-weight:300;min-width:80%;}"]);
 var StyledButtonBlock = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "styled__StyledButtonBlock",
-  componentId: "s7dunm-3"
-})(["margin-top:8rem;display:flex;& > button{margin-right:1.8rem;}a{color:", ";text-decoration:none;font-weight:normal;&:hover{color:red;}}"], function (props) {
+  componentId: "s7dunm-5"
+})(["display:flex;& > button{margin-right:1.8rem;}a{color:", ";text-decoration:none;font-weight:normal;&:hover{color:red;}}"], function (props) {
   return props.theme.white;
 });
 
@@ -1338,11 +1371,13 @@ var SocialIcon = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.wi
 /*!*****************************************!*\
   !*** ./components/styles/PageStyles.js ***!
   \*****************************************/
-/*! exports provided: default */
+/*! exports provided: Container, Heading, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Container", function() { return Container; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Heading", function() { return Heading; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -1356,14 +1391,52 @@ var PageStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.wi
 }, function (props) {
   return props.theme.fontSecondary;
 });
+var Container = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "PageStyles__Container",
+  componentId: "sc-1dspmwg-1"
+})(["max-width:1170px;margin-right:auto;margin-left:auto;padding:0px 15px;@media (min-width:568px){width:auto;}@media (min-width:992px){width:970px;}@media (min-width:1200px){width:1170px;}"]);
+var Heading = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h2.withConfig({
+  displayName: "PageStyles__Heading",
+  componentId: "sc-1dspmwg-2"
+})(["font-family:", ";letter-spacing:-0.02em;font-weight:700;font-style:normal;color:", ";font-size:4.2rem;margin:0;"], function (props) {
+  return props.theme.fontPrimary;
+}, function (props) {
+  return props.theme.greyDark;
+});
 /* harmony default export */ __webpack_exports__["default"] = (PageStyles);
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/index/data.js":
+/*!*****************************!*\
+  !*** ./pages/index/data.js ***!
+  \*****************************/
+/*! exports provided: expretiseData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "expretiseData", function() { return expretiseData; });
+var expretiseData = [{
+  title: 'Web Development',
+  description: 'I work with various different front end technologies including HTML5, JavaScript, React and Redux to to ensure the end product is fast and easy to use.',
+  icon: '../../static/keyboard.svg'
+}, {
+  title: 'Web Design',
+  description: 'I believe that any design should be researched thoroughly. I use the latest tools to create a design that sets you apart from the competition.',
+  icon: '../../static/test_animated.svg'
+}, {
+  title: 'User Experience',
+  description: 'I follow the BASIC UX principles with every project. Providing users with a memorable experience is what I strive to do in each project.',
+  icon: './../static/laptop.svg'
+}];
+
+/***/ }),
+
+/***/ "./pages/index/index.js":
+/*!******************************!*\
+  !*** ./pages/index/index.js ***!
+  \******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1371,27 +1444,19 @@ var PageStyles = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.wi
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Hero */ "./components/Hero/index.js");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Header */ "./components/Header/index.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/styles/PageStyles */ "./components/styles/PageStyles.js");
-/* harmony import */ var _components_Portfolio_PortfolioList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Portfolio/PortfolioList */ "./components/Portfolio/PortfolioList.js");
-/* harmony import */ var _components_ExpertiseCard__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/ExpertiseCard */ "./components/ExpertiseCard.js");
-/* harmony import */ var _components_Social__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Social */ "./components/Social/index.js");
-/* harmony import */ var _components_CallToAction__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/CallToAction */ "./components/CallToAction/index.js");
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Button */ "./components/Button/index.js");
-/* harmony import */ var _static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../static/man-phone.jpg */ "./static/man-phone.jpg");
-/* harmony import */ var _static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _static_test_animated_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../static/test_animated.svg */ "./static/test_animated.svg");
-/* harmony import */ var _static_test_animated_svg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_static_test_animated_svg__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _static_keyboard_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../static/keyboard.svg */ "./static/keyboard.svg");
-/* harmony import */ var _static_keyboard_svg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_static_keyboard_svg__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _static_laptop_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../static/laptop.svg */ "./static/laptop.svg");
-/* harmony import */ var _static_laptop_svg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_static_laptop_svg__WEBPACK_IMPORTED_MODULE_14__);
-var _jsxFileName = "/Users/thomasblaymire/Development/personal-old/frontend/pages/index.js";
+/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Hero */ "./components/Hero/index.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Header */ "./components/Header/index.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/styles/PageStyles */ "./components/styles/PageStyles.js");
+/* harmony import */ var _components_Portfolio_PortfolioList__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Portfolio/PortfolioList */ "./components/Portfolio/PortfolioList.js");
+/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/Card */ "./components/Card/index.js");
+/* harmony import */ var _components_Social__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/Social */ "./components/Social/index.js");
+/* harmony import */ var _components_CallToAction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/CallToAction */ "./components/CallToAction/index.js");
+/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/Button */ "./components/Button/index.js");
+/* harmony import */ var _styled__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./styled */ "./pages/index/styled.js");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./data */ "./pages/index/data.js");
+var _jsxFileName = "/Users/thomasblaymire/Development/personal-old/frontend/pages/index/index.js";
 
 
 
@@ -1405,167 +1470,116 @@ var _jsxFileName = "/Users/thomasblaymire/Development/personal-old/frontend/page
 
 
 
-
-
-var Expertise = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "pages__Expertise",
-  componentId: "sc-1lwpsg5-0"
-})(["padding:10rem 0rem;"]);
-var ExpertiseRow = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "pages__ExpertiseRow",
-  componentId: "sc-1lwpsg5-1"
-})(["display:grid;grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));grid-gap:6rem;align-items:start;margin-top:6rem;"]);
-var Location = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "pages__Location",
-  componentId: "sc-1lwpsg5-2"
-})(["min-height:80vh;height:auto;display:flex;align-items:center;background-color:", ";@media (min-width:480px){min-height:100vh;}"], function (props) {
-  return props.theme.seaGreen;
-});
-var LocationContent = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "pages__LocationContent",
-  componentId: "sc-1lwpsg5-3"
-})(["width:100%;color:", ";.location-content{width:90%;margin:0 auto;text-align:left;@media (min-width:480px){width:60%;}}.location-heading{line-height:1.4em;margin-bottom:4rem;font-size:4.7rem;width:100%;@media (min-width:480px){width:80%;}}p{margin:0 0 20px;font-size:1.8rem;color:#474747;font-family:Source Sans Pro;}"], function (props) {
-  return props.theme.grey;
-});
-var LocationImage = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "pages__LocationImage",
-  componentId: "sc-1lwpsg5-4"
-})(["width:100%;height:100vh;background-image:url(", ");background-attachment:fixed;background-size:cover;display:none;@media (min-width:480px){display:none;}@media (min-width:768px){height:110vh;display:block;}"], _static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_11___default.a);
-var RecentProjects = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "pages__RecentProjects",
-  componentId: "sc-1lwpsg5-5"
-})(["min-height:100vh;padding:10rem 0rem;p{width:70%;}"]);
-var PortfolioWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
-  displayName: "pages__PortfolioWrapper",
-  componentId: "sc-1lwpsg5-6"
-})(["& > *{margin-top:5rem;display:grid;grid-gap:2rem;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));}"]);
 
 var Home = function Home() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 25
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Hello, I'm Tom",
-    description: "I\u2019m a Freelance (UI/UX) Software Engineer based in Sydney. I help companies deliver innovative, end-to-end products that meet both user and business needs.",
+    description: "I\u2019m a Front End Developer based in Sydney. I help companies deliver innovative, end-to-end products that meet both user and business needs.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 26
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 32
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Expertise, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["StyledSection"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_4__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 36
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "heading",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_styles_PageStyles__WEBPACK_IMPORTED_MODULE_4__["Heading"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 37
     },
     __self: this
-  }, "My expretise"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ExpertiseRow, {
+  }, "My expretise"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["ExpertiseRow"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 38
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ExpertiseCard__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    title: "Web Development",
-    description: "I work with various different front end technologies including HTML5, JavaScript, React and Redux to to ensure the end product is fast and easy to use.",
-    icon: _static_keyboard_svg__WEBPACK_IMPORTED_MODULE_13___default.a,
+  }, _data__WEBPACK_IMPORTED_MODULE_11__["expretiseData"] && _data__WEBPACK_IMPORTED_MODULE_11__["expretiseData"].map(function (expertise) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      key: expertise.title,
+      title: expertise.title,
+      description: expertise.description,
+      icon: expertise.icon,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    });
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["Location"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 52
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ExpertiseCard__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    title: "Web Design",
-    description: "I believe that any design should be researched thoroughly. I use the latest tools to create a design that sets you apart from the competition.",
-    icon: _static_test_animated_svg__WEBPACK_IMPORTED_MODULE_12___default.a,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["LocationContent"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ExpertiseCard__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    title: "User Experience",
-    description: "I follow the BASIC UX principles with every project. Providing users with a memorable experience is what I strive to do in each project.",
-    icon: _static_laptop_svg__WEBPACK_IMPORTED_MODULE_14___default.a,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132
-    },
-    __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Location, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LocationContent, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "location-content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "heading location-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 55
     },
     __self: this
   }, "I live and work in Leeds UK!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 56
     },
     __self: this
   }, "I specialize in helping small businesses succeed online. With over 6 years experience working for some of the largest companies in the UK I have a breadth of knowledge around Web Design & Development."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 60
     },
     __self: this
-  }, "I also post regular helpful articles around startups, web design and user experience."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }, "I also post regular helpful articles around startups, web design and user experience."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 61
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_9__["default"], {
     btnFontSize: '1.7rem',
     borderColor: '#05af43',
     primaryColor: "#fff",
@@ -1574,73 +1588,130 @@ var Home = function Home() {
     borderRadius: '35px',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 62
     },
     __self: this
-  }, "Explore My Blog")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LocationImage, {
+  }, "Explore My Blog")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["LocationImage"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 75
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CallToAction__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CallToAction__WEBPACK_IMPORTED_MODULE_8__["default"], {
     text: "Hire me for your next project",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166
+      lineNumber: 78
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RecentProjects, {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["RecentProjects"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
+      lineNumber: 81
     },
     __self: this
   }, "Recent projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "sub-heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 82
     },
     __self: this
-  }, "I have worked across various exiting projects each with different requirements and deadlines. Some of my highlights are listed below."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PortfolioWrapper, {
+  }, "I have worked across various exiting projects each with different requirements and deadlines. Some of my highlights are listed below."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_10__["PortfolioWrapper"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 86
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Portfolio_PortfolioList__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Portfolio_PortfolioList__WEBPACK_IMPORTED_MODULE_5__["default"], {
     amount: 3,
     customStyle: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 87
     },
     __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Social__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Social__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 91
     },
     __self: this
   })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./pages/index/styled.js":
+/*!*******************************!*\
+  !*** ./pages/index/styled.js ***!
+  \*******************************/
+/*! exports provided: StyledSection, ExpertiseRow, Location, LocationContent, LocationImage, RecentProjects, PortfolioWrapper */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledSection", function() { return StyledSection; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExpertiseRow", function() { return ExpertiseRow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Location", function() { return Location; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocationContent", function() { return LocationContent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocationImage", function() { return LocationImage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RecentProjects", function() { return RecentProjects; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PortfolioWrapper", function() { return PortfolioWrapper; });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../static/man-phone.jpg */ "./static/man-phone.jpg");
+/* harmony import */ var _static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var StyledSection = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__StyledSection",
+  componentId: "o5oybj-0"
+})(["padding:10rem 0rem;"]);
+var ExpertiseRow = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__ExpertiseRow",
+  componentId: "o5oybj-1"
+})(["display:grid;grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));grid-gap:6rem;align-items:start;margin-top:6rem;"]);
+var Location = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__Location",
+  componentId: "o5oybj-2"
+})(["min-height:80vh;height:auto;display:flex;align-items:center;background-color:", ";@media (min-width:480px){min-height:100vh;}"], function (props) {
+  return props.theme.seaGreen;
+});
+var LocationContent = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__LocationContent",
+  componentId: "o5oybj-3"
+})(["width:100%;color:", ";.location-content{width:90%;margin:0 auto;text-align:left;@media (min-width:480px){width:60%;}}.location-heading{line-height:1.4em;margin-bottom:4rem;font-size:4.7rem;width:100%;@media (min-width:480px){width:80%;}}"], function (props) {
+  return props.theme.grey;
+});
+var LocationImage = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__LocationImage",
+  componentId: "o5oybj-4"
+})(["width:100%;height:100vh;background-image:url(", ");background-attachment:fixed;background-size:cover;display:none;@media (min-width:480px){display:none;}@media (min-width:768px){height:110vh;display:block;}"], _static_man_phone_jpg__WEBPACK_IMPORTED_MODULE_1___default.a);
+var RecentProjects = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__RecentProjects",
+  componentId: "o5oybj-5"
+})(["min-height:100vh;padding:10rem 0rem;p{width:70%;}"]);
+var PortfolioWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "styled__PortfolioWrapper",
+  componentId: "o5oybj-6"
+})(["& > *{margin-top:5rem;display:grid;grid-gap:2rem;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));}"]);
 
 /***/ }),
 
@@ -1696,28 +1767,6 @@ module.exports = "/_next/static/images/hermes-main-47845c99c51b4718b1a7b870e8d38
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/inplay-17c7c10278561f44de449ae35118f267.png";
-
-/***/ }),
-
-/***/ "./static/keyboard.svg":
-/*!*****************************!*\
-  !*** ./static/keyboard.svg ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDY0IDY0IiBzdHlsZT0iIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMzZWFjYTgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMSAyMmg2MnYzMEgxeiIgc3Ryb2tlLWRhc2hhcnJheT0iMTg0LDE4NiIgY2xhc3M9ImRoVkNWVFhoXzAiPjwvcGF0aD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMzZWFjYTgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNNyAyMnYtOGgxNFY3SDExVjQiIHN0cm9rZS1kYXNoYXJyYXk9IjQyLDQ0IiBjbGFzcz0iZGhWQ1ZUWGhfMSI+PC9wYXRoPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNlYWNhOCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik00IDI5aDRNMTAgMjloNE0xNiAyOWg0TTIyIDI5aDRNMjggMjloNE0zNCAyOWg0TTQwIDI5aDRNNDYgMjloNE01MiAyOWg0TTQgNDVoNE0xMCA0NWg0IiBzdHJva2UtZGFzaGFycmF5PSI0LDYiIGNsYXNzPSJkaFZDVlRYaF8yIj48L3BhdGg+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2VhY2E4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTE2IDQ1aDI2IiBzdHJva2UtZGFzaGFycmF5PSIyNiwyOCIgY2xhc3M9ImRoVkNWVFhoXzMiPjwvcGF0aD48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMzZWFjYTgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNNTAgNDVoNE01NiA0NWg0TTQ0IDQ1aDRNOCAzN2g0TTE0IDM3aDRNMjAgMzdoNE0yNiAzN2g0TTMyIDM3aDRNMzggMzdoNE00NCAzN2g0TTUwIDM3aDRNNTYgMzdoNCIgc3Ryb2tlLWRhc2hhcnJheT0iNCw2IiBjbGFzcz0iZGhWQ1ZUWGhfNCI+PC9wYXRoPjxzdHlsZSBkYXRhLW1hZGUtd2l0aD0idml2dXMtaW5zdGFudCI+LmRoVkNWVFhoXzB7c3Ryb2tlLWRhc2hhcnJheToxODQgMTg2O3N0cm9rZS1kYXNob2Zmc2V0OjE4NTthbmltYXRpb246ZGhWQ1ZUWGhfZHJhdyAyMDAwbXMgbGluZWFyIDBtcyBmb3J3YXJkczt9LmRoVkNWVFhoXzF7c3Ryb2tlLWRhc2hhcnJheTo0MiA0NDtzdHJva2UtZGFzaG9mZnNldDo0MzthbmltYXRpb246ZGhWQ1ZUWGhfZHJhdyAyMDAwbXMgbGluZWFyIDI1MG1zIGZvcndhcmRzO30uZGhWQ1ZUWGhfMntzdHJva2UtZGFzaGFycmF5OjQ0IDQ2O3N0cm9rZS1kYXNob2Zmc2V0OjQ1O2FuaW1hdGlvbjpkaFZDVlRYaF9kcmF3IDIwMDBtcyBsaW5lYXIgNTAwbXMgZm9yd2FyZHM7fS5kaFZDVlRYaF8ze3N0cm9rZS1kYXNoYXJyYXk6MjYgMjg7c3Ryb2tlLWRhc2hvZmZzZXQ6Mjc7YW5pbWF0aW9uOmRoVkNWVFhoX2RyYXcgMjAwMG1zIGxpbmVhciA3NTBtcyBmb3J3YXJkczt9LmRoVkNWVFhoXzR7c3Ryb2tlLWRhc2hhcnJheTo0OCA1MDtzdHJva2UtZGFzaG9mZnNldDo0OTthbmltYXRpb246ZGhWQ1ZUWGhfZHJhdyAyMDAwbXMgbGluZWFyIDEwMDBtcyBmb3J3YXJkczt9QGtleWZyYW1lcyBkaFZDVlRYaF9kcmF3ezEwMCV7c3Ryb2tlLWRhc2hvZmZzZXQ6MDt9fUBrZXlmcmFtZXMgZGhWQ1ZUWGhfZmFkZXswJXtzdHJva2Utb3BhY2l0eToxO305NC40NDQ0NDQ0NDQ0NDQ0NCV7c3Ryb2tlLW9wYWNpdHk6MTt9MTAwJXtzdHJva2Utb3BhY2l0eTowO319PC9zdHlsZT48L3N2Zz4="
-
-/***/ }),
-
-/***/ "./static/laptop.svg":
-/*!***************************!*\
-  !*** ./static/laptop.svg ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgc3R5bGU9IiI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2VhY2E4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCI+PHBhdGggZD0iTTggMTJoNDh2MzRIOHoiIHN0cm9rZS1kYXNoYXJyYXk9IjE2NCwxNjYiIGNsYXNzPSJ0bndPUGprZ18wIj48L3BhdGg+PHBhdGggZD0iTTEgNDZoNjJ2NkgxeiIgc3Ryb2tlLWRhc2hhcnJheT0iMTM2LDEzOCIgY2xhc3M9InRud09QamtnXzEiPjwvcGF0aD48cGF0aCBkPSJNMzQgMTZoLTQiIHN0cm9rZS1kYXNoYXJyYXk9IjQsNiIgY2xhc3M9InRud09QamtnXzIiPjwvcGF0aD48L2c+PHN0eWxlIGRhdGEtbWFkZS13aXRoPSJ2aXZ1cy1pbnN0YW50Ij4udG53T1Bqa2dfMHtzdHJva2UtZGFzaGFycmF5OjE2NCAxNjY7c3Ryb2tlLWRhc2hvZmZzZXQ6MTY1O2FuaW1hdGlvbjp0bndPUGprZ19kcmF3IDIwMDBtcyBsaW5lYXIgMG1zIGZvcndhcmRzO30udG53T1Bqa2dfMXtzdHJva2UtZGFzaGFycmF5OjEzNiAxMzg7c3Ryb2tlLWRhc2hvZmZzZXQ6MTM3O2FuaW1hdGlvbjp0bndPUGprZ19kcmF3IDIwMDBtcyBsaW5lYXIgNTAwbXMgZm9yd2FyZHM7fS50bndPUGprZ18ye3N0cm9rZS1kYXNoYXJyYXk6NCA2O3N0cm9rZS1kYXNob2Zmc2V0OjU7YW5pbWF0aW9uOnRud09QamtnX2RyYXcgMjAwMG1zIGxpbmVhciAxMDAwbXMgZm9yd2FyZHM7fUBrZXlmcmFtZXMgdG53T1Bqa2dfZHJhd3sxMDAle3N0cm9rZS1kYXNob2Zmc2V0OjA7fX1Aa2V5ZnJhbWVzIHRud09QamtnX2ZhZGV7MCV7c3Ryb2tlLW9wYWNpdHk6MTt9OTQuNDQ0NDQ0NDQ0NDQ0NDQle3N0cm9rZS1vcGFjaXR5OjE7fTEwMCV7c3Ryb2tlLW9wYWNpdHk6MDt9fTwvc3R5bGU+PC9zdmc+"
 
 /***/ }),
 
@@ -1831,17 +1880,6 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjUi
 
 /***/ }),
 
-/***/ "./static/test_animated.svg":
-/*!**********************************!*\
-  !*** ./static/test_animated.svg ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNzUiIGhlaWdodD0iNzUiIHZlcnNpb249IjEuMCIgaWQ9IkxheWVyXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDY0IDY0IiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iIj4KPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2VhY2E4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjYiIGQ9Ik0yMyA1NyBMNDEgNTcgTDQxIDYzIEwyMyA2MyBaIiBzdHlsZT0iIiBjbGFzcz0icFdsUG9iWnJfMCI+PC9wYXRoPgo8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMzZWFjYTgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiB3aWR0aD0iMjYiIGhlaWdodD0iMTAiIGQ9Ik0xOSA0NyBMNDUgNDcgTDQ1IDU3IEwxOSA1NyBaIiBzdHlsZT0iIiBjbGFzcz0icFdsUG9iWnJfMSI+PC9wYXRoPgo8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMzZWFjYTgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNNDEsNDdMNDEsNDNMNDgsMzBMMzIsMUwxNiwzMEwyMyw0M0wyMyw0NyIgc3R5bGU9IiIgY2xhc3M9InBXbFBvYlpyXzIiPjwvcGF0aD4KPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2VhY2E4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTI4LDI4Ljg3NUE0LDQgMCwxLDEgMzYsMjguODc1QTQsNCAwLDEsMSAyOCwyOC44NzUiIHN0eWxlPSIiIGNsYXNzPSJwV2xQb2Jacl8zIj48L3BhdGg+CjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNlYWNhOCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGQ9Ik0zMiwxTDMyLDI1IiBzdHlsZT0iIiBjbGFzcz0icFdsUG9iWnJfNCI+PC9wYXRoPgo8c3R5bGUgZGF0YS1tYWRlLXdpdGg9InZpdnVzLWluc3RhbnQiPi5wV2xQb2Jacl8we3N0cm9rZS1kYXNoYXJyYXk6NDggNTA7c3Ryb2tlLWRhc2hvZmZzZXQ6NDk7YW5pbWF0aW9uOnBXbFBvYlpyX2RyYXcgMTAwMG1zIGxpbmVhciAwbXMgZm9yd2FyZHM7fS5wV2xQb2Jacl8xe3N0cm9rZS1kYXNoYXJyYXk6NzIgNzQ7c3Ryb2tlLWRhc2hvZmZzZXQ6NzM7YW5pbWF0aW9uOnBXbFBvYlpyX2RyYXcgMTAwMG1zIGxpbmVhciAyNTBtcyBmb3J3YXJkczt9LnBXbFBvYlpyXzJ7c3Ryb2tlLWRhc2hhcnJheToxMDQgMTA2O3N0cm9rZS1kYXNob2Zmc2V0OjEwNTthbmltYXRpb246cFdsUG9iWnJfZHJhdyAxMDAwbXMgbGluZWFyIDUwMG1zIGZvcndhcmRzO30ucFdsUG9iWnJfM3tzdHJva2UtZGFzaGFycmF5OjI2IDI4O3N0cm9rZS1kYXNob2Zmc2V0OjI3O2FuaW1hdGlvbjpwV2xQb2Jacl9kcmF3IDEwMDBtcyBsaW5lYXIgNzUwbXMgZm9yd2FyZHM7fS5wV2xQb2Jacl80e3N0cm9rZS1kYXNoYXJyYXk6MjQgMjY7c3Ryb2tlLWRhc2hvZmZzZXQ6MjU7YW5pbWF0aW9uOnBXbFBvYlpyX2RyYXcgMTAwMG1zIGxpbmVhciAxMDAwbXMgZm9yd2FyZHM7fUBrZXlmcmFtZXMgcFdsUG9iWnJfZHJhd3sxMDAle3N0cm9rZS1kYXNob2Zmc2V0OjA7fX1Aa2V5ZnJhbWVzIHBXbFBvYlpyX2ZhZGV7MCV7c3Ryb2tlLW9wYWNpdHk6MTt9OTQuNDQ0NDQ0NDQ0NDQ0NDQle3N0cm9rZS1vcGFjaXR5OjE7fTEwMCV7c3Ryb2tlLW9wYWNpdHk6MDt9fTwvc3R5bGU+PC9zdmc+"
-
-/***/ }),
-
 /***/ "./static/twitter.svg":
 /*!****************************!*\
   !*** ./static/twitter.svg ***!
@@ -1854,13 +1892,13 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /***/ }),
 
 /***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/*!************************************!*\
+  !*** multi ./pages/index/index.js ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! ./pages/index/index.js */"./pages/index/index.js");
 
 
 /***/ }),

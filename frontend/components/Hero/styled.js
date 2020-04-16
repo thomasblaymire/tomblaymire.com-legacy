@@ -28,34 +28,30 @@ export const StyledHeroWrapper = styled.div`
 export const StyledHeroContent = styled.div`
   color: ${(props) => props.theme.white};
   width: 100%;
-  position: relative;
-
-  top: 10rem;
-
+  padding: 15rem 0;
+  line-height: 20px;
   @media (min-width: 480px) {
     width: 60%;
   }
+`;
 
-  .intro {
-    font-size: 7vmin;
-    margin: 0;
-  }
+export const StyledHeroTitle = styled.h2`
+  font-size: 6rem;
+`;
 
-  .description {
-    font-size: 1.6rem;
-    line-height: 2.6rem;
+export const StyledHeroText = styled.p`
+  font-size: 2.6rem;
+  line-height: 3.5em;
+  font-weight: 300;
+  padding-bottom: 5rem;
+  @media (min-width: 480px) {
+    line-height: 1.5em;
     font-weight: 300;
-    @media (min-width: 480px) {
-      line-height: 4.5rem;
-      font-size: 3.3vmin;
-      font-weight: 300;
-      min-width: 80%;
-    }
+    min-width: 80%;
   }
 `;
 
 export const StyledButtonBlock = styled.div`
-  margin-top: 8rem;
   display: flex;
 
   & > button {

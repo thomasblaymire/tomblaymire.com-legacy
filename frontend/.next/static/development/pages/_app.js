@@ -118,7 +118,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: 'radnika_next';\n    src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');\n    font-weight: normal;\n    font-style: normal;\n    font-family: 'Source Sans Pro', sans-serif;\n  }\n  html {\n    box-sizing: border-box;\n    font-size: 10px;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-size: 1.5rem;\n    line-height: 2;\n    font-family: 'Poppins', sans-serif;\n    width: 100%;\n    height: 100%;\n  }\n  a {\n    text-decoration: none;\n    color: ", ";\n    font-weight: bold;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  @font-face {\n    font-family: 'radnika_next';\n    src: url('/static/radnikanext-medium-webfont.woff2') format('woff2');\n    font-weight: normal;\n    font-style: normal;\n    font-family: 'Source Sans Pro', sans-serif;\n  }\n  html {\n   box-sizing: border-box;\n    font-size: 10px;\n  }\n  *, *:before, *:after {\n    box-sizing: inherit;\n  }\n  body {\n    padding: 0;\n    margin: 0;\n    font-size: 1.5rem;\n    line-height: 2;\n    font-family: 'Poppins', sans-serif;\n    width: 100%;\n    height: 100%;\n  }\n\n  p { \n    margin: 0;\n  }\n\n  a {\n    text-decoration: none;\n    color: ", ";\n    font-weight: bold;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -133,20 +133,20 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 var theme = {
-  red: "#FF0000",
-  black: "#000000",
-  grey: "#494949",
-  greyDark: "#2a363b",
-  greyLight: "#DADADA",
-  white: "#FFFFFF",
-  lightgrey: "#E1E1E1",
-  green: "#3eaca8",
-  seaGreen: "#e5eec1",
-  offWhite: "#EDEDED",
-  maxWidth: "1000px",
-  bs: "0 12px 24px 0 rgba(0, 0, 0, 0.09)",
-  fontPrimary: "Poppins",
-  fontSecondary: "Source Sans Pro"
+  red: '#FF0000',
+  black: '#000000',
+  grey: '#494949',
+  greyDark: '#2a363b',
+  greyLight: '#DADADA',
+  white: '#FFFFFF',
+  lightgrey: '#E1E1E1',
+  green: '#3eaca8',
+  seaGreen: '#e5eec1',
+  offWhite: '#EDEDED',
+  maxWidth: '1000px',
+  bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)',
+  fontPrimary: 'Poppins',
+  fontSecondary: 'Source Sans Pro'
 };
 var StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Page__StyledPage",
@@ -172,19 +172,19 @@ function (_Component) {
         theme: theme,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledPage, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 66
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 67
         },
         __self: this
       }), this.props.children));

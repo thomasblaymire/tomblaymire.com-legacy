@@ -1,14 +1,22 @@
 import Link from 'next/link';
 import Button from '../Button';
-import { StyledHero, StyledHeroWrapper, StyledHeroContent, StyledButtonBlock } from './styled';
+import {
+  StyledHero,
+  StyledHeroWrapper,
+  StyledHeroContent,
+  StyledButtonBlock,
+  StyledHeroTitle,
+  StyledHeroText,
+} from './styled';
 
-const Hero = ({ title, description }) => (
+const Hero = ({ title, description, children }) => (
   <StyledHero>
     <StyledHeroWrapper>
-      {props.children}
+      {children}
       <StyledHeroContent>
-        <h2 className="intro">{title}</h2>
-        <div className="description">{description}</div>
+        <StyledHeroTitle>{title}</StyledHeroTitle>
+        <StyledHeroText>{description}</StyledHeroText>
+
         <StyledButtonBlock>
           <Link href="/portfolio">
             <Button primaryColor="#fff" borderColor={'#05af43'} bgColor="#05af43" hoverBg={'#05da53'}>
