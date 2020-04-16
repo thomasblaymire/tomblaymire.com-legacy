@@ -1932,7 +1932,7 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjUi
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/stock-32a096c340d821418b411a8050d0fa5c.jpg";
+module.exports = "/_next/static/images/stock-a5789499ee3e40a98e481aeaeacdfcb1.jpg";
 
 /***/ }),
 
