@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import locationImage from '../../static/man-phone.jpg';
+import Button from '../../components/Button';
 
 export const StyledSection = styled.div`
   padding: 10rem 0rem;
@@ -18,7 +19,7 @@ export const Location = styled.div`
   height: auto;
   display: flex;
   align-items: center;
-  background-color: ${(props) => props.theme.seaGreen};
+  background-color: #f7f7f7;
   @media (min-width: 480px) {
     min-height: 100vh;
   }
@@ -35,6 +36,13 @@ export const LocationContent = styled.div`
     @media (min-width: 480px) {
       width: 60%;
     }
+
+    P {
+      font-size: 1.8rem;
+      &:not(:last-child) {
+        padding-bottom: 2rem;
+      }
+    }
   }
 
   .location-heading {
@@ -46,13 +54,6 @@ export const LocationContent = styled.div`
       width: 80%;
     }
   }
-
-  /* p {
-    margin: 0 0 20px;
-    font-size: 1.8rem;
-    color: #474747;
-    font-family: Source Sans Pro;
-  } */
 `;
 export const LocationImage = styled.div`
   width: 100%;
@@ -87,4 +88,8 @@ export const PortfolioWrapper = styled.div`
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   }
+`;
+
+export const StyledButton = styled(Button)`
+  margin-top: 1rem;
 `;

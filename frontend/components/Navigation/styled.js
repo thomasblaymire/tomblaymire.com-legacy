@@ -87,7 +87,7 @@ export const NavList = styled.ul`
     border: 0;
     cursor: pointer;
     color: ${(props) => props.theme.white};
-    padding: 25px 15px;
+    padding: 0px 15px;
     &:hover {
       color: #3eaca8;
     }
@@ -109,5 +109,4 @@ export const NavList = styled.ul`
 
 export const NavContainer = styled.div`
   display: flex;
-  height: 10vh;
 `;

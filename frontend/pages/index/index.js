@@ -8,9 +8,9 @@ import Card from '../../components/Card';
 import { Container, Heading } from '../../components/styles/PageStyles';
 import Social from '../../components/Social';
 import CallToAction from '../../components/CallToAction';
-import Button from '../../components/Button';
 import {
   StyledSection,
+  StyledButton,
   ExpertiseRow,
   Location,
   LocationContent,
@@ -34,7 +34,7 @@ const Home = () => {
       <PageContent>
         <StyledSection>
           <Container>
-            <Heading>My expretise</Heading>
+            <Heading>My Expretise</Heading>
             <ExpertiseRow>
               {expretiseData &&
                 expretiseData.map((expertise) => (
@@ -52,24 +52,45 @@ const Home = () => {
         <Location>
           <LocationContent>
             <div className="location-content">
-              <h2 className="heading location-heading">I live and work in Leeds UK!</h2>
+              <h2 className="heading location-heading">Building Web Applications</h2>
+              <p>I enjoy building and developing applications using the latest Front End technologies and tools.</p>
+
               <p>
-                I specialize in helping small businesses succeed online. With over 6 years experience working for some
-                of the largest companies in the UK I have a breadth of knowledge around Web Design & Development.
+                In the past I have worked on various different websites such as{' '}
+                <a href="https://www.xcover.com" target="_blank">
+                  Xcover
+                </a>
+                ,{' '}
+                <a href="https://m.skybet.com/" target="_blank">
+                  Sky Bet
+                </a>{' '}
+                and{' '}
+                <a href="https://www.myhermes.co.uk/" target="_blank">
+                  myHermes
+                </a>{' '}
+                helping companys develop products to make a users life easier.
               </p>
-              <p>I also post regular helpful articles around startups, web design and user experience.</p>
-              <Link href="/portfolio">
-                <Button
-                  btnFontSize={'1.7rem'}
+
+              <p>
+                I also maintain a course review website{' '}
+                <a href="https://www.learnstability.com" target="_blank">
+                  Learnstability
+                </a>{' '}
+                that is currently in beta.
+              </p>
+
+              <a href="https://www.learnstability.com/blog" target="_blank">
+                <StyledButton
+                  btnFontSize={'1.5rem'}
                   borderColor={'#05af43'}
                   primaryColor="#fff"
                   bgColor="#05af43"
                   hoverBg={'#05da53'}
-                  borderRadius={'35px'}
+                  borderRadius={'5px'}
                 >
                   Explore My Blog
-                </Button>
-              </Link>
+                </StyledButton>
+              </a>
             </div>
           </LocationContent>
           <LocationImage />
@@ -78,7 +99,7 @@ const Home = () => {
         <CallToAction text="Hire me for your next project" />
         <RecentProjects>
           <div className="container">
-            <h2 className="heading">Recent projects</h2>
+            <h2 className="heading">Recent Projects</h2>
             <p className="sub-heading">
               I have worked across various exiting projects each with different requirements and deadlines. Some of my
               highlights are listed below.
