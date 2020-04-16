@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const FooterRow = styled.div`
   background: #2a2a2a;

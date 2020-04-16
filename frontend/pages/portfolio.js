@@ -1,11 +1,11 @@
-import PageHero from "../components/PageHero";
-import Header from "../components/Header";
-import PageContent from "../components/styles/PageStyles";
-import Footer from "../components/Footer";
-import portfolioHero from "../static/portfolio-hero.jpg";
-import PortfolioList from "../components/Portfolio/PortfolioList";
+import PageHero from '../components/PageHero';
+import Header from '../components/Header';
+import PageContent from '../components/styles/PageStyles';
+import Footer from '../components/Footer';
+import portfolioHero from '../static/portfolio-hero.jpg';
+import PortfolioList from '../components/Portfolio/PortfolioList';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const PortfolioWrapper = styled.div`
   margin: 0;
@@ -28,11 +28,7 @@ const PortfolioWrapper = styled.div`
 const Portfolio = () => {
   return (
     <div>
-      <PageHero
-        image={portfolioHero}
-        pageName="Portfolio"
-        description="View my past projects and recent work."
-      >
+      <PageHero image={portfolioHero} pageName="Portfolio" description="View my past projects and recent work.">
         <Header />
       </PageHero>
       <PageContent>

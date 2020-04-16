@@ -1,8 +1,8 @@
-import Navigation from "../Navigation";
-import Logo from "../Logo";
-import Router from "next/router";
-import NProgress from "nprogress";
-import { StyledHeader } from './styled'
+import Navigation from '../Navigation';
+import Logo from '../Logo';
+import Router from 'next/router';
+import NProgress from 'nprogress';
+import { StyledHeader } from './styled';
 
 Router.onRouteChangeStart = () => {
   NProgress.start();
@@ -15,8 +15,6 @@ Router.onRouteChangeComplete = () => {
 Router.onRouteChangeError = () => {
   NProgress.done();
 };
-
-
 
 const Header = () => (
   <StyledHeader>

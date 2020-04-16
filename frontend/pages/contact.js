@@ -1,11 +1,11 @@
-import PageHero from "../components/PageHero";
-import Header from "../components/Header";
-import PageContent from "../components/styles/PageStyles";
-import contactPortfolio from "../static/about-hero.jpg";
-import Button from "../components/Button";
-import Footer from "../components/Footer";
-import styled from "styled-components";
-import Link from "next/link";
+import PageHero from '../components/PageHero';
+import Header from '../components/Header';
+import PageContent from '../components/styles/PageStyles';
+import contactPortfolio from '../static/about-hero.jpg';
+import Button from '../components/Button';
+import Footer from '../components/Footer';
+import styled from 'styled-components';
+import Link from 'next/link';
 
 const ContactWrapper = styled.div`
   margin-top: 5rem;
@@ -33,25 +33,15 @@ const ContactWrapper = styled.div`
 const Contact = () => {
   return (
     <div>
-      <PageHero
-        image={contactPortfolio}
-        pageName="Contact"
-        description="Please get in touch using the email below."
-      >
+      <PageHero image={contactPortfolio} pageName="Contact" description="Please get in touch using the email below.">
         <Header />
       </PageHero>
 
       <ContactWrapper>
         <div className="container">
-          <p>
-            If you have a project you’d like to discuss please drop me a line on
-            the email address below:
-          </p>
-          Email:{" "}
-          <Link
-            href="mailto:support@tomblaymire.com?Subject=New Project"
-            target="_top"
-          >
+          <p>If you have a project you’d like to discuss please drop me a line on the email address below:</p>
+          Email:{' '}
+          <Link href="mailto:support@tomblaymire.com?Subject=New Project" target="_top">
             support@tomblaymire.com
           </Link>
         </div>

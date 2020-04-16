@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const SocialWrapper = styled.div`
   display: flex;
@@ -24,7 +24,7 @@ export const SocialWrapper = styled.div`
   }
 
   .heading {
-    font-family: ${props => props.theme.fontPrimary};
+    font-family: ${(props) => props.theme.fontPrimary};
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
@@ -59,7 +59,7 @@ export const SocialIcon = styled.div`
 
     &:hover {
       cursor: pointer;
-      fill: ${props => props.theme.black};
+      fill: ${(props) => props.theme.black};
     }
   }
 `;

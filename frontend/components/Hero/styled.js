@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import heroImage from '../../static/me.jpg';
 
 export const StyledHero = styled.div`
@@ -26,7 +26,7 @@ export const StyledHeroWrapper = styled.div`
 `;
 
 export const StyledHeroContent = styled.div`
-  color: ${props => props.theme.white};
+  color: ${(props) => props.theme.white};
   width: 100%;
   position: relative;
 
@@ -63,7 +63,7 @@ export const StyledButtonBlock = styled.div`
   }
 
   a {
-    color: ${props => props.theme.white};
+    color: ${(props) => props.theme.white};
     text-decoration: none;
     font-weight: normal;
     &:hover {

@@ -1,10 +1,10 @@
-import SVG from "react-inlinesvg";
-import Link from "next/link";
-import facebookIcon from "../../static/facebook.svg";
-import twitterIcon from "../../static/twitter.svg";
-import linkedinIcon from "../../static/linkedin.svg";
-import Button from "../Button";
-import {SocialWrapper, SocialIcon, GetInTouch, Facebook, Twitter, Linkedin } from './styled';
+import SVG from 'react-inlinesvg';
+import Link from 'next/link';
+import facebookIcon from '../../static/facebook.svg';
+import twitterIcon from '../../static/twitter.svg';
+import linkedinIcon from '../../static/linkedin.svg';
+import Button from '../Button';
+import { SocialWrapper, SocialIcon, GetInTouch, Facebook, Twitter, Linkedin } from './styled';
 
 const Social = () => {
   return (
@@ -13,12 +13,12 @@ const Social = () => {
         <h4 className="heading">Get in touch</h4>
         <Link href="/contact">
           <Button
-            btnFontSize={"1.4rem"}
-            borderColor={"#05af43"}
+            btnFontSize={'1.4rem'}
+            borderColor={'#05af43'}
             primaryColor="#fff"
             bgColor="#05af43"
-            hoverBg={"#05da53"}
-            borderRadius={"35px"}
+            hoverBg={'#05da53'}
+            borderRadius={'35px'}
           >
             Free Quote
           </Button>

@@ -161,13 +161,13 @@ var Meta = function Meta() {
     src: "https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 11
     },
     __self: this
   }, "Tom Blaymire | Front End Developer | Leeds UK"));

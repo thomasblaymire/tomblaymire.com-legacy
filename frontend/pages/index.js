@@ -1,17 +1,17 @@
-import styled from "styled-components";
-import Hero from "../components/Hero";
-import Header from "../components/Header";
-import Link from "next/link";
-import PageContent from "../components/styles/PageStyles";
-import PortfolioList from "../components/Portfolio/PortfolioList";
-import ExpertiseCard from "../components/ExpertiseCard";
-import Social from "../components/Social";
-import CallToAction from "../components/CallToAction";
-import Button from "../components/Button";
-import locationImage from "../static/man-phone.jpg";
-import rocket from "../static/test_animated.svg";
-import keyboard from "../static/keyboard.svg";
-import laptop from "../static/laptop.svg";
+import styled from 'styled-components';
+import Hero from '../components/Hero';
+import Header from '../components/Header';
+import Link from 'next/link';
+import PageContent from '../components/styles/PageStyles';
+import PortfolioList from '../components/Portfolio/PortfolioList';
+import ExpertiseCard from '../components/ExpertiseCard';
+import Social from '../components/Social';
+import CallToAction from '../components/CallToAction';
+import Button from '../components/Button';
+import locationImage from '../static/man-phone.jpg';
+import rocket from '../static/test_animated.svg';
+import keyboard from '../static/keyboard.svg';
+import laptop from '../static/laptop.svg';
 
 const Expertise = styled.div`
   padding: 10rem 0rem;
@@ -30,7 +30,7 @@ const Location = styled.div`
   height: auto;
   display: flex;
   align-items: center;
-  background-color: ${props => props.theme.seaGreen};
+  background-color: ${(props) => props.theme.seaGreen};
   @media (min-width: 480px) {
     min-height: 100vh;
   }
@@ -38,7 +38,7 @@ const Location = styled.div`
 
 const LocationContent = styled.div`
   width: 100%;
-  color: ${props => props.theme.grey};
+  color: ${(props) => props.theme.grey};
 
   .location-content {
     width: 90%;
@@ -104,7 +104,12 @@ const PortfolioWrapper = styled.div`
 const Home = () => {
   return (
     <div>
-      <Hero>
+      <Hero
+        title="Hello, I'm Tom"
+        description="I’m a Freelance (UI/UX) Software Engineer based in Sydney. I help
+            companies deliver innovative, end-to-end products that meet both
+            user and business needs."
+      >
         <Header />
       </Hero>
       <PageContent>
@@ -135,27 +140,20 @@ const Home = () => {
         <Location>
           <LocationContent>
             <div className="location-content">
-              <h2 className="heading location-heading">
-                I live and work in Leeds UK!
-              </h2>
+              <h2 className="heading location-heading">I live and work in Leeds UK!</h2>
               <p>
-                I specialize in helping small businesses succeed online. With
-                over 6 years experience working for some of the largest
-                companies in the UK I have a breadth of knowledge around Web
-                Design & Development.
+                I specialize in helping small businesses succeed online. With over 6 years experience working for some
+                of the largest companies in the UK I have a breadth of knowledge around Web Design & Development.
               </p>
-              <p>
-                I also post regular helpful articles around startups, web design
-                and user experience.
-              </p>
+              <p>I also post regular helpful articles around startups, web design and user experience.</p>
               <Link href="/portfolio">
                 <Button
-                  btnFontSize={"1.7rem"}
-                  borderColor={"#05af43"}
+                  btnFontSize={'1.7rem'}
+                  borderColor={'#05af43'}
                   primaryColor="#fff"
                   bgColor="#05af43"
-                  hoverBg={"#05da53"}
-                  borderRadius={"35px"}
+                  hoverBg={'#05da53'}
+                  borderRadius={'35px'}
                 >
                   Explore My Blog
                 </Button>
@@ -170,9 +168,8 @@ const Home = () => {
           <div className="container">
             <h2 className="heading">Recent projects</h2>
             <p className="sub-heading">
-              I have worked across various exiting projects each with different
-              requirements and deadlines. Some of my highlights are listed
-              below.
+              I have worked across various exiting projects each with different requirements and deadlines. Some of my
+              highlights are listed below.
             </p>
             <PortfolioWrapper>
               <PortfolioList amount={3} customStyle={true} />

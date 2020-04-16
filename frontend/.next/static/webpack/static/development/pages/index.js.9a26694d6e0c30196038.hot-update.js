@@ -21,7 +21,9 @@ var _jsxFileName = "/Users/thomasblaymire/Development/personal-old/frontend/comp
 
 
 
-var Hero = function Hero(props) {
+var Hero = function Hero(_ref) {
+  var title = _ref.title,
+      description = _ref.description;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledHero"], {
     __source: {
       fileName: _jsxFileName,
@@ -47,52 +49,52 @@ var Hero = function Hero(props) {
       lineNumber: 10
     },
     __self: this
-  }, "Hello, I'm Tom"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "description",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "I\u2019m a Freelance (UI/UX) Software Engineer based in Sydney. I help companies deliver innovative, end-to-end products that meet both user and business needs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledButtonBlock"], {
+  }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styled__WEBPACK_IMPORTED_MODULE_3__["StyledButtonBlock"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
     primaryColor: "#fff",
-    borderColor: "#05af43",
+    borderColor: '#05af43',
     bgColor: "#05af43",
-    hoverBg: "#05da53",
+    hoverBg: '#05da53',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 14
     },
     __self: this
   }, "My Work")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
     primaryColor: "#fff",
     bgColor: "transparent",
-    borderColor: "#fff",
-    hoverBg: "#fff",
-    hoverColor: "#000",
+    borderColor: '#fff',
+    hoverBg: '#fff',
+    hoverColor: '#000',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 19
     },
     __self: this
   }, "Let's Talk"))))));
@@ -103,4 +105,4 @@ var Hero = function Hero(props) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.c5261b1a2829bfa1065a.hot-update.js.map
+//# sourceMappingURL=index.js.9a26694d6e0c30196038.hot-update.js.map

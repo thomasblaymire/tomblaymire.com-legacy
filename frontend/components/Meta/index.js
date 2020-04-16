@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 const Meta = () => (
   <Head>
@@ -6,10 +6,7 @@ const Meta = () => (
     <meta charSet="utf-8" />
     <link rel="shortcut icon" href="/static/favicon.png" />
     <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700|Source+Sans+Pro"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700|Source+Sans+Pro" rel="stylesheet" />
     <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js" />
     <title>Tom Blaymire | Front End Developer | Leeds UK</title>
   </Head>

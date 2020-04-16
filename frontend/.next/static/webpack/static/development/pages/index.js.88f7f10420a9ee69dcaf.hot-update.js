@@ -43,26 +43,7 @@ var Logo = function Logo() {
 
 /* harmony default export */ __webpack_exports__["default"] = (Logo);
 
-/***/ }),
-
-/***/ "./components/Logo/styled.js":
-/*!***********************************!*\
-  !*** ./components/Logo/styled.js ***!
-  \***********************************/
-/*! exports provided: StyledLogo */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyledLogo", function() { return StyledLogo; });
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-var StyledLogo = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].img.withConfig({
-  displayName: "styled__StyledLogo",
-  componentId: "sc-10nrl95-0"
-})(["width:5rem;cursor:pointer;"]);
-
 /***/ })
 
 })
-//# sourceMappingURL=index.js.93db5b27fdf291d67840.hot-update.js.map
+//# sourceMappingURL=index.js.88f7f10420a9ee69dcaf.hot-update.js.map

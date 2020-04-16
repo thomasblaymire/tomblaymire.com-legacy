@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Link from "next/link";
+import styled from 'styled-components';
+import Link from 'next/link';
 
 const PortfolioBox = styled.div`
   margin-top: 4rem;
@@ -21,7 +21,7 @@ const PortfolioImage = styled.img`
   }
 
   @media (min-width: 992px) {
-    height: ${props => (props.customStyle ? "350px" : "450px")};
+    height: ${(props) => (props.customStyle ? '350px' : '450px')};
   }
 
   &:hover {
@@ -31,13 +31,13 @@ const PortfolioImage = styled.img`
 
 const PortfolioMeta = styled.div`
   .portfolio-title {
-    font-family: ${props => props.theme.fontPrimary};
+    font-family: ${(props) => props.theme.fontPrimary};
     letter-spacing: -0.02em;
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
     margin: 0;
-    color: ${props => props.theme.greyDark};
+    color: ${(props) => props.theme.greyDark};
     cursor: pointer;
   }
 
@@ -52,7 +52,7 @@ const PortfolioMeta = styled.div`
   li {
     color: #474747;
     margin-right: 1rem;
-    background: ${props => props.theme.greyLight};
+    background: ${(props) => props.theme.greyLight};
     font-size: 1.3rem;
     border-radius: 5px;
     padding: 0 1rem;
@@ -61,10 +61,10 @@ const PortfolioMeta = styled.div`
   }
 `;
 
-const PortfolioItem = props => {
+const PortfolioItem = (props) => {
   const { image, name, tags, id, url, customStyle } = props;
 
-  const tagList = tags.map(tag => <li key={tag}>{tag}</li>);
+  const tagList = tags.map((tag) => <li key={tag}>{tag}</li>);
 
   return (
     <PortfolioBox>

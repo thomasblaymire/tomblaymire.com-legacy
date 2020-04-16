@@ -60,12 +60,12 @@ var Social = function Social() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    btnFontSize: "1.4rem",
-    borderColor: "#05af43",
+    btnFontSize: '1.4rem',
+    borderColor: '#05af43',
     primaryColor: "#fff",
     bgColor: "#05af43",
-    hoverBg: "#05da53",
-    borderRadius: "35px",
+    hoverBg: '#05da53',
+    borderRadius: '35px',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -160,4 +160,4 @@ var Social = function Social() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.8b0f9d728932c7d64b7f.hot-update.js.map
+//# sourceMappingURL=index.js.9e20b70e7101cd639a52.hot-update.js.map
