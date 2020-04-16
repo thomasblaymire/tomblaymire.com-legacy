@@ -29,7 +29,7 @@ export const StyledHeroWrapper = styled.div`
 export const StyledHeroContent = styled.div`
   color: ${(props) => props.theme.white};
   width: 100%;
-  padding: 22rem 0;
+  padding: 21rem 0 25rem 0;
   line-height: 20px;
   @media (min-width: 480px) {
     width: 60%;

@@ -570,7 +570,7 @@ var StyledHeroWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a
 var StyledHeroContent = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "styled__StyledHeroContent",
   componentId: "s7dunm-2"
-})(["color:", ";width:100%;padding:22rem 0;line-height:20px;@media (min-width:480px){width:60%;}"], function (props) {
+})(["color:", ";width:100%;padding:21rem 0 25rem 0;line-height:20px;@media (min-width:480px){width:60%;}"], function (props) {
   return props.theme.white;
 });
 var StyledHeroTitle = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h2.withConfig({

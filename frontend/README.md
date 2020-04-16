@@ -9,6 +9,8 @@
 
 <strong>www.tomblaymire.com</strong>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ccb8cf6e-bac5-4c77-a5f6-af33c76faa0c/deploy-status)](https://app.netlify.com/sites/tomblaymire/deploys)
+
 ## Screenshot
 
 ![](https://github.com/thomasblaymire/tomblaymire.com/blob/master/blob/master/screenshot.png)
